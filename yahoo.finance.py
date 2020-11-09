@@ -15,7 +15,7 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36'
 }
 
-# get dow jones companies
+# get Dow Jones Industrial companies
 djurl = ('https://finance.yahoo.com/quote/%5EDJI/components?p=%5EDJI')
 djpage = requests.get(djurl, headers).text
 djsoup = bs(djpage, "lxml")
