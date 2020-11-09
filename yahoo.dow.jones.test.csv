@@ -1,0 +1,121 @@
+company,date,environment,governance,riskscore,social,stock,symbol
+Microsoft Corporation,"Oct 31, 2020",0.5,5.1,15,9.4,223.72,MSFT
+Microsoft Corporation,"Sep 30, 2020",0.5,5.1,15,9.4,202.47,MSFT
+Microsoft Corporation,"Aug 31, 2020",0.5,5.1,15,9.4,210.33,MSFT
+Microsoft Corporation,"Jul 31, 2020",0.5,5.1,15,9.4,224.99,MSFT
+Microsoft Corporation,"Jun 30, 2020",0.5,5.1,15,9.4,204.52,MSFT
+Microsoft Corporation,"May 31, 2020",0.5,5.1,15,9.4,203.02,MSFT
+Microsoft Corporation,"Apr 30, 2020",0.5,5.1,15,9.4,182.30,MSFT
+Microsoft Corporation,"Mar 31, 2020",0.5,5.1,15,9.4,178.28,MSFT
+Microsoft Corporation,"Mar 01, 2020",0.5,5.1,15,9.4,156.89,MSFT
+Microsoft Corporation,"Feb 01, 2020",0.5,5.1,15,9.4,160.73,MSFT
+Microsoft Corporation,"Jan 01, 2020",0.5,5.1,15,9.4,168.89,MSFT
+Microsoft Corporation,"Dec 01, 2019",0.5,5.1,15,9.4,156.46,MSFT
+Microsoft Corporation,"Oct 31, 2019",0.5,5.1,15,9.4,149.68,MSFT
+Microsoft Corporation,"Sep 30, 2019",0.5,5.1,15,9.4,141.76,MSFT
+Microsoft Corporation,"Aug 31, 2019",0.5,5.1,15,9.4,137.47,MSFT
+Microsoft Corporation,"Jul 31, 2019",0.5,5.1,15,9.4,135.86,MSFT
+Microsoft Corporation,"Jun 30, 2019",0.5,5.1,15,9.4,134.29,MSFT
+Microsoft Corporation,"May 31, 2019",0.5,5.1,15,9.4,132.01,MSFT
+Microsoft Corporation,"Apr 30, 2019",0.5,5.1,15,9.4,121.43,MSFT
+Microsoft Corporation,"Mar 31, 2019",0.5,5.1,15,9.4,128.23,MSFT
+Microsoft Corporation,"Mar 01, 2019",0.5,5.1,15,9.4,115.80,MSFT
+Microsoft Corporation,"Feb 01, 2019",0.5,5.1,15,9.4,109.53,MSFT
+Microsoft Corporation,"Jan 01, 2019",0.5,5.1,15,9.4,102.10,MSFT
+Microsoft Corporation,"Dec 01, 2018",0.5,5.1,15,9.4,99.30,MSFT
+Microsoft Corporation,"Oct 31, 2018",0.5,5.1,15,9.4,107.95,MSFT
+Microsoft Corporation,"Sep 30, 2018",0.5,5.1,15,9.4,103.97,MSFT
+Microsoft Corporation,"Aug 31, 2018",0.5,5.1,15,9.4,111.33,MSFT
+Microsoft Corporation,"Jul 31, 2018",0.5,5.1,15,9.4,108.93,MSFT
+Microsoft Corporation,"Jun 30, 2018",0.5,5.1,15,9.4,102.87,MSFT
+Microsoft Corporation,"May 31, 2018",0.5,5.1,15,9.4,95.62,MSFT
+Microsoft Corporation,"Apr 30, 2018",0.5,5.1,15,9.4,95.43,MSFT
+Microsoft Corporation,"Mar 31, 2018",0.5,5.1,15,9.4,90.30,MSFT
+Microsoft Corporation,"Mar 01, 2018",0.5,5.1,15,9.4,88.12,MSFT
+Microsoft Corporation,"Feb 01, 2018",0.5,5.1,15,9.4,90.11,MSFT
+Microsoft Corporation,"Jan 01, 2018",0.5,5.1,15,9.4,91.31,MSFT
+Microsoft Corporation,"Dec 01, 2017",0.5,5.1,15,9.4,82.21,MSFT
+Microsoft Corporation,"Oct 31, 2017",0.5,5.1,15,9.4,80.48,MSFT
+Microsoft Corporation,"Sep 30, 2017",0.5,5.1,15,9.4,79.54,MSFT
+Microsoft Corporation,"Aug 31, 2017",0.5,5.1,15,9.4,71.23,MSFT
+Microsoft Corporation,"Jul 31, 2017",0.5,5.1,15,9.4,71.12,MSFT
+Microsoft Corporation,"Jun 30, 2017",0.5,5.1,15,9.4,69.15,MSFT
+Microsoft Corporation,"May 31, 2017",0.5,5.1,15,9.4,65.56,MSFT
+Microsoft Corporation,"Apr 30, 2017",0.5,5.1,15,9.4,66.05,MSFT
+Microsoft Corporation,"Mar 31, 2017",0.5,5.1,15,9.4,64.74,MSFT
+Microsoft Corporation,"Mar 01, 2017",0.5,5.1,15,9.4,62.29,MSFT
+Microsoft Corporation,"Feb 01, 2017",0.5,5.1,15,9.4,60.14,MSFT
+Microsoft Corporation,"Jan 01, 2017",0.5,5.1,15,9.4,60.77,MSFT
+Microsoft Corporation,"Dec 01, 2016",0.5,5.1,15,9.4,58.41,MSFT
+Microsoft Corporation,"Oct 31, 2016",0.5,5.1,15,9.4,56.27,MSFT
+Microsoft Corporation,"Sep 30, 2016",0.5,5.1,15,9.4,55.95,MSFT
+Microsoft Corporation,"Aug 31, 2016",0.5,5.1,15,9.4,53.78,MSFT
+Microsoft Corporation,"Jul 31, 2016",0.5,5.1,15,9.4,53.32,MSFT
+Microsoft Corporation,"Jun 30, 2016",0.5,5.1,15,9.4,52.60,MSFT
+Microsoft Corporation,"May 31, 2016",0.5,5.1,15,9.4,47.48,MSFT
+Microsoft Corporation,"Apr 30, 2016",0.5,5.1,15,9.4,48.84,MSFT
+Microsoft Corporation,"Mar 31, 2016",0.5,5.1,15,9.4,45.95,MSFT
+Microsoft Corporation,"Mar 01, 2016",0.5,5.1,15,9.4,50.89,MSFT
+Microsoft Corporation,"Feb 01, 2016",0.5,5.1,15,9.4,46.55,MSFT
+Microsoft Corporation,"Jan 01, 2016",0.5,5.1,15,9.4,50.40,MSFT
+Microsoft Corporation,"Dec 01, 2015",0.5,5.1,15,9.4,50.76,MSFT
+The Procter & Gamble Company,"Oct 31, 2020",8.2,7.0,25,9.5,143.23,PG
+The Procter & Gamble Company,"Sep 30, 2020",8.2,7.0,25,9.5,136.34,PG
+The Procter & Gamble Company,"Aug 31, 2020",8.2,7.0,25,9.5,138.22,PG
+The Procter & Gamble Company,"Jul 31, 2020",8.2,7.0,25,9.5,137.57,PG
+The Procter & Gamble Company,"Jun 30, 2020",8.2,7.0,25,9.5,129.58,PG
+The Procter & Gamble Company,"May 31, 2020",8.2,7.0,25,9.5,118.16,PG
+The Procter & Gamble Company,"Apr 30, 2020",8.2,7.0,25,9.5,114.56,PG
+The Procter & Gamble Company,"Mar 31, 2020",8.2,7.0,25,9.5,115.71,PG
+The Procter & Gamble Company,"Mar 01, 2020",8.2,7.0,25,9.5,107.99,PG
+The Procter & Gamble Company,"Feb 01, 2020",8.2,7.0,25,9.5,111.16,PG
+The Procter & Gamble Company,"Jan 01, 2020",8.2,7.0,25,9.5,121.62,PG
+The Procter & Gamble Company,"Dec 01, 2019",8.2,7.0,25,9.5,121.89,PG
+The Procter & Gamble Company,"Oct 31, 2019",8.2,7.0,25,9.5,119.12,PG
+The Procter & Gamble Company,"Sep 30, 2019",8.2,7.0,25,9.5,120.74,PG
+The Procter & Gamble Company,"Aug 31, 2019",8.2,7.0,25,9.5,120.61,PG
+The Procter & Gamble Company,"Jul 31, 2019",8.2,7.0,25,9.5,116.59,PG
+The Procter & Gamble Company,"Jun 30, 2019",8.2,7.0,25,9.5,113.73,PG
+The Procter & Gamble Company,"May 31, 2019",8.2,7.0,25,9.5,105.64,PG
+The Procter & Gamble Company,"Apr 30, 2019",8.2,7.0,25,9.5,99.15,PG
+The Procter & Gamble Company,"Mar 31, 2019",8.2,7.0,25,9.5,101.87,PG
+The Procter & Gamble Company,"Mar 01, 2019",8.2,7.0,25,9.5,99.55,PG
+The Procter & Gamble Company,"Feb 01, 2019",8.2,7.0,25,9.5,94.28,PG
+The Procter & Gamble Company,"Jan 01, 2019",8.2,7.0,25,9.5,91.57,PG
+The Procter & Gamble Company,"Dec 01, 2018",8.2,7.0,25,9.5,87.25,PG
+The Procter & Gamble Company,"Oct 31, 2018",8.2,7.0,25,9.5,89.71,PG
+The Procter & Gamble Company,"Sep 30, 2018",8.2,7.0,25,9.5,83.44,PG
+The Procter & Gamble Company,"Aug 31, 2018",8.2,7.0,25,9.5,78.31,PG
+The Procter & Gamble Company,"Jul 31, 2018",8.2,7.0,25,9.5,78.05,PG
+The Procter & Gamble Company,"Jun 30, 2018",8.2,7.0,25,9.5,75.41,PG
+The Procter & Gamble Company,"May 31, 2018",8.2,7.0,25,9.5,72.79,PG
+The Procter & Gamble Company,"Apr 30, 2018",8.2,7.0,25,9.5,68.23,PG
+The Procter & Gamble Company,"Mar 31, 2018",8.2,7.0,25,9.5,66.83,PG
+The Procter & Gamble Company,"Mar 01, 2018",8.2,7.0,25,9.5,73.24,PG
+The Procter & Gamble Company,"Feb 01, 2018",8.2,7.0,25,9.5,72.54,PG
+The Procter & Gamble Company,"Jan 01, 2018",8.2,7.0,25,9.5,79.16,PG
+The Procter & Gamble Company,"Dec 01, 2017",8.2,7.0,25,9.5,84.24,PG
+The Procter & Gamble Company,"Oct 31, 2017",8.2,7.0,25,9.5,82.51,PG
+The Procter & Gamble Company,"Sep 30, 2017",8.2,7.0,25,9.5,78.58,PG
+The Procter & Gamble Company,"Aug 31, 2017",8.2,7.0,25,9.5,82.80,PG
+The Procter & Gamble Company,"Jul 31, 2017",8.2,7.0,25,9.5,83.97,PG
+The Procter & Gamble Company,"Jun 30, 2017",8.2,7.0,25,9.5,82.01,PG
+The Procter & Gamble Company,"May 31, 2017",8.2,7.0,25,9.5,78.69,PG
+The Procter & Gamble Company,"Apr 30, 2017",8.2,7.0,25,9.5,79.54,PG
+The Procter & Gamble Company,"Mar 31, 2017",8.2,7.0,25,9.5,78.26,PG
+The Procter & Gamble Company,"Mar 01, 2017",8.2,7.0,25,9.5,80.52,PG
+The Procter & Gamble Company,"Feb 01, 2017",8.2,7.0,25,9.5,81.61,PG
+The Procter & Gamble Company,"Jan 01, 2017",8.2,7.0,25,9.5,77.88,PG
+The Procter & Gamble Company,"Dec 01, 2016",8.2,7.0,25,9.5,74.75,PG
+The Procter & Gamble Company,"Oct 31, 2016",8.2,7.0,25,9.5,73.31,PG
+The Procter & Gamble Company,"Sep 30, 2016",8.2,7.0,25,9.5,76.58,PG
+The Procter & Gamble Company,"Aug 31, 2016",8.2,7.0,25,9.5,79.18,PG
+The Procter & Gamble Company,"Jul 31, 2016",8.2,7.0,25,9.5,77.03,PG
+The Procter & Gamble Company,"Jun 30, 2016",8.2,7.0,25,9.5,74.93,PG
+The Procter & Gamble Company,"May 31, 2016",8.2,7.0,25,9.5,74.12,PG
+The Procter & Gamble Company,"Apr 30, 2016",8.2,7.0,25,9.5,70.94,PG
+The Procter & Gamble Company,"Mar 31, 2016",8.2,7.0,25,9.5,69.57,PG
+The Procter & Gamble Company,"Mar 01, 2016",8.2,7.0,25,9.5,71.47,PG
+The Procter & Gamble Company,"Feb 01, 2016",8.2,7.0,25,9.5,69.72,PG
+The Procter & Gamble Company,"Jan 01, 2016",8.2,7.0,25,9.5,70.32,PG
+The Procter & Gamble Company,"Dec 01, 2015",8.2,7.0,25,9.5,68.36,PG
