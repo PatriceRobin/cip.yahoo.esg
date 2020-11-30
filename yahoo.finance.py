@@ -15,65 +15,73 @@ headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36'
 }
 
-# get Dow Jones Industrial companies
-djurl = ('https://finance.yahoo.com/quote/%5EDJI/components?p=%5EDJI')
-djpage = requests.get(djurl, headers).text
-djsoup = bs(djpage, "lxml")
-table1 = djsoup.find_all('table')
-df1 = pd.read_html(str(table1))[0]
-df_dj = pd.DataFrame(df1)
-
-
-# adjust the dataframe / clean up
-df_dj = df_dj.iloc[:, [0, 1]] #only keep symbol and company name
-df_dj.rename(columns={'Symbol': 'symbol',
-                      'Company Name': 'company'}, inplace=True) #rename columns
-df_dj["company"] = df_dj["company"].str.replace(",", "") #replace commas with spaces for csv
-df_dj = df_dj[df_dj.company != 'Dow Inc.'] #remove dow jones
-
-# create an empty pd dataframe
-df_yh = pd.DataFrame()
-
-# get the financial data from the previous 5 years / monthly
-for symbol, company in zip(df_dj.symbol, df_dj.company):
-    # stock data
-    url = ('https://finance.yahoo.com/quote/{}/history?period1=1447027200&period2=1604880000&interval=1mo&filter=history&frequency=1mo&includeAdjustedClose=true'.format(symbol))
+def get_soup(url):
     page = requests.get(url, headers).text
-    soup = bs(page, "lxml")
-    table2 = soup.find('table', {'class': "W(100%) M(0)"}) #find the right table
-    df2 = pd.read_html(str(table2))[0] #extract table
-    df_hist = pd.DataFrame(df2) #as panda df
+    return bs(page, "lxml")
 
-    #clean up stock table
-    df_hist = df_hist.iloc[:-1, [0, 5]] #remove the last row (description) and non-necessary columns
-    df_hist.rename(columns={'Date': 'date', 'Adj Close**': 'stock'}, inplace=True) #rename columns
-    df_hist = df_hist[pd.to_numeric(df_hist['stock'], errors='coerce').notnull()] #remove non-numeric values (splits & dividends)
-    
-    #add company name and symbol
-    df_hist['company'] = company
-    df_hist['symbol'] = symbol
+def get_stock_index(url):
+    tables = get_soup(url=url).find_all('table')
+    table = pd.read_html(str(tables))[0]
+    frame = pd.DataFrame(table)
 
-    #sustainability score
-    url_sub = ('https://finance.yahoo.com/quote/{}/sustainability?p={}'.format(symbol, symbol)) #access the sustainability page of every company in the dow jones industrial index
-    page_sub = requests.get(url_sub, headers).text
-    soup = bs(page_sub, "lxml")
+    # adjust the dataframe / clean up
+    frame = frame.iloc[:, [0, 1]] #only keep symbol and company name
+    frame.rename(columns={'Symbol': 'symbol',
+                        'Company Name': 'company'}, inplace=True) #rename columns
+    frame["company"] = frame["company"].str.replace(",", "") #replace commas with spaces for csv
+    frame = frame[frame.company != 'Dow Inc.'] #remove dow jones
 
-    #environment
-    df_hist['environment'] = soup.find('div', attrs={"data-reactid": "35"}).text
+    return frame
 
-    #social socre
-    df_hist['social'] = soup.find('div', attrs={"data-reactid": "43"}).text
+def get_stock_data(stock_index):
+    # create an empty pd dataframe
+    df_yh = pd.DataFrame()
 
-    #governance score
-    df_hist['governance'] = soup.find('div', attrs={"data-reactid": "50"}).text
+    # get the financial data from the previous 5 years / monthly
+    for symbol, company in zip(stock_index.symbol, stock_index.company):
+        # stock data
+        url = ('https://finance.yahoo.com/quote/{}/history?period1=1447027200&period2'\
+            '=1604880000&interval=1mo&filter=history&frequency=1mo&includeAdjustedClose=true'.format(symbol))
+        tables = get_soup(url=url).find('table', {'class': "W(100%) M(0)"}) #find the right table
+        table = pd.read_html(str(tables))[0] #extract table
+        df_hist = pd.DataFrame(table) #as panda df
 
-    #overall substainability score
-    df_hist['riskscore'] = soup.find('div', attrs={"class":"Fz(36px) Fw(600) D(ib) Mend(5px)"}).text
-    
-    # concat to empty pandas df
-    df_yh = pd.concat([df_yh, df_hist], ignore_index=True, sort=True)
+        #clean up stock table
+        df_hist = df_hist.iloc[:-1, [0, 5]] #remove the last row (description) and non-necessary columns
+        df_hist.rename(columns={'Date': 'date', 'Adj Close**': 'stock'}, inplace=True) #rename columns
+        df_hist = df_hist[pd.to_numeric(df_hist['stock'], errors='coerce').notnull()] #remove non-numeric values (splits & dividends)
+        
+        #add company name and symbol
+        df_hist['company'] = company
+        df_hist['symbol'] = symbol
+
+        #sustainability score
+        url_sub = ('https://finance.yahoo.com/quote/{}/sustainability?p={}'.format(symbol, symbol)) #access the sustainability page of every company in the dow jones industrial index
+        page_sub = requests.get(url_sub, headers).text
+        soup = bs(page_sub, "lxml")
+
+        #environment
+        df_hist['environment'] = soup.find('div', attrs={"data-reactid": "35"}).text
+
+        #social socre
+        df_hist['social'] = soup.find('div', attrs={"data-reactid": "43"}).text
+
+        #governance score
+        df_hist['governance'] = soup.find('div', attrs={"data-reactid": "50"}).text
+
+        #overall substainability score
+        df_hist['riskscore'] = soup.find('div', attrs={"class":"Fz(36px) Fw(600) D(ib) Mend(5px)"}).text
+        
+        # concat to empty pandas df
+        df_yh = pd.concat([df_yh, df_hist], ignore_index=True, sort=True)
+
+        return df_yh
+
+def export_to_csv(df_yh):
+    df_yh.to_csv('yahoo.dow.jones.full.20201109.csv',
+                encoding='utf-8', index=False)
 
 
-#export as csv
-df_yh.to_csv('yahoo.dow.jones.full.20201109.csv',
-             encoding='utf-8', index=False)
+table = get_stock_index(url='https://finance.yahoo.com/quote/%5EDJI/components?p=%5EDJI')
+stock_data = get_stock_data(stock_index=table)
+export_to_csv(df_yh=stock_data)
