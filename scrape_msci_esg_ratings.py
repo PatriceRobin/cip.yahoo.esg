@@ -1,12 +1,21 @@
+# Steps before using this script
+# 1: Install Packages
+#    pip install webdriver_manager
+#    pip install BeautifulSoup
+#    pip install selenium
+#    pip install lxml
+
 from bs4 import BeautifulSoup
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 
 from webdriver_manager.chrome import ChromeDriverManager
+
 from selenium import webdriver
 import time
 import os.path
 import csv
+
 
 
 def get_index_constituents():
@@ -22,7 +31,7 @@ def extract_rating_from_htmlfile(ticker_list):
         ratings = []
 
         # open saved html file
-        filenmae = "./data/" + ticker + ".html"
+        filename = "./data/" + ticker + ".html"
         if(os.path.isfile(filenmae) == False):
             print("Error: File for ticker: " + ticker + " not found.")
             continue
@@ -73,7 +82,8 @@ def extract_rating_from_htmlfile(ticker_list):
 
 def download_msci_esg_ratings_htmlfile():
 
-    msci_url = 'https://www.msci.com/esg-ratings'
+    msci_url = "https://www.msci.com/our-solutions/esg-investing/esg-ratings/esg-ratings-corporate-search-tool" # old url 'https://www.msci.com/esg-ratings'
+
 
     # get index constituents
     index_constituents = get_index_constituents()
@@ -81,7 +91,7 @@ def download_msci_esg_ratings_htmlfile():
     # initialize selenium webdriver
     chrome_options = Options()
     chrome_options.add_argument("--disable-extensions")
-    chrome_options.add_argument("--headless")
+    #chrome_options.add_argument("--headless")
     driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options )
 
     #scrape esg rating for all constituents
@@ -108,7 +118,7 @@ def download_msci_esg_ratings_htmlfile():
     driver.quit()
 
 def start_scraping():
-    download_msci_esg_ratings_htmlfile()
+    #download_msci_esg_ratings_htmlfile()
     extract_rating_from_htmlfile(get_index_constituents())
 
 start_scraping()
