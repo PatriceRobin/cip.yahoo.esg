@@ -77,11 +77,6 @@ def get_stock_data(stock_index):
 
         return df_yh
 
-def export_to_csv(df_yh):
+def write_to_csv(df_yh):
     df_yh.to_csv('yahoo.dow.jones.full.20201109.csv',
                 encoding='utf-8', index=False)
-
-
-table = get_stock_index(url='https://finance.yahoo.com/quote/%5EDJI/components?p=%5EDJI')
-stock_data = get_stock_data(stock_index=table)
-export_to_csv(df_yh=stock_data)
