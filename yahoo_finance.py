@@ -9,9 +9,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
-import time
 import os.path
-import csv
 
 # define user-agent
 headers = {
@@ -44,7 +42,7 @@ def get_stock_index(url):
 
 def get_stock_data(stock_index):
     # create an empty pd dataframe
-    df_yh = pd.DataFrame()
+    df_dowjones = pd.DataFrame()
 
     # get the financial data from the previous 5 years / monthly
     for symbol, company in zip(stock_index.symbol, stock_index.company):
@@ -53,16 +51,16 @@ def get_stock_data(stock_index):
             '=1604880000&interval=1mo&filter=history&frequency=1mo&includeAdjustedClose=true'.format(symbol))
         tables = get_soup(url=url).find('table', {'class': "W(100%) M(0)"}) #find the right table
         table = pd.read_html(str(tables))[0] #extract table
-        df_hist = pd.DataFrame(table) #as panda df
+        df_yahoo = pd.DataFrame(table) #as panda df
 
         #clean up stock table
-        df_hist = df_hist.iloc[:-1, [0, 5]] #remove the last row (description) and non-necessary columns
-        df_hist.rename(columns={'Date': 'date', 'Adj Close**': 'stock'}, inplace=True) #rename columns
-        df_hist = df_hist[pd.to_numeric(df_hist['stock'], errors='coerce').notnull()] #remove non-numeric values (splits & dividends)
-        df_hist['date'] = pd.to_datetime(df_hist['date']).dt.to_period('M')
+        df_yahoo = df_yahoo.iloc[:-1, [0, 5]] #remove the last row (description) and non-necessary columns
+        df_yahoo.rename(columns={'Date': 'date', 'Adj Close**': 'stock'}, inplace=True) #rename columns
+        df_yahoo = df_yahoo[pd.to_numeric(df_yahoo['stock'], errors='coerce').notnull()] #remove non-numeric values (splits & dividends)
+        df_yahoo['date'] = pd.to_datetime(df_yahoo['date']).dt.to_period('M')
         #add company name and symbol
-        df_hist['company'] = company
-        df_hist['symbol'] = symbol
+        df_yahoo['company'] = company
+        df_yahoo['symbol'] = symbol
 
         #sustainability score
         url_sub = ('https://finance.yahoo.com/quote/{}/sustainability?p={}'.format(symbol, symbol)) #access the sustainability page of every company in the dow jones industrial index
@@ -70,27 +68,27 @@ def get_stock_data(stock_index):
         soup = bs(page_sub, "lxml")
 
         #environment
-        df_hist['environment'] = soup.find('div', attrs={"data-reactid": "35"}).text
+        df_yahoo['environment'] = soup.find('div', attrs={"data-reactid": "35"}).text
 
         #social socre
-        df_hist['social'] = soup.find('div', attrs={"data-reactid": "43"}).text
+        df_yahoo['social'] = soup.find('div', attrs={"data-reactid": "43"}).text
 
         #governance score
-        df_hist['governance'] = soup.find('div', attrs={"data-reactid": "50"}).text
+        df_yahoo['governance'] = soup.find('div', attrs={"data-reactid": "50"}).text
 
         #overall substainability score
-        df_hist['riskscore'] = soup.find('div', attrs={"class":"Fz(36px) Fw(600) D(ib) Mend(5px)"}).text
+        df_yahoo['riskscore'] = soup.find('div', attrs={"class":"Fz(36px) Fw(600) D(ib) Mend(5px)"}).text
         
         # concat to empty pandas df
-        df_yh = pd.concat([df_yh, df_hist], ignore_index=True, sort=True)
+        df_dowjones = pd.concat([df_dowjones, df_yahoo], ignore_index=True, sort=True)
 
-        return df_yh
+    return df_dowjones
 
 
 def get_esg_from_html(stock_index):
-    # result array with all esg ratigns
+    df_esg = pd.DataFrame()
     all_ratings = []
-
+    
     for symbol in stock_index.symbol:
         # result array with esg ratigns for current ticker
         ratings = []
@@ -137,17 +135,37 @@ def get_esg_from_html(stock_index):
         # Add rating of current ticker to the result array
         for rating_e in ratings:
             all_ratings.append(rating_e)
+        
+        #change format to a pd.DataFrame
+        df_esg_per_company = pd.DataFrame(all_ratings)
+ 
+    #concat the esg from all the companies to one frame
+        df_esg = pd.concat([df_esg, df_esg_per_company], ignore_index=True, sort=True)
 
-    # Save all ratings to a csv file
-    with open("./output_ratings.csv", "w", newline="")  as output_file:
-        dict_writer = csv.DictWriter(output_file, all_ratings[0].keys())
-        dict_writer.writeheader()
-        dict_writer.writerows(all_ratings)
+    #converte date (yyyy-mm)
+    df_esg['date'] = pd.to_datetime(df_esg['date'], format= "%b-%y").dt.to_period('M')
+
+    #return esg frame
+    return df_esg
 
 
-def write_to_csv(df_yh):
-    df_yh.to_csv("yahoo.dow.jones.full.20201109.csv",
+def join_dowjones_esg(df_dowjones, df_esg):
+    #outer join - we do not want to lose ratings(c.f. fill forward)
+    df_dowjones_esg = df_dowjones.merge(df_esg[['symbol','date','rating']], how='outer',left_on=['symbol', 'date'], right_on=['symbol', 'date'])
+    
+    #sort values 
+    df_dowjones_esg= df_dowjones_esg.sort_values(by=['symbol','date'])
+
+    #fill forward ratings 
+    df_dowjones_esg['rating'] = df_dowjones_esg.groupby(['symbol'], sort=False)['rating'].fillna(method='ffill')
+
+    # drop all rows with NA
+    df_dowjones_esg_clean = df_dowjones_esg.dropna()
+    
+    #return joined frame
+    return df_dowjones_esg_clean
+
+
+def write_to_csv(df_dowjones_esg_clean):
+    df_dowjones_esg_clean.to_csv("df_dowjones_esg_clean.csv",
                 encoding="utf-8", index=False)
-
-
-#df.fillna(method='ffill')
