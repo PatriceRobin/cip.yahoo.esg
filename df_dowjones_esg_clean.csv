@@ -236,8 +236,6 @@ Caterpillar Inc.,2020-07,10.7,8.9,39,19.7,141.45,CAT,A
 Caterpillar Inc.,2020-08,10.7,8.9,39,19.7,148.24,CAT,A
 Caterpillar Inc.,2020-09,10.7,8.9,39,19.7,156.10,CAT,A
 Caterpillar Inc.,2020-10,10.7,8.9,39,19.7,173.59,CAT,A
-salesforce.com inc.,2016-05,0.5,4.3,11,6.5,79.41,CRM,A
-salesforce.com inc.,2016-06,0.5,4.3,11,6.5,81.80,CRM,A
 salesforce.com inc.,2016-07,0.5,4.3,11,6.5,79.42,CRM,A
 salesforce.com inc.,2016-08,0.5,4.3,11,6.5,71.33,CRM,A
 salesforce.com inc.,2016-09,0.5,4.3,11,6.5,75.16,CRM,A
@@ -484,53 +482,103 @@ The Goldman Sachs Group Inc.,2020-07,0.8,16.2,31,14.2,202.53,GS,BBB
 The Goldman Sachs Group Inc.,2020-08,0.8,16.2,31,14.2,199.88,GS,BBB
 The Goldman Sachs Group Inc.,2020-09,0.8,16.2,31,14.2,188.02,GS,BBB
 The Goldman Sachs Group Inc.,2020-10,0.8,16.2,31,14.2,229.33,GS,BBB
-The Home Depot Inc.,2017-01,3.1,3.6,13,6.7,125.75,HD,BBB
-The Home Depot Inc.,2017-02,3.1,3.6,13,6.7,132.45,HD,BBB
-The Home Depot Inc.,2017-03,3.1,3.6,13,6.7,143.55,HD,BBB
-The Home Depot Inc.,2017-03,3.1,3.6,13,6.7,134.21,HD,BBB
-The Home Depot Inc.,2017-04,3.1,3.6,13,6.7,141.17,HD,BBB
-The Home Depot Inc.,2017-05,3.1,3.6,13,6.7,141.88,HD,BBB
-The Home Depot Inc.,2017-06,3.1,3.6,13,6.7,138.37,HD,BBB
-The Home Depot Inc.,2017-07,3.1,3.6,13,6.7,138.62,HD,BBB
-The Home Depot Inc.,2017-08,3.1,3.6,13,6.7,152.17,HD,BBB
-The Home Depot Inc.,2017-09,3.1,3.6,13,6.7,154.24,HD,BBB
-The Home Depot Inc.,2017-10,3.1,3.6,13,6.7,167.30,HD,BBB
-The Home Depot Inc.,2017-12,3.1,3.6,13,6.7,177.23,HD,BBB
-The Home Depot Inc.,2018-01,3.1,3.6,13,6.7,187.86,HD,BBB
-The Home Depot Inc.,2018-02,3.1,3.6,13,6.7,170.44,HD,BBB
-The Home Depot Inc.,2018-03,3.1,3.6,13,6.7,173.79,HD,BBB
-The Home Depot Inc.,2018-03,3.1,3.6,13,6.7,166.67,HD,BBB
-The Home Depot Inc.,2018-04,3.1,3.6,13,6.7,175.44,HD,BBB
-The Home Depot Inc.,2018-05,3.1,3.6,13,6.7,184.51,HD,BBB
-The Home Depot Inc.,2018-06,3.1,3.6,13,6.7,186.79,HD,BBB
-The Home Depot Inc.,2018-07,3.1,3.6,13,6.7,189.87,HD,BBB
-The Home Depot Inc.,2018-08,3.1,3.6,13,6.7,196.91,HD,BBB
-The Home Depot Inc.,2018-09,3.1,3.6,13,6.7,167.18,HD,BBB
-The Home Depot Inc.,2018-10,3.1,3.6,13,6.7,171.40,HD,BBB
-The Home Depot Inc.,2018-12,3.1,3.6,13,6.7,164.30,HD,BBB
-The Home Depot Inc.,2019-01,3.1,3.6,13,6.7,175.50,HD,BBB
-The Home Depot Inc.,2019-02,3.1,3.6,13,6.7,177.04,HD,BBB
-The Home Depot Inc.,2019-03,3.1,3.6,13,6.7,196.24,HD,BBB
-The Home Depot Inc.,2019-03,3.1,3.6,13,6.7,183.49,HD,BBB
-The Home Depot Inc.,2019-04,3.1,3.6,13,6.7,182.89,HD,BBB
-The Home Depot Inc.,2019-05,3.1,3.6,13,6.7,200.35,HD,BBB
-The Home Depot Inc.,2019-06,3.1,3.6,13,6.7,207.30,HD,BBB
-The Home Depot Inc.,2019-07,3.1,3.6,13,6.7,221.10,HD,BBB
-The Home Depot Inc.,2019-08,3.1,3.6,13,6.7,225.09,HD,BBB
-The Home Depot Inc.,2019-09,3.1,3.6,13,6.7,228.28,HD,BBB
-The Home Depot Inc.,2019-10,3.1,3.6,13,6.7,215.23,HD,BBB
-The Home Depot Inc.,2019-12,3.1,3.6,13,6.7,213.15,HD,BBB
-The Home Depot Inc.,2020-01,3.1,3.6,13,6.7,224.06,HD,BBB
-The Home Depot Inc.,2020-02,3.1,3.6,13,6.7,213.98,HD,BBB
-The Home Depot Inc.,2020-03,3.1,3.6,13,6.7,217.38,HD,BBB
-The Home Depot Inc.,2020-03,3.1,3.6,13,6.7,183.40,HD,BBB
-The Home Depot Inc.,2020-04,3.1,3.6,13,6.7,245.71,HD,BBB
-The Home Depot Inc.,2020-05,3.1,3.6,13,6.7,247.72,HD,BBB
-The Home Depot Inc.,2020-06,3.1,3.6,13,6.7,264.10,HD,BBB
-The Home Depot Inc.,2020-07,3.1,3.6,13,6.7,283.54,HD,BBB
-The Home Depot Inc.,2020-08,3.1,3.6,13,6.7,276.25,HD,BBB
-The Home Depot Inc.,2020-09,3.1,3.6,13,6.7,266.71,HD,BBB
-The Home Depot Inc.,2020-10,3.1,3.6,13,6.7,277.41,HD,BBB
+The Home Depot Inc.,2017-01,3.1,3.6,13,6.7,125.07,HD,BBB
+The Home Depot Inc.,2017-02,3.1,3.6,13,6.7,131.74,HD,BBB
+The Home Depot Inc.,2017-03,3.1,3.6,13,6.7,142.77,HD,BBB
+The Home Depot Inc.,2017-03,3.1,3.6,13,6.7,133.48,HD,BBB
+The Home Depot Inc.,2017-04,3.1,3.6,13,6.7,140.40,HD,BBB
+The Home Depot Inc.,2017-05,3.1,3.6,13,6.7,141.11,HD,BBB
+The Home Depot Inc.,2017-06,3.1,3.6,13,6.7,137.62,HD,BBB
+The Home Depot Inc.,2017-07,3.1,3.6,13,6.7,137.87,HD,BBB
+The Home Depot Inc.,2017-08,3.1,3.6,13,6.7,151.35,HD,BBB
+The Home Depot Inc.,2017-09,3.1,3.6,13,6.7,153.40,HD,BBB
+The Home Depot Inc.,2017-10,3.1,3.6,13,6.7,166.40,HD,BBB
+The Home Depot Inc.,2017-12,3.1,3.6,13,6.7,176.27,HD,BBB
+The Home Depot Inc.,2018-01,3.1,3.6,13,6.7,186.84,HD,BBB
+The Home Depot Inc.,2018-02,3.1,3.6,13,6.7,169.52,HD,BBB
+The Home Depot Inc.,2018-03,3.1,3.6,13,6.7,172.85,HD,BBB
+The Home Depot Inc.,2018-03,3.1,3.6,13,6.7,165.77,HD,BBB
+The Home Depot Inc.,2018-04,3.1,3.6,13,6.7,174.49,HD,BBB
+The Home Depot Inc.,2018-05,3.1,3.6,13,6.7,183.51,HD,BBB
+The Home Depot Inc.,2018-06,3.1,3.6,13,6.7,185.78,HD,BBB
+The Home Depot Inc.,2018-07,3.1,3.6,13,6.7,188.84,HD,BBB
+The Home Depot Inc.,2018-08,3.1,3.6,13,6.7,195.84,HD,BBB
+The Home Depot Inc.,2018-09,3.1,3.6,13,6.7,166.28,HD,BBB
+The Home Depot Inc.,2018-10,3.1,3.6,13,6.7,170.47,HD,BBB
+The Home Depot Inc.,2018-12,3.1,3.6,13,6.7,163.41,HD,BBB
+The Home Depot Inc.,2019-01,3.1,3.6,13,6.7,174.55,HD,BBB
+The Home Depot Inc.,2019-02,3.1,3.6,13,6.7,176.08,HD,BBB
+The Home Depot Inc.,2019-03,3.1,3.6,13,6.7,195.17,HD,BBB
+The Home Depot Inc.,2019-03,3.1,3.6,13,6.7,182.50,HD,BBB
+The Home Depot Inc.,2019-04,3.1,3.6,13,6.7,181.90,HD,BBB
+The Home Depot Inc.,2019-05,3.1,3.6,13,6.7,199.26,HD,BBB
+The Home Depot Inc.,2019-06,3.1,3.6,13,6.7,206.18,HD,BBB
+The Home Depot Inc.,2019-07,3.1,3.6,13,6.7,219.90,HD,BBB
+The Home Depot Inc.,2019-08,3.1,3.6,13,6.7,223.86,HD,BBB
+The Home Depot Inc.,2019-09,3.1,3.6,13,6.7,227.05,HD,BBB
+The Home Depot Inc.,2019-10,3.1,3.6,13,6.7,214.06,HD,BBB
+The Home Depot Inc.,2019-12,3.1,3.6,13,6.7,211.99,HD,BBB
+The Home Depot Inc.,2020-01,3.1,3.6,13,6.7,222.84,HD,BBB
+The Home Depot Inc.,2020-02,3.1,3.6,13,6.7,212.82,HD,BBB
+The Home Depot Inc.,2020-03,3.1,3.6,13,6.7,216.20,HD,BBB
+The Home Depot Inc.,2020-03,3.1,3.6,13,6.7,182.41,HD,BBB
+The Home Depot Inc.,2020-04,3.1,3.6,13,6.7,244.38,HD,BBB
+The Home Depot Inc.,2020-05,3.1,3.6,13,6.7,246.37,HD,BBB
+The Home Depot Inc.,2020-06,3.1,3.6,13,6.7,262.67,HD,BBB
+The Home Depot Inc.,2020-07,3.1,3.6,13,6.7,282.01,HD,BBB
+The Home Depot Inc.,2020-08,3.1,3.6,13,6.7,274.76,HD,BBB
+The Home Depot Inc.,2020-09,3.1,3.6,13,6.7,265.26,HD,BBB
+The Home Depot Inc.,2020-10,3.1,3.6,13,6.7,275.91,HD,BBB
+Honeywell International Inc.,2016-09,10.3,9.0,33,14.1,96.09,HON,AA
+Honeywell International Inc.,2016-10,10.3,9.0,33,14.1,99.83,HON,AA
+Honeywell International Inc.,2016-12,10.3,9.0,33,14.1,102.10,HON,AA
+Honeywell International Inc.,2017-01,10.3,9.0,33,14.1,104.28,HON,AA
+Honeywell International Inc.,2017-02,10.3,9.0,33,14.1,109.72,HON,AA
+Honeywell International Inc.,2017-03,10.3,9.0,33,14.1,116.19,HON,AA
+Honeywell International Inc.,2017-03,10.3,9.0,33,14.1,110.64,HON,AA
+Honeywell International Inc.,2017-04,10.3,9.0,33,14.1,117.83,HON,AA
+Honeywell International Inc.,2017-05,10.3,9.0,33,14.1,118.70,HON,AA
+Honeywell International Inc.,2017-06,10.3,9.0,33,14.1,121.22,HON,AA
+Honeywell International Inc.,2017-07,10.3,9.0,33,14.1,123.13,HON,AA
+Honeywell International Inc.,2017-08,10.3,9.0,33,14.1,126.84,HON,AA
+Honeywell International Inc.,2017-09,10.3,9.0,33,14.1,129.00,HON,AA
+Honeywell International Inc.,2017-10,10.3,9.0,33,14.1,139.56,HON,AA
+Honeywell International Inc.,2017-12,10.3,9.0,33,14.1,137.94,HON,AA
+Honeywell International Inc.,2018-01,10.3,9.0,33,14.1,143.61,HON,AA
+Honeywell International Inc.,2018-02,10.3,9.0,33,14.1,135.91,HON,AA
+Honeywell International Inc.,2018-03,10.3,9.0,33,14.1,130.76,HON,AA
+Honeywell International Inc.,2018-03,10.3,9.0,33,14.1,130.61,HON,AA
+Honeywell International Inc.,2018-04,10.3,9.0,33,14.1,133.68,HON,AA
+Honeywell International Inc.,2018-05,10.3,9.0,33,14.1,130.85,HON,AA
+Honeywell International Inc.,2018-06,10.3,9.0,33,14.1,145.02,HON,AA
+Honeywell International Inc.,2018-07,10.3,9.0,33,14.1,144.49,HON,AA
+Honeywell International Inc.,2018-08,10.3,9.0,33,14.1,151.89,HON,AA
+Honeywell International Inc.,2018-09,10.3,9.0,33,14.1,137.93,HON,AA
+Honeywell International Inc.,2018-10,10.3,9.0,33,14.1,139.76,HON,AA
+Honeywell International Inc.,2018-12,10.3,9.0,33,14.1,126.53,HON,AA
+Honeywell International Inc.,2019-01,10.3,9.0,33,14.1,137.56,HON,AA
+Honeywell International Inc.,2019-02,10.3,9.0,33,14.1,147.56,HON,AA
+Honeywell International Inc.,2019-03,10.3,9.0,33,14.1,167.18,HON,AA
+Honeywell International Inc.,2019-03,10.3,9.0,33,14.1,153.01,HON,AA
+Honeywell International Inc.,2019-04,10.3,9.0,33,14.1,158.20,HON,AA
+Honeywell International Inc.,2019-05,10.3,9.0,33,14.1,168.92,HON,AA
+Honeywell International Inc.,2019-06,10.3,9.0,33,14.1,166.86,HON,AA
+Honeywell International Inc.,2019-07,10.3,9.0,33,14.1,159.27,HON,AA
+Honeywell International Inc.,2019-08,10.3,9.0,33,14.1,164.53,HON,AA
+Honeywell International Inc.,2019-09,10.3,9.0,33,14.1,167.96,HON,AA
+Honeywell International Inc.,2019-10,10.3,9.0,33,14.1,173.62,HON,AA
+Honeywell International Inc.,2019-12,10.3,9.0,33,14.1,172.97,HON,AA
+Honeywell International Inc.,2020-01,10.3,9.0,33,14.1,169.27,HON,AA
+Honeywell International Inc.,2020-02,10.3,9.0,33,14.1,158.47,HON,AA
+Honeywell International Inc.,2020-03,10.3,9.0,33,14.1,139.42,HON,AA
+Honeywell International Inc.,2020-03,10.3,9.0,33,14.1,131.45,HON,AA
+Honeywell International Inc.,2020-04,10.3,9.0,33,14.1,143.30,HON,AA
+Honeywell International Inc.,2020-05,10.3,9.0,33,14.1,143.11,HON,AA
+Honeywell International Inc.,2020-06,10.3,9.0,33,14.1,147.84,HON,AA
+Honeywell International Inc.,2020-07,10.3,9.0,33,14.1,163.85,HON,AA
+Honeywell International Inc.,2020-08,10.3,9.0,33,14.1,163.84,HON,AA
+Honeywell International Inc.,2020-09,10.3,9.0,33,14.1,164.18,HON,AA
+Honeywell International Inc.,2020-10,10.3,9.0,33,14.1,202.97,HON,AA
 International Business Machines Corporation,2016-05,0.4,7.3,18,10.1,124.53,IBM,A
 International Business Machines Corporation,2016-06,0.4,7.3,18,10.1,131.78,IBM,A
 International Business Machines Corporation,2016-07,0.4,7.3,18,10.1,130.36,IBM,A

@@ -10,6 +10,7 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 import os.path
+import time
 
 # define user-agent
 headers = {
@@ -85,6 +86,44 @@ def get_stock_data(stock_index):
     return df_dowjones
 
 
+def download_msci_esg_ratings_htmlfile(stock_index):
+    #crate a new folder for html files
+    os.makedirs("./esg_html", exist_ok=True)
+
+    # old url 'https://www.msci.com/esg-ratings'
+    msci_url = "https://www.msci.com/our-solutions/esg-investing/esg-ratings/esg-ratings-corporate-search-tool" 
+
+    # initialize selenium webdriver
+    chrome_options = Options()
+    chrome_options.add_argument("--disable-extensions")
+    #chrome_options.add_argument("--headless")
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+
+    #scrape esg rating for all constituents
+    for symbol in stock_index.symbol:
+        print("Crawling Ticker: " + symbol)
+        # go to search page
+        driver.get(msci_url)
+        element = driver.find_element_by_id("_esgratingsprofile_keywords")
+        # enter Ticker into search field
+        element.send_keys(symbol)
+        element.send_keys(" ")
+        time.sleep(1)
+
+        #select first search result
+        element.send_keys(Keys.ARROW_DOWN)
+        time.sleep(0.5)
+        element.send_keys(Keys.RETURN)
+        time.sleep(1.5)
+
+        #save full html page with esg rataing to be processed later
+        with open("./esg_html/" + symbol + ".html", "w") as full_html:
+            full_html.write(driver.page_source)
+
+    #close webdriver gracefully
+    driver.quit()
+
+
 def get_esg_from_html(stock_index):
     all_ratings = []
     
@@ -93,12 +132,12 @@ def get_esg_from_html(stock_index):
         ratings = []
 
         # open saved html file
-        filename = "./esg.html/" + symbol + ".html"
+        filename = "./esg_html/" + symbol + ".html"
         if(os.path.isfile(filename) == False):
             print("Error: File for ticker: " + symbol + " not found.")
             continue
         else:
-            f = open(filename, "r",  encoding='utf-8')
+            f = open(filename, "r",  encoding='unicode_escape')
             html_content = f.read()
             soup = bs(html_content, "lxml")
 
