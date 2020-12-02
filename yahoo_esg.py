@@ -86,7 +86,6 @@ def get_stock_data(stock_index):
 
 
 def get_esg_from_html(stock_index):
-    df_esg = pd.DataFrame()
     all_ratings = []
     
     for symbol in stock_index.symbol:
@@ -137,10 +136,7 @@ def get_esg_from_html(stock_index):
             all_ratings.append(rating_e)
         
         #change format to a pd.DataFrame
-        df_esg_per_company = pd.DataFrame(all_ratings)
- 
-    #concat the esg from all the companies to one frame
-        df_esg = pd.concat([df_esg, df_esg_per_company], ignore_index=True, sort=True)
+        df_esg = pd.DataFrame(all_ratings)
 
     #converte date (yyyy-mm)
     df_esg['date'] = pd.to_datetime(df_esg['date'], format= "%b-%y").dt.to_period('M')
@@ -150,9 +146,9 @@ def get_esg_from_html(stock_index):
 
 
 def join_dowjones_esg(df_dowjones, df_esg):
-    #outer join - we do not want to lose ratings(c.f. fill forward)
-    df_dowjones_esg = df_dowjones.merge(df_esg[['symbol','date','rating']], how='outer',left_on=['symbol', 'date'], right_on=['symbol', 'date'])
-    
+    #outer on symbol and date (outer join and drop NA = 1408 rows; left join and drop NA = 1366 rows)
+    df_dowjones_esg = pd.merge(df_dowjones, df_esg[['symbol','date','rating']], how='outer', on=['symbol', 'date'])
+
     #sort values 
     df_dowjones_esg= df_dowjones_esg.sort_values(by=['symbol','date'])
 
