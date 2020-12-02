@@ -1,4 +1,4 @@
-from yahoo_finance import get_stock_index, get_stock_data, write_to_csv, get_esg_from_html, join_dowjones_esg
+from yahoo_esg import get_stock_index, get_stock_data, write_to_csv, get_esg_from_html, join_dowjones_esg
 
 def scrap_stock():
     table = get_stock_index(url='https://finance.yahoo.com/quote/%5EDJI/components?p=%5EDJI')
