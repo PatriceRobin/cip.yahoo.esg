@@ -37,13 +37,12 @@ def get_stock_index(url):
     frame.rename(columns={'Symbol': 'symbol',
                         'Company Name': 'company'}, inplace=True) #rename columns
     frame["company"] = frame["company"].str.replace(",", "") #replace commas with spaces for csv
-    frame = frame[frame.company != 'Dow Inc.'] #remove dow jones
 
     return frame
 
 def get_stock_data(stock_index):
     # create an empty pd dataframe
-    df_dowjones = pd.DataFrame()
+    df_dji = pd.DataFrame()
 
     # get the financial data from the previous 5 years / monthly
     for symbol, company in zip(stock_index.symbol, stock_index.company):
@@ -58,7 +57,15 @@ def get_stock_data(stock_index):
         df_yahoo = df_yahoo.iloc[:-1, [0, 5]] #remove the last row (description) and non-necessary columns
         df_yahoo.rename(columns={'Date': 'date', 'Adj Close**': 'stock'}, inplace=True) #rename columns
         df_yahoo = df_yahoo[pd.to_numeric(df_yahoo['stock'], errors='coerce').notnull()] #remove non-numeric values (splits & dividends)
-        df_yahoo['date'] = pd.to_datetime(df_yahoo['date']).dt.to_period('M')
+        
+                #create a monthly
+        df_yahoo['month_year'] = pd.to_datetime(df_yahoo['date']).dt.to_period('M')
+
+        #change date format
+        df_yahoo['date'] = df_yahoo['date'].str.replace(",", "")
+        df_yahoo['date'] =  pd.to_datetime(df_yahoo['date'], format='%b %d %Y')
+        df_yahoo['date'] =  df_yahoo['date'].dt.strftime('%Y-%m-%d')
+        
         #add company name and symbol
         df_yahoo['company'] = company
         df_yahoo['symbol'] = symbol
@@ -68,22 +75,23 @@ def get_stock_data(stock_index):
         page_sub = requests.get(url_sub, headers).text
         soup = bs(page_sub, "lxml")
 
-        #environment
-        df_yahoo['environment'] = soup.find('div', attrs={"data-reactid": "35"}).text
-
-        #social socre
-        df_yahoo['social'] = soup.find('div', attrs={"data-reactid": "43"}).text
-
-        #governance score
-        df_yahoo['governance'] = soup.find('div', attrs={"data-reactid": "50"}).text
-
-        #overall substainability score
-        df_yahoo['riskscore'] = soup.find('div', attrs={"class":"Fz(36px) Fw(600) D(ib) Mend(5px)"}).text
-        
+        #dow jones as an index has no ESG score
+        if(symbol) == 'DOW':
+            break
+        else:
+            #environment
+            df_yahoo['environment'] = soup.find('div', attrs={"data-reactid": "35"}).text
+            #social socre
+            df_yahoo['social'] = soup.find('div', attrs={"data-reactid": "43"}).text
+            #governance score
+            df_yahoo['governance'] = soup.find('div', attrs={"data-reactid": "50"}).text
+            #overall substainability score
+            df_yahoo['riskscore'] = soup.find('div', attrs={"class":"Fz(36px) Fw(600) D(ib) Mend(5px)"}).text
+            
         # concat to empty pandas df
-        df_dowjones = pd.concat([df_dowjones, df_yahoo], ignore_index=True, sort=True)
+        df_dji = pd.concat([df_dji, df_yahoo], ignore_index=True, sort=True)
 
-    return df_dowjones
+    return df_dji
 
 
 def download_msci_esg_ratings_htmlfile(stock_index):
@@ -178,29 +186,29 @@ def get_esg_from_html(stock_index):
         df_esg = pd.DataFrame(all_ratings)
 
     #converte date (yyyy-mm)
-    df_esg['date'] = pd.to_datetime(df_esg['date'], format= "%b-%y").dt.to_period('M')
+    df_esg['month_year'] = pd.to_datetime(df_esg['date'], format= "%b-%y").dt.to_period('M')
 
     #return esg frame
     return df_esg
 
 
-def join_dowjones_esg(df_dowjones, df_esg):
+def join_dji_esg(df_dji, df_esg):
     #outer on symbol and date (outer join and drop NA = 1408 rows; left join and drop NA = 1366 rows)
-    df_dowjones_esg = pd.merge(df_dowjones, df_esg[['symbol','date','rating']], how='outer', on=['symbol', 'date'])
+    df_dji_esg = pd.merge(df_dji, df_esg[['symbol','month_year','rating']], how='outer', on=['symbol', 'month_year'])
 
     #sort values 
-    df_dowjones_esg= df_dowjones_esg.sort_values(by=['symbol','date'])
+    df_dji_esg= df_dji_esg.sort_values(by=['symbol','date'])
 
     #fill forward ratings 
-    df_dowjones_esg['rating'] = df_dowjones_esg.groupby(['symbol'], sort=False)['rating'].fillna(method='ffill')
+    df_dji_esg['rating'] = df_dji_esg.groupby(['symbol'], sort=False)['rating'].fillna(method='ffill')
 
     # drop all rows with NA
-    df_dowjones_esg_clean = df_dowjones_esg.dropna()
+    df_dji_esg_clean = df_dji_esg.dropna()
     
     #return joined frame
-    return df_dowjones_esg_clean
+    return df_dji_esg_clean
 
 
-def write_to_csv(df_dowjones_esg_clean):
-    df_dowjones_esg_clean.to_csv("df_dowjones_esg_clean.csv",
+def write_to_csv(df_dji_esg_clean):
+    df_dji_esg_clean.to_csv("df_dji_esg_clean.csv",
                 encoding="utf-8", index=False)
