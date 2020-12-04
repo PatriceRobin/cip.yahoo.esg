@@ -40,56 +40,85 @@ def get_stock_index(url):
 
     return frame
 
+def download_yahoo_stock_htmlfile(stock_index):
+    #crate a new folder for html files
+    os.makedirs("./stock_html", exist_ok=True)
+
+    driver = webdriver.Chrome(ChromeDriverManager().install())
+    # get the financial data from the previous 5 years / weekly
+    for symbol in stock_index.symbol:
+        # stock data
+        url = ('https://finance.yahoo.com/quote/AAPL/history?period1=1449187200&period2=1607040000&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'.format(symbol))
+        driver.get(url)
+        print("Crawling yahoo stock: " + symbol)
+
+        ScrollNumber = 4
+        for i in range(1,ScrollNumber):
+            driver.execute_script("window.scrollTo(1,50000)")
+            time.sleep(0.2)
+
+        with open("./stock_html/" + symbol + ".html", "w") as full_html:
+            full_html.write(driver.page_source)
+    
+    driver.quit()
+
 def get_stock_data(stock_index):
+
     # create an empty pd dataframe
     df_dji = pd.DataFrame()
 
     # get the financial data from the previous 5 years / monthly
     for symbol, company in zip(stock_index.symbol, stock_index.company):
-        # stock data
-        url = ('https://finance.yahoo.com/quote/{}/history?period1=1447027200&period2'\
-            '=1604880000&interval=1mo&filter=history&frequency=1mo&includeAdjustedClose=true'.format(symbol))
-        tables = get_soup(url=url).find('table', {'class': "W(100%) M(0)"}) #find the right table
-        table = pd.read_html(str(tables))[0] #extract table
-        df_yahoo = pd.DataFrame(table) #as panda df
+        
+        filename = "./stock_html/" + symbol + ".html"
+
+        if(os.path.isfile(filename) == False):
+            print("Error: File for stock-data: " + symbol + " not found.")
+            continue
+        else:
+            page = open(filename, "r",  encoding='unicode_escape')
+            soup = bs(page, "lxml")
+            tables = soup.find_all('table')
+            table = pd.read_html(str(tables))[0]
+            df_yahoo = pd.DataFrame(table)
 
         #clean up stock table
-        df_yahoo = df_yahoo.iloc[:-1, [0, 5]] #remove the last row (description) and non-necessary columns
-        df_yahoo.rename(columns={'Date': 'date', 'Adj Close**': 'stock'}, inplace=True) #rename columns
-        df_yahoo = df_yahoo[pd.to_numeric(df_yahoo['stock'], errors='coerce').notnull()] #remove non-numeric values (splits & dividends)
-        
-                #create a monthly
-        df_yahoo['month_year'] = pd.to_datetime(df_yahoo['date']).dt.to_period('M')
-
-        #change date format
-        df_yahoo['date'] = df_yahoo['date'].str.replace(",", "")
-        df_yahoo['date'] =  pd.to_datetime(df_yahoo['date'], format='%b %d %Y')
-        df_yahoo['date'] =  df_yahoo['date'].dt.strftime('%Y-%m-%d')
-        
-        #add company name and symbol
-        df_yahoo['company'] = company
-        df_yahoo['symbol'] = symbol
-
-        #sustainability score
-        url_sub = ('https://finance.yahoo.com/quote/{}/sustainability?p={}'.format(symbol, symbol)) #access the sustainability page of every company in the dow jones industrial index
-        page_sub = requests.get(url_sub, headers).text
-        soup = bs(page_sub, "lxml")
-
-        #dow jones as an index has no ESG score
-        if(symbol) == 'DOW':
-            break
-        else:
-            #environment
-            df_yahoo['environment'] = soup.find('div', attrs={"data-reactid": "35"}).text
-            #social socre
-            df_yahoo['social'] = soup.find('div', attrs={"data-reactid": "43"}).text
-            #governance score
-            df_yahoo['governance'] = soup.find('div', attrs={"data-reactid": "50"}).text
-            #overall substainability score
-            df_yahoo['riskscore'] = soup.find('div', attrs={"class":"Fz(36px) Fw(600) D(ib) Mend(5px)"}).text
+            df_yahoo = df_yahoo.iloc[:-1, [0, 4, 5]] #remove the last row (description) and non-necessary columns
+            df_yahoo.rename(columns={'Date':'date', 'Close*':'stock', 'Adj Close**':'adj_stock'}, inplace=True) #rename columns
+            df_yahoo = df_yahoo[pd.to_numeric(df_yahoo['stock'], errors='coerce').notnull()] #remove non-numeric values (splits & dividends)
             
-        # concat to empty pandas df
-        df_dji = pd.concat([df_dji, df_yahoo], ignore_index=True, sort=True)
+            #create a monthly
+            df_yahoo['month_year'] = pd.to_datetime(df_yahoo['date']).dt.to_period('M')
+
+            #change date format
+            df_yahoo['date'] = df_yahoo['date'].str.replace(",", "")
+            df_yahoo['date'] =  pd.to_datetime(df_yahoo['date'], format='%b %d %Y')
+            df_yahoo['date'] =  df_yahoo['date'].dt.strftime('%Y-%m-%d')
+            
+            #add company name and symbol
+            df_yahoo['company'] = company
+            df_yahoo['symbol'] = symbol
+
+            #sustainability score
+            url_sub = ('https://finance.yahoo.com/quote/{}/sustainability?p={}'.format(symbol, symbol)) #access the sustainability page of every company in the dow jones industrial index
+            page_sub = requests.get(url_sub, headers).text
+            soup = bs(page_sub, "lxml")
+
+            #dow jones as an index has no ESG score
+            if(symbol) == 'DOW':
+                break
+            else:
+                #environment
+                df_yahoo['environment'] = soup.find('div', attrs={"data-reactid": "35"}).text
+                #social socre
+                df_yahoo['social'] = soup.find('div', attrs={"data-reactid": "43"}).text
+                #governance score
+                df_yahoo['governance'] = soup.find('div', attrs={"data-reactid": "50"}).text
+                #overall substainability score
+                df_yahoo['riskscore'] = soup.find('div', attrs={"class":"Fz(36px) Fw(600) D(ib) Mend(5px)"}).text
+                
+            # concat to empty pandas df
+            df_dji = pd.concat([df_dji, df_yahoo], ignore_index=True, sort=True)
 
     return df_dji
 
@@ -109,7 +138,7 @@ def download_msci_esg_ratings_htmlfile(stock_index):
 
     #scrape esg rating for all constituents
     for symbol in stock_index.symbol:
-        print("Crawling Ticker: " + symbol)
+        print("Crawling ESG Ticker: " + symbol)
         # go to search page
         driver.get(msci_url)
         element = driver.find_element_by_id("_esgratingsprofile_keywords")
