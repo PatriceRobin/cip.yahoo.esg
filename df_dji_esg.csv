@@ -788,36 +788,111 @@ adj_stock,company,date,month_year,stock,symbol,rating
 120.59,American Express Company,2020-11-23,2020-11,120.59,AXP,AA
 123.12,American Express Company,2020-11-30,2020-11,123.12,AXP,AA
 123.12,American Express Company,2020-12-03,2020-12,123.12,AXP,AA
-171.36,The Boeing Company,2017-05-07,2017-05,183.25,BA,
-170.33,The Boeing Company,2017-05-14,2017-05,180.76,BA,
-175.82,The Boeing Company,2017-05-21,2017-05,186.59,BA,
-179.25,The Boeing Company,2017-05-28,2017-05,190.23,BA,
-179.06,The Boeing Company,2017-06-04,2017-06,190.03,BA,
-185.10,The Boeing Company,2017-06-11,2017-06,196.44,BA,
-190.56,The Boeing Company,2017-06-18,2017-06,202.23,BA,
-186.34,The Boeing Company,2017-06-25,2017-06,197.75,BA,
-190.69,The Boeing Company,2017-07-02,2017-07,202.37,BA,
-196.47,The Boeing Company,2017-07-09,2017-07,208.51,BA,
-199.89,The Boeing Company,2017-07-16,2017-07,212.14,BA,
-227.34,The Boeing Company,2017-07-23,2017-07,241.27,BA,
-223.99,The Boeing Company,2017-07-30,2017-07,237.71,BA,
-221.32,The Boeing Company,2017-08-06,2017-08,234.88,BA,
-223.49,The Boeing Company,2017-08-13,2017-08,235.77,BA,
-223.60,The Boeing Company,2017-08-20,2017-08,235.89,BA,
-227.81,The Boeing Company,2017-08-27,2017-08,240.33,BA,
-226.34,The Boeing Company,2017-09-03,2017-09,238.78,BA,
-236.03,The Boeing Company,2017-09-10,2017-09,249.00,BA,
-243.09,The Boeing Company,2017-09-17,2017-09,256.45,BA,
-240.96,The Boeing Company,2017-09-24,2017-09,254.21,BA,
-245.11,The Boeing Company,2017-10-01,2017-10,258.58,BA,
-247.15,The Boeing Company,2017-10-08,2017-10,260.74,BA,
-250.96,The Boeing Company,2017-10-15,2017-10,264.75,BA,
-243.10,The Boeing Company,2017-10-22,2017-10,256.46,BA,
-248.11,The Boeing Company,2017-10-29,2017-10,261.75,BA,
-247.26,The Boeing Company,2017-11-06,2017-11,260.85,BA,
-249.93,The Boeing Company,2017-11-13,2017-11,262.26,BA,
-253.38,The Boeing Company,2017-11-20,2017-11,265.88,BA,
-258.62,The Boeing Company,2017-11-27,2017-11,271.38,BA,
+132.16,The Boeing Company,2015-11-30,2015-11,148.50,BA,
+128.71,The Boeing Company,2015-12-07,2015-12,144.62,BA,
+124.22,The Boeing Company,2015-12-14,2015-12,139.58,BA,
+127.74,The Boeing Company,2015-12-21,2015-12,143.53,BA,
+128.68,The Boeing Company,2015-12-28,2015-12,144.59,BA,
+115.69,The Boeing Company,2016-01-04,2016-01,129.99,BA,
+111.81,The Boeing Company,2016-01-11,2016-01,125.63,BA,
+110.90,The Boeing Company,2016-01-18,2016-01,124.61,BA,
+106.91,The Boeing Company,2016-01-25,2016-01,120.13,BA,
+109.07,The Boeing Company,2016-02-01,2016-02,122.56,BA,
+96.68,The Boeing Company,2016-02-08,2016-02,108.63,BA,
+103.44,The Boeing Company,2016-02-15,2016-02,115.16,BA,
+106.13,The Boeing Company,2016-02-22,2016-02,118.16,BA,
+108.74,The Boeing Company,2016-02-29,2016-02,121.07,BA,
+111.94,The Boeing Company,2016-03-07,2016-03,124.63,BA,
+120.32,The Boeing Company,2016-03-13,2016-03,133.96,BA,
+118.67,The Boeing Company,2016-03-20,2016-03,132.12,BA,
+114.03,The Boeing Company,2016-03-27,2016-03,126.96,BA,
+114.86,The Boeing Company,2016-04-03,2016-04,127.88,BA,
+117.78,The Boeing Company,2016-04-10,2016-04,131.13,BA,
+117.71,The Boeing Company,2016-04-17,2016-04,131.05,BA,
+121.08,The Boeing Company,2016-04-24,2016-04,134.80,BA,
+119.69,The Boeing Company,2016-05-01,2016-05,133.26,BA,
+118.67,The Boeing Company,2016-05-08,2016-05,132.12,BA,
+115.35,The Boeing Company,2016-05-15,2016-05,127.39,BA,
+117.01,The Boeing Company,2016-05-22,2016-05,129.22,BA,
+115.35,The Boeing Company,2016-05-29,2016-05,127.38,BA,
+118.75,The Boeing Company,2016-06-05,2016-06,131.14,BA,
+117.55,The Boeing Company,2016-06-12,2016-06,129.82,BA,
+114.57,The Boeing Company,2016-06-19,2016-06,126.52,BA,
+117.44,The Boeing Company,2016-06-26,2016-06,129.69,BA,
+117.80,The Boeing Company,2016-07-03,2016-07,130.09,BA,
+119.88,The Boeing Company,2016-07-10,2016-07,132.39,BA,
+120.86,The Boeing Company,2016-07-17,2016-07,133.47,BA,
+121.03,The Boeing Company,2016-07-24,2016-07,133.66,BA,
+119.28,The Boeing Company,2016-07-31,2016-07,131.73,BA,
+120.52,The Boeing Company,2016-08-07,2016-08,133.10,BA,
+122.75,The Boeing Company,2016-08-14,2016-08,134.44,BA,
+120.73,The Boeing Company,2016-08-21,2016-08,132.23,BA,
+119.75,The Boeing Company,2016-08-28,2016-08,131.16,BA,
+117.35,The Boeing Company,2016-09-04,2016-09,128.53,BA,
+115.68,The Boeing Company,2016-09-11,2016-09,126.70,BA,
+120.32,The Boeing Company,2016-09-18,2016-09,131.78,BA,
+120.28,The Boeing Company,2016-09-25,2016-09,131.74,BA,
+122.21,The Boeing Company,2016-10-02,2016-10,133.85,BA,
+121.89,The Boeing Company,2016-10-09,2016-10,133.50,BA,
+123.83,The Boeing Company,2016-10-16,2016-10,135.63,BA,
+130.57,The Boeing Company,2016-10-23,2016-10,143.01,BA,
+127.40,The Boeing Company,2016-10-30,2016-10,139.54,BA,
+135.60,The Boeing Company,2016-11-07,2016-11,148.52,BA,BBB
+135.69,The Boeing Company,2016-11-14,2016-11,146.35,BA,BBB
+139.11,The Boeing Company,2016-11-21,2016-11,150.04,BA,BBB
+141.16,The Boeing Company,2016-11-28,2016-11,152.25,BA,BBB
+145.09,The Boeing Company,2016-12-05,2016-12,156.49,BA,BBB
+143.24,The Boeing Company,2016-12-12,2016-12,154.50,BA,BBB
+146.31,The Boeing Company,2016-12-19,2016-12,157.81,BA,BBB
+144.34,The Boeing Company,2016-12-26,2016-12,155.68,BA,BBB
+147.51,The Boeing Company,2017-01-02,2017-01,159.10,BA,BBB
+147.26,The Boeing Company,2017-01-09,2017-01,158.83,BA,BBB
+147.91,The Boeing Company,2017-01-16,2017-01,159.53,BA,BBB
+155.48,The Boeing Company,2017-01-23,2017-01,167.70,BA,BBB
+150.57,The Boeing Company,2017-01-30,2017-01,162.40,BA,BBB
+154.12,The Boeing Company,2017-02-06,2017-02,166.23,BA,BBB
+161.50,The Boeing Company,2017-02-13,2017-02,172.71,BA,BBB
+165.93,The Boeing Company,2017-02-20,2017-02,177.44,BA,BBB
+170.36,The Boeing Company,2017-02-27,2017-02,182.18,BA,BBB
+167.11,The Boeing Company,2017-03-06,2017-03,178.70,BA,BBB
+168.41,The Boeing Company,2017-03-12,2017-03,180.10,BA,BBB
+164.41,The Boeing Company,2017-03-19,2017-03,175.82,BA,BBB
+165.39,The Boeing Company,2017-03-26,2017-03,176.86,BA,BBB
+167.25,The Boeing Company,2017-04-02,2017-04,178.85,BA,BBB
+164.23,The Boeing Company,2017-04-09,2017-04,175.62,BA,BBB
+168.68,The Boeing Company,2017-04-16,2017-04,180.38,BA,BBB
+172.84,The Boeing Company,2017-04-23,2017-04,184.83,BA,BBB
+173.01,The Boeing Company,2017-04-30,2017-04,185.01,BA,BBB
+171.36,The Boeing Company,2017-05-07,2017-05,183.25,BA,BBB
+170.33,The Boeing Company,2017-05-14,2017-05,180.76,BA,BBB
+175.82,The Boeing Company,2017-05-21,2017-05,186.59,BA,BBB
+179.25,The Boeing Company,2017-05-28,2017-05,190.23,BA,BBB
+179.06,The Boeing Company,2017-06-04,2017-06,190.03,BA,BBB
+185.10,The Boeing Company,2017-06-11,2017-06,196.44,BA,BBB
+190.56,The Boeing Company,2017-06-18,2017-06,202.23,BA,BBB
+186.34,The Boeing Company,2017-06-25,2017-06,197.75,BA,BBB
+190.69,The Boeing Company,2017-07-02,2017-07,202.37,BA,BBB
+196.47,The Boeing Company,2017-07-09,2017-07,208.51,BA,BBB
+199.89,The Boeing Company,2017-07-16,2017-07,212.14,BA,BBB
+227.34,The Boeing Company,2017-07-23,2017-07,241.27,BA,BBB
+223.99,The Boeing Company,2017-07-30,2017-07,237.71,BA,BBB
+221.32,The Boeing Company,2017-08-06,2017-08,234.88,BA,BBB
+223.49,The Boeing Company,2017-08-13,2017-08,235.77,BA,BBB
+223.60,The Boeing Company,2017-08-20,2017-08,235.89,BA,BBB
+227.81,The Boeing Company,2017-08-27,2017-08,240.33,BA,BBB
+226.34,The Boeing Company,2017-09-03,2017-09,238.78,BA,BBB
+236.03,The Boeing Company,2017-09-10,2017-09,249.00,BA,BBB
+243.09,The Boeing Company,2017-09-17,2017-09,256.45,BA,BBB
+240.96,The Boeing Company,2017-09-24,2017-09,254.21,BA,BBB
+245.11,The Boeing Company,2017-10-01,2017-10,258.58,BA,BBB
+247.15,The Boeing Company,2017-10-08,2017-10,260.74,BA,BBB
+250.96,The Boeing Company,2017-10-15,2017-10,264.75,BA,BBB
+243.10,The Boeing Company,2017-10-22,2017-10,256.46,BA,BBB
+248.11,The Boeing Company,2017-10-29,2017-10,261.75,BA,BBB
+247.26,The Boeing Company,2017-11-06,2017-11,260.85,BA,BBB
+249.93,The Boeing Company,2017-11-13,2017-11,262.26,BA,BBB
+253.38,The Boeing Company,2017-11-20,2017-11,265.88,BA,BBB
+258.62,The Boeing Company,2017-11-27,2017-11,271.38,BA,BBB
 272.46,The Boeing Company,2017-12-04,2017-12,285.90,BA,A
 280.12,The Boeing Company,2017-12-11,2017-12,293.94,BA,A
 281.23,The Boeing Company,2017-12-18,2017-12,295.10,BA,A
@@ -976,7 +1051,6 @@ adj_stock,company,date,month_year,stock,symbol,rating
 216.50,The Boeing Company,2020-11-23,2020-11,216.50,BA,AA
 237.20,The Boeing Company,2020-11-30,2020-11,237.20,BA,AA
 237.35,The Boeing Company,2020-12-03,2020-12,237.35,BA,AA
-,,,2016-11,,BA,BBB
 59.46,Caterpillar Inc.,2015-11-30,2015-11,69.98,CAT,
 55.59,Caterpillar Inc.,2015-12-07,2015-12,65.43,CAT,
 55.32,Caterpillar Inc.,2015-12-14,2015-12,65.11,CAT,
@@ -2383,42 +2457,120 @@ adj_stock,company,date,month_year,stock,symbol,rating
 54.71,Dow Inc.,2020-11-23,2020-11,55.40,DOW,BBB
 53.60,Dow Inc.,2020-11-30,2020-11,53.60,DOW,BBB
 53.60,Dow Inc.,2020-12-03,2020-12,53.60,DOW,BBB
-199.33,The Goldman Sachs Group Inc.,2017-05-28,2017-05,213.31,GS,
-208.56,The Goldman Sachs Group Inc.,2017-06-04,2017-06,222.44,GS,
-207.97,The Goldman Sachs Group Inc.,2017-06-11,2017-06,221.81,GS,
-203.64,The Goldman Sachs Group Inc.,2017-06-18,2017-06,217.19,GS,
-208.05,The Goldman Sachs Group Inc.,2017-06-25,2017-06,221.90,GS,
-211.22,The Goldman Sachs Group Inc.,2017-07-02,2017-07,225.28,GS,
-214.34,The Goldman Sachs Group Inc.,2017-07-09,2017-07,228.60,GS,
-206.44,The Goldman Sachs Group Inc.,2017-07-16,2017-07,220.18,GS,
-209.66,The Goldman Sachs Group Inc.,2017-07-23,2017-07,223.61,GS,
-215.45,The Goldman Sachs Group Inc.,2017-07-30,2017-07,229.79,GS,
-210.16,The Goldman Sachs Group Inc.,2017-08-06,2017-08,224.15,GS,
-208.29,The Goldman Sachs Group Inc.,2017-08-13,2017-08,222.15,GS,
-208.59,The Goldman Sachs Group Inc.,2017-08-20,2017-08,222.47,GS,
-211.78,The Goldman Sachs Group Inc.,2017-08-27,2017-08,225.88,GS,
-204.35,The Goldman Sachs Group Inc.,2017-09-03,2017-09,217.21,GS,
-211.89,The Goldman Sachs Group Inc.,2017-09-10,2017-09,225.22,GS,
-217.35,The Goldman Sachs Group Inc.,2017-09-17,2017-09,231.03,GS,
-223.15,The Goldman Sachs Group Inc.,2017-09-24,2017-09,237.19,GS,
-231.46,The Goldman Sachs Group Inc.,2017-10-01,2017-10,246.02,GS,
-224.41,The Goldman Sachs Group Inc.,2017-10-08,2017-10,238.53,GS,
-230.24,The Goldman Sachs Group Inc.,2017-10-15,2017-10,244.73,GS,
-227.40,The Goldman Sachs Group Inc.,2017-10-22,2017-10,241.71,GS,
-229.93,The Goldman Sachs Group Inc.,2017-10-29,2017-10,244.40,GS,
-225.93,The Goldman Sachs Group Inc.,2017-11-06,2017-11,240.15,GS,
-223.93,The Goldman Sachs Group Inc.,2017-11-13,2017-11,238.02,GS,
-221.98,The Goldman Sachs Group Inc.,2017-11-20,2017-11,235.95,GS,
-234.21,The Goldman Sachs Group Inc.,2017-11-27,2017-11,248.95,GS,
-236.27,The Goldman Sachs Group Inc.,2017-12-04,2017-12,250.35,GS,
-242.71,The Goldman Sachs Group Inc.,2017-12-11,2017-12,257.17,GS,
-244.40,The Goldman Sachs Group Inc.,2017-12-18,2017-12,258.97,GS,
-240.43,The Goldman Sachs Group Inc.,2017-12-25,2017-12,254.76,GS,
-241.15,The Goldman Sachs Group Inc.,2018-01-01,2018-01,255.52,GS,
-242.57,The Goldman Sachs Group Inc.,2018-01-08,2018-01,257.03,GS,
-241.72,The Goldman Sachs Group Inc.,2018-01-15,2018-01,256.12,GS,
-253.06,The Goldman Sachs Group Inc.,2018-01-22,2018-01,268.14,GS,
-245.41,The Goldman Sachs Group Inc.,2018-01-29,2018-01,260.04,GS,
+173.77,The Goldman Sachs Group Inc.,2015-11-30,2015-11,189.99,GS,
+162.04,The Goldman Sachs Group Inc.,2015-12-07,2015-12,176.56,GS,
+161.06,The Goldman Sachs Group Inc.,2015-12-14,2015-12,175.49,GS,
+167.46,The Goldman Sachs Group Inc.,2015-12-21,2015-12,182.47,GS,
+165.41,The Goldman Sachs Group Inc.,2015-12-28,2015-12,180.23,GS,
+150.46,The Goldman Sachs Group Inc.,2016-01-04,2016-01,163.94,GS,
+142.81,The Goldman Sachs Group Inc.,2016-01-11,2016-01,155.61,GS,
+143.96,The Goldman Sachs Group Inc.,2016-01-18,2016-01,156.86,GS,
+148.27,The Goldman Sachs Group Inc.,2016-01-25,2016-01,161.56,GS,
+143.60,The Goldman Sachs Group Inc.,2016-02-01,2016-02,156.47,GS,
+134.11,The Goldman Sachs Group Inc.,2016-02-08,2016-02,146.13,GS,
+134.83,The Goldman Sachs Group Inc.,2016-02-15,2016-02,146.91,GS,
+137.89,The Goldman Sachs Group Inc.,2016-02-22,2016-02,150.25,GS,
+143.94,The Goldman Sachs Group Inc.,2016-02-29,2016-02,156.84,GS,
+141.89,The Goldman Sachs Group Inc.,2016-03-07,2016-03,153.94,GS,
+145.27,The Goldman Sachs Group Inc.,2016-03-13,2016-03,157.60,GS,
+141.03,The Goldman Sachs Group Inc.,2016-03-20,2016-03,153.00,GS,
+147.31,The Goldman Sachs Group Inc.,2016-03-27,2016-03,159.82,GS,
+138.52,The Goldman Sachs Group Inc.,2016-04-03,2016-04,150.28,GS,
+146.11,The Goldman Sachs Group Inc.,2016-04-10,2016-04,158.52,GS,
+153.70,The Goldman Sachs Group Inc.,2016-04-17,2016-04,166.75,GS,
+151.27,The Goldman Sachs Group Inc.,2016-04-24,2016-04,164.11,GS,
+146.42,The Goldman Sachs Group Inc.,2016-05-01,2016-05,158.85,GS,
+143.18,The Goldman Sachs Group Inc.,2016-05-08,2016-05,155.34,GS,
+142.42,The Goldman Sachs Group Inc.,2016-05-15,2016-05,154.51,GS,
+147.05,The Goldman Sachs Group Inc.,2016-05-22,2016-05,159.53,GS,
+144.08,The Goldman Sachs Group Inc.,2016-05-29,2016-05,155.67,GS,
+138.73,The Goldman Sachs Group Inc.,2016-06-05,2016-06,149.89,GS,
+134.79,The Goldman Sachs Group Inc.,2016-06-12,2016-06,145.64,GS,
+131.29,The Goldman Sachs Group Inc.,2016-06-19,2016-06,141.86,GS,
+137.21,The Goldman Sachs Group Inc.,2016-06-26,2016-06,148.25,GS,
+139.18,The Goldman Sachs Group Inc.,2016-07-03,2016-07,150.38,GS,
+149.60,The Goldman Sachs Group Inc.,2016-07-10,2016-07,161.64,GS,
+148.46,The Goldman Sachs Group Inc.,2016-07-17,2016-07,160.41,GS,
+146.98,The Goldman Sachs Group Inc.,2016-07-24,2016-07,158.81,GS,
+150.02,The Goldman Sachs Group Inc.,2016-07-31,2016-07,162.09,GS,
+151.09,The Goldman Sachs Group Inc.,2016-08-07,2016-08,163.25,GS,
+153.85,The Goldman Sachs Group Inc.,2016-08-14,2016-08,166.23,GS,
+153.61,The Goldman Sachs Group Inc.,2016-08-21,2016-08,165.97,GS,
+156.58,The Goldman Sachs Group Inc.,2016-08-28,2016-08,169.18,GS,
+156.62,The Goldman Sachs Group Inc.,2016-09-04,2016-09,168.57,GS,
+154.24,The Goldman Sachs Group Inc.,2016-09-11,2016-09,166.00,GS,
+153.43,The Goldman Sachs Group Inc.,2016-09-18,2016-09,165.13,GS,
+149.84,The Goldman Sachs Group Inc.,2016-09-25,2016-09,161.27,GS,
+157.80,The Goldman Sachs Group Inc.,2016-10-02,2016-10,169.83,GS,
+158.44,The Goldman Sachs Group Inc.,2016-10-09,2016-10,170.52,GS,
+162.29,The Goldman Sachs Group Inc.,2016-10-16,2016-10,174.67,GS,
+164.59,The Goldman Sachs Group Inc.,2016-10-23,2016-10,177.14,GS,
+163.45,The Goldman Sachs Group Inc.,2016-10-30,2016-10,175.92,GS,
+189.49,The Goldman Sachs Group Inc.,2016-11-07,2016-11,203.94,GS,
+195.44,The Goldman Sachs Group Inc.,2016-11-14,2016-11,210.35,GS,
+196.40,The Goldman Sachs Group Inc.,2016-11-21,2016-11,211.38,GS,
+207.53,The Goldman Sachs Group Inc.,2016-11-28,2016-11,223.36,GS,
+225.41,The Goldman Sachs Group Inc.,2016-12-05,2016-12,241.85,GS,
+222.66,The Goldman Sachs Group Inc.,2016-12-12,2016-12,238.90,GS,
+224.59,The Goldman Sachs Group Inc.,2016-12-19,2016-12,240.97,GS,
+223.17,The Goldman Sachs Group Inc.,2016-12-26,2016-12,239.45,GS,
+228.25,The Goldman Sachs Group Inc.,2017-01-02,2017-01,244.90,GS,
+227.69,The Goldman Sachs Group Inc.,2017-01-09,2017-01,244.30,GS,
+216.41,The Goldman Sachs Group Inc.,2017-01-16,2017-01,232.20,GS,
+220.84,The Goldman Sachs Group Inc.,2017-01-23,2017-01,236.95,GS,
+224.57,The Goldman Sachs Group Inc.,2017-01-30,2017-01,240.95,GS,
+226.22,The Goldman Sachs Group Inc.,2017-02-06,2017-02,242.72,GS,AA
+233.36,The Goldman Sachs Group Inc.,2017-02-13,2017-02,250.38,GS,AA
+230.53,The Goldman Sachs Group Inc.,2017-02-20,2017-02,247.35,GS,AA
+235.70,The Goldman Sachs Group Inc.,2017-02-27,2017-02,252.89,GS,AA
+232.10,The Goldman Sachs Group Inc.,2017-03-06,2017-03,248.38,GS,AA
+227.95,The Goldman Sachs Group Inc.,2017-03-12,2017-03,243.94,GS,AA
+213.44,The Goldman Sachs Group Inc.,2017-03-19,2017-03,228.41,GS,AA
+214.66,The Goldman Sachs Group Inc.,2017-03-26,2017-03,229.72,GS,AA
+212.94,The Goldman Sachs Group Inc.,2017-04-02,2017-04,227.88,GS,AA
+208.68,The Goldman Sachs Group Inc.,2017-04-09,2017-04,223.32,GS,AA
+202.65,The Goldman Sachs Group Inc.,2017-04-16,2017-04,216.86,GS,AA
+209.13,The Goldman Sachs Group Inc.,2017-04-23,2017-04,223.80,GS,AA
+212.00,The Goldman Sachs Group Inc.,2017-04-30,2017-04,226.87,GS,AA
+208.21,The Goldman Sachs Group Inc.,2017-05-07,2017-05,222.82,GS,AA
+201.27,The Goldman Sachs Group Inc.,2017-05-14,2017-05,215.39,GS,AA
+208.88,The Goldman Sachs Group Inc.,2017-05-21,2017-05,223.53,GS,AA
+199.33,The Goldman Sachs Group Inc.,2017-05-28,2017-05,213.31,GS,AA
+208.56,The Goldman Sachs Group Inc.,2017-06-04,2017-06,222.44,GS,AA
+207.97,The Goldman Sachs Group Inc.,2017-06-11,2017-06,221.81,GS,AA
+203.64,The Goldman Sachs Group Inc.,2017-06-18,2017-06,217.19,GS,AA
+208.05,The Goldman Sachs Group Inc.,2017-06-25,2017-06,221.90,GS,AA
+211.22,The Goldman Sachs Group Inc.,2017-07-02,2017-07,225.28,GS,AA
+214.34,The Goldman Sachs Group Inc.,2017-07-09,2017-07,228.60,GS,AA
+206.44,The Goldman Sachs Group Inc.,2017-07-16,2017-07,220.18,GS,AA
+209.66,The Goldman Sachs Group Inc.,2017-07-23,2017-07,223.61,GS,AA
+215.45,The Goldman Sachs Group Inc.,2017-07-30,2017-07,229.79,GS,AA
+210.16,The Goldman Sachs Group Inc.,2017-08-06,2017-08,224.15,GS,AA
+208.29,The Goldman Sachs Group Inc.,2017-08-13,2017-08,222.15,GS,AA
+208.59,The Goldman Sachs Group Inc.,2017-08-20,2017-08,222.47,GS,AA
+211.78,The Goldman Sachs Group Inc.,2017-08-27,2017-08,225.88,GS,AA
+204.35,The Goldman Sachs Group Inc.,2017-09-03,2017-09,217.21,GS,AA
+211.89,The Goldman Sachs Group Inc.,2017-09-10,2017-09,225.22,GS,AA
+217.35,The Goldman Sachs Group Inc.,2017-09-17,2017-09,231.03,GS,AA
+223.15,The Goldman Sachs Group Inc.,2017-09-24,2017-09,237.19,GS,AA
+231.46,The Goldman Sachs Group Inc.,2017-10-01,2017-10,246.02,GS,AA
+224.41,The Goldman Sachs Group Inc.,2017-10-08,2017-10,238.53,GS,AA
+230.24,The Goldman Sachs Group Inc.,2017-10-15,2017-10,244.73,GS,AA
+227.40,The Goldman Sachs Group Inc.,2017-10-22,2017-10,241.71,GS,AA
+229.93,The Goldman Sachs Group Inc.,2017-10-29,2017-10,244.40,GS,AA
+225.93,The Goldman Sachs Group Inc.,2017-11-06,2017-11,240.15,GS,AA
+223.93,The Goldman Sachs Group Inc.,2017-11-13,2017-11,238.02,GS,AA
+221.98,The Goldman Sachs Group Inc.,2017-11-20,2017-11,235.95,GS,AA
+234.21,The Goldman Sachs Group Inc.,2017-11-27,2017-11,248.95,GS,AA
+236.27,The Goldman Sachs Group Inc.,2017-12-04,2017-12,250.35,GS,AA
+242.71,The Goldman Sachs Group Inc.,2017-12-11,2017-12,257.17,GS,AA
+244.40,The Goldman Sachs Group Inc.,2017-12-18,2017-12,258.97,GS,AA
+240.43,The Goldman Sachs Group Inc.,2017-12-25,2017-12,254.76,GS,AA
+241.15,The Goldman Sachs Group Inc.,2018-01-01,2018-01,255.52,GS,AA
+242.57,The Goldman Sachs Group Inc.,2018-01-08,2018-01,257.03,GS,AA
+241.72,The Goldman Sachs Group Inc.,2018-01-15,2018-01,256.12,GS,AA
+253.06,The Goldman Sachs Group Inc.,2018-01-22,2018-01,268.14,GS,AA
+245.41,The Goldman Sachs Group Inc.,2018-01-29,2018-01,260.04,GS,AA
 235.28,The Goldman Sachs Group Inc.,2018-02-05,2018-02,249.30,GS,A
 252.57,The Goldman Sachs Group Inc.,2018-02-12,2018-02,267.62,GS,A
 251.77,The Goldman Sachs Group Inc.,2018-02-19,2018-02,266.77,GS,A
@@ -2568,38 +2720,115 @@ adj_stock,company,date,month_year,stock,symbol,rating
 234.12,The Goldman Sachs Group Inc.,2020-11-23,2020-11,235.40,GS,BBB
 234.19,The Goldman Sachs Group Inc.,2020-11-30,2020-11,235.47,GS,BBB
 235.47,The Goldman Sachs Group Inc.,2020-12-03,2020-12,235.47,GS,BBB
-,,,2017-02,,GS,AA
-142.09,The Home Depot Inc.,2017-05-28,2017-05,155.35,HD,
-140.71,The Home Depot Inc.,2017-06-04,2017-06,152.96,HD,
-144.09,The Home Depot Inc.,2017-06-11,2017-06,156.64,HD,
-139.19,The Home Depot Inc.,2017-06-18,2017-06,151.31,HD,
-141.11,The Home Depot Inc.,2017-06-25,2017-06,153.40,HD,
-140.04,The Home Depot Inc.,2017-07-02,2017-07,152.23,HD,
-140.63,The Home Depot Inc.,2017-07-09,2017-07,152.88,HD,
-134.90,The Home Depot Inc.,2017-07-16,2017-07,146.65,HD,
-136.22,The Home Depot Inc.,2017-07-23,2017-07,148.08,HD,
-140.52,The Home Depot Inc.,2017-07-30,2017-07,152.75,HD,
-142.47,The Home Depot Inc.,2017-08-06,2017-08,154.88,HD,
-135.68,The Home Depot Inc.,2017-08-13,2017-08,147.49,HD,
-137.66,The Home Depot Inc.,2017-08-20,2017-08,149.65,HD,
-138.70,The Home Depot Inc.,2017-08-27,2017-08,150.78,HD,
-147.74,The Home Depot Inc.,2017-09-03,2017-09,159.66,HD,
-146.57,The Home Depot Inc.,2017-09-10,2017-09,158.40,HD,
-148.03,The Home Depot Inc.,2017-09-17,2017-09,159.97,HD,
-151.35,The Home Depot Inc.,2017-09-24,2017-09,163.56,HD,
-153.47,The Home Depot Inc.,2017-10-01,2017-10,165.85,HD,
-152.19,The Home Depot Inc.,2017-10-08,2017-10,164.47,HD,
-151.23,The Home Depot Inc.,2017-10-15,2017-10,163.43,HD,
-154.85,The Home Depot Inc.,2017-10-22,2017-10,167.34,HD,
-152.12,The Home Depot Inc.,2017-10-29,2017-10,164.39,HD,
-151.86,The Home Depot Inc.,2017-11-06,2017-11,164.11,HD,
-155.22,The Home Depot Inc.,2017-11-13,2017-11,167.74,HD,
-159.46,The Home Depot Inc.,2017-11-20,2017-11,172.33,HD,
-166.95,The Home Depot Inc.,2017-11-27,2017-11,180.42,HD,
-170.58,The Home Depot Inc.,2017-12-04,2017-12,183.41,HD,
-169.81,The Home Depot Inc.,2017-12-11,2017-12,182.58,HD,
-174.97,The Home Depot Inc.,2017-12-18,2017-12,188.13,HD,
-176.27,The Home Depot Inc.,2017-12-25,2017-12,189.53,HD,
+119.22,The Home Depot Inc.,2015-11-30,2015-11,134.53,HD,
+116.11,The Home Depot Inc.,2015-12-07,2015-12,130.44,HD,
+115.98,The Home Depot Inc.,2015-12-14,2015-12,130.29,HD,
+118.30,The Home Depot Inc.,2015-12-21,2015-12,132.90,HD,
+117.72,The Home Depot Inc.,2015-12-28,2015-12,132.25,HD,
+110.29,The Home Depot Inc.,2016-01-04,2016-01,123.90,HD,
+106.13,The Home Depot Inc.,2016-01-11,2016-01,119.23,HD,
+109.27,The Home Depot Inc.,2016-01-18,2016-01,122.76,HD,
+111.94,The Home Depot Inc.,2016-01-25,2016-01,125.76,HD,
+103.64,The Home Depot Inc.,2016-02-01,2016-02,116.43,HD,
+103.54,The Home Depot Inc.,2016-02-08,2016-02,116.32,HD,
+108.32,The Home Depot Inc.,2016-02-15,2016-02,121.69,HD,
+112.39,The Home Depot Inc.,2016-02-22,2016-02,126.26,HD,
+111.77,The Home Depot Inc.,2016-02-29,2016-02,125.56,HD,
+114.35,The Home Depot Inc.,2016-03-07,2016-03,128.46,HD,
+117.56,The Home Depot Inc.,2016-03-13,2016-03,131.35,HD,
+116.77,The Home Depot Inc.,2016-03-20,2016-03,130.46,HD,
+120.70,The Home Depot Inc.,2016-03-27,2016-03,134.85,HD,
+119.59,The Home Depot Inc.,2016-04-03,2016-04,133.62,HD,
+120.84,The Home Depot Inc.,2016-04-10,2016-04,135.01,HD,
+121.42,The Home Depot Inc.,2016-04-17,2016-04,135.66,HD,
+119.84,The Home Depot Inc.,2016-04-24,2016-04,133.89,HD,
+121.46,The Home Depot Inc.,2016-05-01,2016-05,135.70,HD,
+119.16,The Home Depot Inc.,2016-05-08,2016-05,133.13,HD,
+118.01,The Home Depot Inc.,2016-05-15,2016-05,131.85,HD,
+119.88,The Home Depot Inc.,2016-05-22,2016-05,133.94,HD,
+117.91,The Home Depot Inc.,2016-05-29,2016-05,131.74,HD,
+115.90,The Home Depot Inc.,2016-06-05,2016-06,128.83,HD,
+114.38,The Home Depot Inc.,2016-06-12,2016-06,127.14,HD,
+113.72,The Home Depot Inc.,2016-06-19,2016-06,126.40,HD,
+116.62,The Home Depot Inc.,2016-06-26,2016-06,129.62,HD,
+120.86,The Home Depot Inc.,2016-07-03,2016-07,134.34,HD,
+121.26,The Home Depot Inc.,2016-07-10,2016-07,134.78,HD,
+122.82,The Home Depot Inc.,2016-07-17,2016-07,136.52,HD,
+124.37,The Home Depot Inc.,2016-07-24,2016-07,138.24,HD,
+123.17,The Home Depot Inc.,2016-07-31,2016-07,136.91,HD,
+122.87,The Home Depot Inc.,2016-08-07,2016-08,136.57,HD,
+121.87,The Home Depot Inc.,2016-08-14,2016-08,135.46,HD,
+120.88,The Home Depot Inc.,2016-08-21,2016-08,134.36,HD,
+121.59,The Home Depot Inc.,2016-08-28,2016-08,135.15,HD,
+115.51,The Home Depot Inc.,2016-09-04,2016-09,127.74,HD,
+114.04,The Home Depot Inc.,2016-09-11,2016-09,126.11,HD,
+115.56,The Home Depot Inc.,2016-09-18,2016-09,127.79,HD,
+116.36,The Home Depot Inc.,2016-09-25,2016-09,128.68,HD,
+116.03,The Home Depot Inc.,2016-10-02,2016-10,128.31,HD,
+114.32,The Home Depot Inc.,2016-10-09,2016-10,126.42,HD,
+114.48,The Home Depot Inc.,2016-10-16,2016-10,126.60,HD,
+111.75,The Home Depot Inc.,2016-10-23,2016-10,123.58,HD,
+109.34,The Home Depot Inc.,2016-10-30,2016-10,120.91,HD,
+117.42,The Home Depot Inc.,2016-11-07,2016-11,129.85,HD,
+116.05,The Home Depot Inc.,2016-11-14,2016-11,128.33,HD,
+118.98,The Home Depot Inc.,2016-11-21,2016-11,131.57,HD,
+117.44,The Home Depot Inc.,2016-11-28,2016-11,129.87,HD,
+121.26,The Home Depot Inc.,2016-12-05,2016-12,133.39,HD,
+122.83,The Home Depot Inc.,2016-12-12,2016-12,135.11,HD,
+122.77,The Home Depot Inc.,2016-12-19,2016-12,135.05,HD,
+121.89,The Home Depot Inc.,2016-12-26,2016-12,134.08,HD,
+121.39,The Home Depot Inc.,2017-01-02,2017-01,133.53,HD,BBB
+122.76,The Home Depot Inc.,2017-01-09,2017-01,135.04,HD,BBB
+123.27,The Home Depot Inc.,2017-01-16,2017-01,135.60,HD,BBB
+125.75,The Home Depot Inc.,2017-01-23,2017-01,138.33,HD,BBB
+125.44,The Home Depot Inc.,2017-01-30,2017-01,137.98,HD,BBB
+127.14,The Home Depot Inc.,2017-02-06,2017-02,139.85,HD,BBB
+130.00,The Home Depot Inc.,2017-02-13,2017-02,143.00,HD,BBB
+132.68,The Home Depot Inc.,2017-02-20,2017-02,145.95,HD,BBB
+134.37,The Home Depot Inc.,2017-02-27,2017-02,147.81,HD,BBB
+133.50,The Home Depot Inc.,2017-03-06,2017-03,146.85,HD,BBB
+136.83,The Home Depot Inc.,2017-03-12,2017-03,149.60,HD,BBB
+135.10,The Home Depot Inc.,2017-03-19,2017-03,147.71,HD,BBB
+134.29,The Home Depot Inc.,2017-03-26,2017-03,146.83,HD,BBB
+134.57,The Home Depot Inc.,2017-04-02,2017-04,147.13,HD,BBB
+133.45,The Home Depot Inc.,2017-04-09,2017-04,145.91,HD,BBB
+137.19,The Home Depot Inc.,2017-04-16,2017-04,150.00,HD,BBB
+142.77,The Home Depot Inc.,2017-04-23,2017-04,156.10,HD,BBB
+142.43,The Home Depot Inc.,2017-04-30,2017-04,155.73,HD,BBB
+143.52,The Home Depot Inc.,2017-05-07,2017-05,156.92,HD,BBB
+142.95,The Home Depot Inc.,2017-05-14,2017-05,156.30,HD,BBB
+141.67,The Home Depot Inc.,2017-05-21,2017-05,154.90,HD,BBB
+142.09,The Home Depot Inc.,2017-05-28,2017-05,155.35,HD,BBB
+140.71,The Home Depot Inc.,2017-06-04,2017-06,152.96,HD,BBB
+144.09,The Home Depot Inc.,2017-06-11,2017-06,156.64,HD,BBB
+139.19,The Home Depot Inc.,2017-06-18,2017-06,151.31,HD,BBB
+141.11,The Home Depot Inc.,2017-06-25,2017-06,153.40,HD,BBB
+140.04,The Home Depot Inc.,2017-07-02,2017-07,152.23,HD,BBB
+140.63,The Home Depot Inc.,2017-07-09,2017-07,152.88,HD,BBB
+134.90,The Home Depot Inc.,2017-07-16,2017-07,146.65,HD,BBB
+136.22,The Home Depot Inc.,2017-07-23,2017-07,148.08,HD,BBB
+140.52,The Home Depot Inc.,2017-07-30,2017-07,152.75,HD,BBB
+142.47,The Home Depot Inc.,2017-08-06,2017-08,154.88,HD,BBB
+135.68,The Home Depot Inc.,2017-08-13,2017-08,147.49,HD,BBB
+137.66,The Home Depot Inc.,2017-08-20,2017-08,149.65,HD,BBB
+138.70,The Home Depot Inc.,2017-08-27,2017-08,150.78,HD,BBB
+147.74,The Home Depot Inc.,2017-09-03,2017-09,159.66,HD,BBB
+146.57,The Home Depot Inc.,2017-09-10,2017-09,158.40,HD,BBB
+148.03,The Home Depot Inc.,2017-09-17,2017-09,159.97,HD,BBB
+151.35,The Home Depot Inc.,2017-09-24,2017-09,163.56,HD,BBB
+153.47,The Home Depot Inc.,2017-10-01,2017-10,165.85,HD,BBB
+152.19,The Home Depot Inc.,2017-10-08,2017-10,164.47,HD,BBB
+151.23,The Home Depot Inc.,2017-10-15,2017-10,163.43,HD,BBB
+154.85,The Home Depot Inc.,2017-10-22,2017-10,167.34,HD,BBB
+152.12,The Home Depot Inc.,2017-10-29,2017-10,164.39,HD,BBB
+151.86,The Home Depot Inc.,2017-11-06,2017-11,164.11,HD,BBB
+155.22,The Home Depot Inc.,2017-11-13,2017-11,167.74,HD,BBB
+159.46,The Home Depot Inc.,2017-11-20,2017-11,172.33,HD,BBB
+166.95,The Home Depot Inc.,2017-11-27,2017-11,180.42,HD,BBB
+170.58,The Home Depot Inc.,2017-12-04,2017-12,183.41,HD,BBB
+169.81,The Home Depot Inc.,2017-12-11,2017-12,182.58,HD,BBB
+174.97,The Home Depot Inc.,2017-12-18,2017-12,188.13,HD,BBB
+176.27,The Home Depot Inc.,2017-12-25,2017-12,189.53,HD,BBB
 179.03,The Home Depot Inc.,2018-01-01,2018-01,192.50,HD,BBB
 182.68,The Home Depot Inc.,2018-01-08,2018-01,196.42,HD,BBB
 187.24,The Home Depot Inc.,2018-01-15,2018-01,201.33,HD,BBB
@@ -2754,7 +2983,6 @@ adj_stock,company,date,month_year,stock,symbol,rating
 274.49,The Home Depot Inc.,2020-11-23,2020-11,275.99,HD,BBB
 266.69,The Home Depot Inc.,2020-11-30,2020-11,268.14,HD,BBB
 268.14,The Home Depot Inc.,2020-12-03,2020-12,268.14,HD,BBB
-,,,2017-01,,HD,BBB
 89.67,Honeywell International Inc.,2015-11-30,2015-11,99.67,HON,
 84.25,Honeywell International Inc.,2015-12-07,2015-12,93.65,HON,
 87.33,Honeywell International Inc.,2015-12-14,2015-12,97.08,HON,
@@ -3018,6 +3246,83 @@ adj_stock,company,date,month_year,stock,symbol,rating
 209.41,Honeywell International Inc.,2020-11-23,2020-11,209.41,HON,AA
 208.22,Honeywell International Inc.,2020-11-30,2020-11,208.22,HON,AA
 208.22,Honeywell International Inc.,2020-12-03,2020-12,208.22,HON,AA
+111.89,International Business Machines Corporation,2015-11-30,2015-11,140.43,IBM,
+107.22,International Business Machines Corporation,2015-12-07,2015-12,134.57,IBM,
+107.48,International Business Machines Corporation,2015-12-14,2015-12,134.90,IBM,
+110.15,International Business Machines Corporation,2015-12-21,2015-12,138.25,IBM,
+109.65,International Business Machines Corporation,2015-12-28,2015-12,137.62,IBM,
+104.88,International Business Machines Corporation,2016-01-04,2016-01,131.63,IBM,
+103.60,International Business Machines Corporation,2016-01-11,2016-01,130.03,IBM,
+97.60,International Business Machines Corporation,2016-01-18,2016-01,122.50,IBM,
+99.43,International Business Machines Corporation,2016-01-25,2016-01,124.79,IBM,
+102.44,International Business Machines Corporation,2016-02-01,2016-02,128.57,IBM,
+96.44,International Business Machines Corporation,2016-02-08,2016-02,121.04,IBM,
+107.12,International Business Machines Corporation,2016-02-15,2016-02,133.08,IBM,
+106.27,International Business Machines Corporation,2016-02-22,2016-02,132.03,IBM,
+110.91,International Business Machines Corporation,2016-02-29,2016-02,137.80,IBM,
+114.59,International Business Machines Corporation,2016-03-07,2016-03,142.36,IBM,
+118.39,International Business Machines Corporation,2016-03-13,2016-03,147.09,IBM,
+119.08,International Business Machines Corporation,2016-03-20,2016-03,147.95,IBM,
+122.76,International Business Machines Corporation,2016-03-27,2016-03,152.52,IBM,
+120.21,International Business Machines Corporation,2016-04-03,2016-04,149.35,IBM,
+122.12,International Business Machines Corporation,2016-04-10,2016-04,151.72,IBM,
+119.53,International Business Machines Corporation,2016-04-17,2016-04,148.50,IBM,
+117.47,International Business Machines Corporation,2016-04-24,2016-04,145.94,IBM,
+118.55,International Business Machines Corporation,2016-05-01,2016-05,147.29,IBM,A
+120.05,International Business Machines Corporation,2016-05-08,2016-05,147.72,IBM,A
+120.81,International Business Machines Corporation,2016-05-15,2016-05,147.25,IBM,A
+125.40,International Business Machines Corporation,2016-05-22,2016-05,152.84,IBM,A
+125.44,International Business Machines Corporation,2016-05-29,2016-05,152.89,IBM,A
+125.01,International Business Machines Corporation,2016-06-05,2016-06,152.37,IBM,A
+124.70,International Business Machines Corporation,2016-06-12,2016-06,151.99,IBM,A
+120.27,International Business Machines Corporation,2016-06-19,2016-06,146.59,IBM,A
+125.00,International Business Machines Corporation,2016-06-26,2016-06,152.35,IBM,A
+126.73,International Business Machines Corporation,2016-07-03,2016-07,154.46,IBM,A
+131.09,International Business Machines Corporation,2016-07-10,2016-07,159.78,IBM,A
+132.97,International Business Machines Corporation,2016-07-17,2016-07,162.07,IBM,A
+131.78,International Business Machines Corporation,2016-07-24,2016-07,160.62,IBM,A
+134.15,International Business Machines Corporation,2016-07-31,2016-07,163.50,IBM,A
+132.87,International Business Machines Corporation,2016-08-07,2016-08,161.95,IBM,A
+132.44,International Business Machines Corporation,2016-08-14,2016-08,160.04,IBM,A
+131.02,International Business Machines Corporation,2016-08-21,2016-08,158.32,IBM,A
+132.04,International Business Machines Corporation,2016-08-28,2016-08,159.55,IBM,A
+128.84,International Business Machines Corporation,2016-09-04,2016-09,155.69,IBM,A
+127.31,International Business Machines Corporation,2016-09-11,2016-09,153.84,IBM,A
+128.25,International Business Machines Corporation,2016-09-18,2016-09,154.98,IBM,A
+131.46,International Business Machines Corporation,2016-09-25,2016-09,158.85,IBM,A
+128.82,International Business Machines Corporation,2016-10-02,2016-10,155.67,IBM,A
+127.82,International Business Machines Corporation,2016-10-09,2016-10,154.45,IBM,A
+123.83,International Business Machines Corporation,2016-10-16,2016-10,149.63,IBM,A
+126.29,International Business Machines Corporation,2016-10-23,2016-10,152.61,IBM,A
+126.14,International Business Machines Corporation,2016-10-30,2016-10,152.43,IBM,A
+133.46,International Business Machines Corporation,2016-11-07,2016-11,161.27,IBM,A
+133.93,International Business Machines Corporation,2016-11-14,2016-11,160.39,IBM,A
+136.23,International Business Machines Corporation,2016-11-21,2016-11,163.14,IBM,A
+133.63,International Business Machines Corporation,2016-11-28,2016-11,160.02,IBM,A
+139.05,International Business Machines Corporation,2016-12-05,2016-12,166.52,IBM,A
+139.23,International Business Machines Corporation,2016-12-12,2016-12,166.73,IBM,A
+139.21,International Business Machines Corporation,2016-12-19,2016-12,166.71,IBM,A
+138.61,International Business Machines Corporation,2016-12-26,2016-12,165.99,IBM,A
+141.57,International Business Machines Corporation,2017-01-02,2017-01,169.53,IBM,A
+139.74,International Business Machines Corporation,2017-01-09,2017-01,167.34,IBM,A
+142.42,International Business Machines Corporation,2017-01-16,2017-01,170.55,IBM,A
+148.06,International Business Machines Corporation,2017-01-23,2017-01,177.30,IBM,A
+146.82,International Business Machines Corporation,2017-01-30,2017-01,175.82,IBM,A
+149.21,International Business Machines Corporation,2017-02-06,2017-02,178.68,IBM,A
+152.06,International Business Machines Corporation,2017-02-13,2017-02,180.67,IBM,A
+152.64,International Business Machines Corporation,2017-02-20,2017-02,181.35,IBM,A
+151.54,International Business Machines Corporation,2017-02-27,2017-02,180.05,IBM,A
+149.67,International Business Machines Corporation,2017-03-06,2017-03,177.83,IBM,A
+147.84,International Business Machines Corporation,2017-03-12,2017-03,175.65,IBM,A
+146.31,International Business Machines Corporation,2017-03-19,2017-03,173.83,IBM,A
+146.57,International Business Machines Corporation,2017-03-26,2017-03,174.14,IBM,A
+144.88,International Business Machines Corporation,2017-04-02,2017-04,172.14,IBM,A
+142.69,International Business Machines Corporation,2017-04-09,2017-04,169.53,IBM,A
+134.99,International Business Machines Corporation,2017-04-16,2017-04,160.38,IBM,A
+134.91,International Business Machines Corporation,2017-04-23,2017-04,160.29,IBM,A
+130.50,International Business Machines Corporation,2017-04-30,2017-04,155.05,IBM,A
+126.56,International Business Machines Corporation,2017-05-07,2017-05,150.37,IBM,AA
+129.17,International Business Machines Corporation,2017-05-14,2017-05,151.98,IBM,AA
 129.60,International Business Machines Corporation,2017-05-21,2017-05,152.49,IBM,AA
 129.22,International Business Machines Corporation,2017-05-28,2017-05,152.05,IBM,AA
 130.97,International Business Machines Corporation,2017-06-04,2017-06,154.10,IBM,AA
@@ -3204,39 +3509,115 @@ adj_stock,company,date,month_year,stock,symbol,rating
 124.35,International Business Machines Corporation,2020-11-23,2020-11,124.35,IBM,AA
 123.61,International Business Machines Corporation,2020-11-30,2020-11,123.61,IBM,AA
 123.61,International Business Machines Corporation,2020-12-03,2020-12,123.61,IBM,AA
-,,,2016-05,,IBM,A
-33.22,Intel Corporation,2017-05-21,2017-05,36.26,INTC,
-33.28,Intel Corporation,2017-05-28,2017-05,36.32,INTC,
-32.72,Intel Corporation,2017-06-04,2017-06,35.71,INTC,
-32.26,Intel Corporation,2017-06-11,2017-06,35.21,INTC,
-31.33,Intel Corporation,2017-06-18,2017-06,34.19,INTC,
-30.91,Intel Corporation,2017-06-25,2017-06,33.74,INTC,
-31.04,Intel Corporation,2017-07-02,2017-07,33.88,INTC,
-31.78,Intel Corporation,2017-07-09,2017-07,34.68,INTC,
-31.82,Intel Corporation,2017-07-16,2017-07,34.73,INTC,
-32.35,Intel Corporation,2017-07-23,2017-07,35.31,INTC,
-33.26,Intel Corporation,2017-07-30,2017-07,36.30,INTC,
-33.11,Intel Corporation,2017-08-06,2017-08,35.87,INTC,
-32.32,Intel Corporation,2017-08-13,2017-08,35.01,INTC,
-32.01,Intel Corporation,2017-08-20,2017-08,34.67,INTC,
-32.39,Intel Corporation,2017-08-27,2017-08,35.09,INTC,
-32.49,Intel Corporation,2017-09-03,2017-09,35.19,INTC,
-34.16,Intel Corporation,2017-09-10,2017-09,37.00,INTC,
-34.32,Intel Corporation,2017-09-17,2017-09,37.18,INTC,
-35.15,Intel Corporation,2017-09-24,2017-09,38.08,INTC,
-36.58,Intel Corporation,2017-10-01,2017-10,39.63,INTC,
-36.62,Intel Corporation,2017-10-08,2017-10,39.67,INTC,
-37.32,Intel Corporation,2017-10-15,2017-10,40.43,INTC,
-40.99,Intel Corporation,2017-10-22,2017-10,44.40,INTC,
-42.78,Intel Corporation,2017-10-29,2017-10,46.34,INTC,
-42.08,Intel Corporation,2017-11-06,2017-11,45.58,INTC,
-41.44,Intel Corporation,2017-11-13,2017-11,44.63,INTC,
-41.56,Intel Corporation,2017-11-20,2017-11,44.75,INTC,
-41.49,Intel Corporation,2017-11-27,2017-11,44.68,INTC,
-40.26,Intel Corporation,2017-12-04,2017-12,43.35,INTC,
-41.38,Intel Corporation,2017-12-11,2017-12,44.56,INTC,
-43.37,Intel Corporation,2017-12-18,2017-12,46.70,INTC,
-42.87,Intel Corporation,2017-12-25,2017-12,46.16,INTC,
+30.55,Intel Corporation,2015-11-30,2015-11,34.94,INTC,
+29.96,Intel Corporation,2015-12-07,2015-12,34.27,INTC,
+29.61,Intel Corporation,2015-12-14,2015-12,33.87,INTC,
+30.58,Intel Corporation,2015-12-21,2015-12,34.98,INTC,
+30.12,Intel Corporation,2015-12-28,2015-12,34.45,INTC,
+27.55,Intel Corporation,2016-01-04,2016-01,31.51,INTC,
+26.02,Intel Corporation,2016-01-11,2016-01,29.76,INTC,
+26.17,Intel Corporation,2016-01-18,2016-01,29.93,INTC,
+27.12,Intel Corporation,2016-01-25,2016-01,31.02,INTC,
+25.39,Intel Corporation,2016-02-01,2016-02,29.04,INTC,
+25.26,Intel Corporation,2016-02-08,2016-02,28.64,INTC,
+25.32,Intel Corporation,2016-02-15,2016-02,28.71,INTC,
+26.28,Intel Corporation,2016-02-22,2016-02,29.80,INTC,
+27.01,Intel Corporation,2016-02-29,2016-02,30.63,INTC,
+28.01,Intel Corporation,2016-03-07,2016-03,31.76,INTC,
+28.82,Intel Corporation,2016-03-13,2016-03,32.68,INTC,
+28.12,Intel Corporation,2016-03-20,2016-03,31.88,INTC,
+28.62,Intel Corporation,2016-03-27,2016-03,32.45,INTC,
+27.89,Intel Corporation,2016-04-03,2016-04,31.63,INTC,
+27.74,Intel Corporation,2016-04-10,2016-04,31.46,INTC,
+27.90,Intel Corporation,2016-04-17,2016-04,31.64,INTC,
+26.70,Intel Corporation,2016-04-24,2016-04,30.28,INTC,
+26.49,Intel Corporation,2016-05-01,2016-05,30.04,INTC,
+26.61,Intel Corporation,2016-05-08,2016-05,29.91,INTC,
+26.82,Intel Corporation,2016-05-15,2016-05,30.15,INTC,
+28.08,Intel Corporation,2016-05-22,2016-05,31.57,INTC,
+28.13,Intel Corporation,2016-05-29,2016-05,31.62,INTC,
+28.50,Intel Corporation,2016-06-05,2016-06,32.04,INTC,
+28.25,Intel Corporation,2016-06-12,2016-06,31.76,INTC,
+28.06,Intel Corporation,2016-06-19,2016-06,31.55,INTC,
+29.13,Intel Corporation,2016-06-26,2016-06,32.75,INTC,
+30.24,Intel Corporation,2016-07-03,2016-07,34.00,INTC,
+31.20,Intel Corporation,2016-07-10,2016-07,35.07,INTC,
+30.83,Intel Corporation,2016-07-17,2016-07,34.66,INTC,
+31.01,Intel Corporation,2016-07-24,2016-07,34.86,INTC,
+31.12,Intel Corporation,2016-07-31,2016-07,34.98,INTC,
+30.98,Intel Corporation,2016-08-07,2016-08,34.57,INTC,
+31.58,Intel Corporation,2016-08-14,2016-08,35.24,INTC,
+31.60,Intel Corporation,2016-08-21,2016-08,35.26,INTC,
+32.34,Intel Corporation,2016-08-28,2016-08,36.08,INTC,
+31.76,Intel Corporation,2016-09-04,2016-09,35.44,INTC,
+33.76,Intel Corporation,2016-09-11,2016-09,37.67,INTC,
+33.33,Intel Corporation,2016-09-18,2016-09,37.19,INTC,
+33.83,Intel Corporation,2016-09-25,2016-09,37.75,INTC,
+34.15,Intel Corporation,2016-10-02,2016-10,38.10,INTC,
+33.57,Intel Corporation,2016-10-09,2016-10,37.45,INTC,
+31.50,Intel Corporation,2016-10-16,2016-10,35.15,INTC,
+31.14,Intel Corporation,2016-10-23,2016-10,34.74,INTC,
+30.12,Intel Corporation,2016-10-30,2016-10,33.61,INTC,
+31.25,Intel Corporation,2016-11-07,2016-11,34.61,INTC,
+31.56,Intel Corporation,2016-11-14,2016-11,34.95,INTC,
+32.00,Intel Corporation,2016-11-21,2016-11,35.44,INTC,
+30.85,Intel Corporation,2016-11-28,2016-11,34.16,INTC,
+32.29,Intel Corporation,2016-12-05,2016-12,35.76,INTC,
+32.79,Intel Corporation,2016-12-12,2016-12,36.31,INTC,
+33.39,Intel Corporation,2016-12-19,2016-12,36.97,INTC,
+32.75,Intel Corporation,2016-12-26,2016-12,36.27,INTC,
+32.94,Intel Corporation,2017-01-02,2017-01,36.48,INTC,AA
+33.22,Intel Corporation,2017-01-09,2017-01,36.79,INTC,AA
+33.36,Intel Corporation,2017-01-16,2017-01,36.94,INTC,AA
+34.30,Intel Corporation,2017-01-23,2017-01,37.98,INTC,AA
+32.98,Intel Corporation,2017-01-30,2017-01,36.52,INTC,AA
+32.14,Intel Corporation,2017-02-06,2017-02,35.34,INTC,AA
+33.18,Intel Corporation,2017-02-13,2017-02,36.48,INTC,AA
+33.22,Intel Corporation,2017-02-20,2017-02,36.53,INTC,AA
+32.65,Intel Corporation,2017-02-27,2017-02,35.90,INTC,AA
+32.66,Intel Corporation,2017-03-06,2017-03,35.91,INTC,AA
+32.08,Intel Corporation,2017-03-12,2017-03,35.27,INTC,AA
+31.98,Intel Corporation,2017-03-19,2017-03,35.16,INTC,AA
+32.81,Intel Corporation,2017-03-26,2017-03,36.07,INTC,AA
+32.77,Intel Corporation,2017-04-02,2017-04,36.03,INTC,AA
+32.06,Intel Corporation,2017-04-09,2017-04,35.25,INTC,AA
+33.03,Intel Corporation,2017-04-16,2017-04,36.32,INTC,AA
+32.88,Intel Corporation,2017-04-23,2017-04,36.15,INTC,AA
+33.49,Intel Corporation,2017-04-30,2017-04,36.82,INTC,AA
+32.56,Intel Corporation,2017-05-07,2017-05,35.53,INTC,AA
+32.44,Intel Corporation,2017-05-14,2017-05,35.40,INTC,AA
+33.22,Intel Corporation,2017-05-21,2017-05,36.26,INTC,AA
+33.28,Intel Corporation,2017-05-28,2017-05,36.32,INTC,AA
+32.72,Intel Corporation,2017-06-04,2017-06,35.71,INTC,AA
+32.26,Intel Corporation,2017-06-11,2017-06,35.21,INTC,AA
+31.33,Intel Corporation,2017-06-18,2017-06,34.19,INTC,AA
+30.91,Intel Corporation,2017-06-25,2017-06,33.74,INTC,AA
+31.04,Intel Corporation,2017-07-02,2017-07,33.88,INTC,AA
+31.78,Intel Corporation,2017-07-09,2017-07,34.68,INTC,AA
+31.82,Intel Corporation,2017-07-16,2017-07,34.73,INTC,AA
+32.35,Intel Corporation,2017-07-23,2017-07,35.31,INTC,AA
+33.26,Intel Corporation,2017-07-30,2017-07,36.30,INTC,AA
+33.11,Intel Corporation,2017-08-06,2017-08,35.87,INTC,AA
+32.32,Intel Corporation,2017-08-13,2017-08,35.01,INTC,AA
+32.01,Intel Corporation,2017-08-20,2017-08,34.67,INTC,AA
+32.39,Intel Corporation,2017-08-27,2017-08,35.09,INTC,AA
+32.49,Intel Corporation,2017-09-03,2017-09,35.19,INTC,AA
+34.16,Intel Corporation,2017-09-10,2017-09,37.00,INTC,AA
+34.32,Intel Corporation,2017-09-17,2017-09,37.18,INTC,AA
+35.15,Intel Corporation,2017-09-24,2017-09,38.08,INTC,AA
+36.58,Intel Corporation,2017-10-01,2017-10,39.63,INTC,AA
+36.62,Intel Corporation,2017-10-08,2017-10,39.67,INTC,AA
+37.32,Intel Corporation,2017-10-15,2017-10,40.43,INTC,AA
+40.99,Intel Corporation,2017-10-22,2017-10,44.40,INTC,AA
+42.78,Intel Corporation,2017-10-29,2017-10,46.34,INTC,AA
+42.08,Intel Corporation,2017-11-06,2017-11,45.58,INTC,AA
+41.44,Intel Corporation,2017-11-13,2017-11,44.63,INTC,AA
+41.56,Intel Corporation,2017-11-20,2017-11,44.75,INTC,AA
+41.49,Intel Corporation,2017-11-27,2017-11,44.68,INTC,AA
+40.26,Intel Corporation,2017-12-04,2017-12,43.35,INTC,AA
+41.38,Intel Corporation,2017-12-11,2017-12,44.56,INTC,AA
+43.37,Intel Corporation,2017-12-18,2017-12,46.70,INTC,AA
+42.87,Intel Corporation,2017-12-25,2017-12,46.16,INTC,AA
 41.55,Intel Corporation,2018-01-01,2018-01,44.74,INTC,AA
 40.15,Intel Corporation,2018-01-08,2018-01,43.24,INTC,AA
 41.62,Intel Corporation,2018-01-15,2018-01,44.82,INTC,AA
@@ -3391,47 +3772,46 @@ adj_stock,company,date,month_year,stock,symbol,rating
 47.45,Intel Corporation,2020-11-23,2020-11,47.45,INTC,A
 50.99,Intel Corporation,2020-11-30,2020-11,50.99,INTC,A
 50.99,Intel Corporation,2020-12-03,2020-12,50.99,INTC,A
-,,,2017-01,,INTC,AA
-89.96,Johnson & Johnson,2015-11-30,2015-11,102.95,JNJ,
-88.85,Johnson & Johnson,2015-12-07,2015-12,101.68,JNJ,
-89.08,Johnson & Johnson,2015-12-14,2015-12,101.95,JNJ,
-90.63,Johnson & Johnson,2015-12-21,2015-12,103.72,JNJ,
-89.76,Johnson & Johnson,2015-12-28,2015-12,102.72,JNJ,
-85.77,Johnson & Johnson,2016-01-04,2016-01,98.16,JNJ,
-84.76,Johnson & Johnson,2016-01-11,2016-01,97.00,JNJ,
-84.54,Johnson & Johnson,2016-01-18,2016-01,96.75,JNJ,
-91.26,Johnson & Johnson,2016-01-25,2016-01,104.44,JNJ,
-87.85,Johnson & Johnson,2016-02-01,2016-02,100.54,JNJ,
-88.97,Johnson & Johnson,2016-02-08,2016-02,101.82,JNJ,
-91.01,Johnson & Johnson,2016-02-15,2016-02,104.16,JNJ,
-93.10,Johnson & Johnson,2016-02-22,2016-02,105.78,JNJ,
-93.73,Johnson & Johnson,2016-02-29,2016-02,106.50,JNJ,
-94.80,Johnson & Johnson,2016-03-07,2016-03,107.71,JNJ,
-94.61,Johnson & Johnson,2016-03-13,2016-03,107.50,JNJ,
-95.33,Johnson & Johnson,2016-03-20,2016-03,108.31,JNJ,
-96.10,Johnson & Johnson,2016-03-27,2016-03,109.19,JNJ,
-96.02,Johnson & Johnson,2016-04-03,2016-04,109.10,JNJ,
-96.97,Johnson & Johnson,2016-04-10,2016-04,110.18,JNJ,
-99.74,Johnson & Johnson,2016-04-17,2016-04,113.32,JNJ,
-98.65,Johnson & Johnson,2016-04-24,2016-04,112.08,JNJ,
-99.23,Johnson & Johnson,2016-05-01,2016-05,112.74,JNJ,
-99.95,Johnson & Johnson,2016-05-08,2016-05,113.56,JNJ,
-99.14,Johnson & Johnson,2016-05-15,2016-05,112.64,JNJ,
-100.22,Johnson & Johnson,2016-05-22,2016-05,113.06,JNJ,
-101.72,Johnson & Johnson,2016-05-29,2016-05,114.76,JNJ,
-103.72,Johnson & Johnson,2016-06-05,2016-06,117.01,JNJ,
-102.36,Johnson & Johnson,2016-06-12,2016-06,115.48,JNJ,
-102.50,Johnson & Johnson,2016-06-19,2016-06,115.63,JNJ,
-107.51,Johnson & Johnson,2016-06-26,2016-06,121.29,JNJ,
-108.90,Johnson & Johnson,2016-07-03,2016-07,122.85,JNJ,
-109.03,Johnson & Johnson,2016-07-10,2016-07,123.00,JNJ,
-110.83,Johnson & Johnson,2016-07-17,2016-07,125.03,JNJ,
-111.01,Johnson & Johnson,2016-07-24,2016-07,125.23,JNJ,
-110.13,Johnson & Johnson,2016-07-31,2016-07,124.24,JNJ,
-109.22,Johnson & Johnson,2016-08-07,2016-08,123.22,JNJ,
-106.30,Johnson & Johnson,2016-08-14,2016-08,119.92,JNJ,
-106.22,Johnson & Johnson,2016-08-21,2016-08,119.04,JNJ,
-106.47,Johnson & Johnson,2016-08-28,2016-08,119.32,JNJ,
+89.96,Johnson & Johnson,2015-11-30,2015-11,102.95,JNJ,BBB
+88.85,Johnson & Johnson,2015-12-07,2015-12,101.68,JNJ,BBB
+89.08,Johnson & Johnson,2015-12-14,2015-12,101.95,JNJ,BBB
+90.63,Johnson & Johnson,2015-12-21,2015-12,103.72,JNJ,BBB
+89.76,Johnson & Johnson,2015-12-28,2015-12,102.72,JNJ,BBB
+85.77,Johnson & Johnson,2016-01-04,2016-01,98.16,JNJ,BBB
+84.76,Johnson & Johnson,2016-01-11,2016-01,97.00,JNJ,BBB
+84.54,Johnson & Johnson,2016-01-18,2016-01,96.75,JNJ,BBB
+91.26,Johnson & Johnson,2016-01-25,2016-01,104.44,JNJ,BBB
+87.85,Johnson & Johnson,2016-02-01,2016-02,100.54,JNJ,BBB
+88.97,Johnson & Johnson,2016-02-08,2016-02,101.82,JNJ,BBB
+91.01,Johnson & Johnson,2016-02-15,2016-02,104.16,JNJ,BBB
+93.10,Johnson & Johnson,2016-02-22,2016-02,105.78,JNJ,BBB
+93.73,Johnson & Johnson,2016-02-29,2016-02,106.50,JNJ,BBB
+94.80,Johnson & Johnson,2016-03-07,2016-03,107.71,JNJ,BBB
+94.61,Johnson & Johnson,2016-03-13,2016-03,107.50,JNJ,BBB
+95.33,Johnson & Johnson,2016-03-20,2016-03,108.31,JNJ,BBB
+96.10,Johnson & Johnson,2016-03-27,2016-03,109.19,JNJ,BBB
+96.02,Johnson & Johnson,2016-04-03,2016-04,109.10,JNJ,BBB
+96.97,Johnson & Johnson,2016-04-10,2016-04,110.18,JNJ,BBB
+99.74,Johnson & Johnson,2016-04-17,2016-04,113.32,JNJ,BBB
+98.65,Johnson & Johnson,2016-04-24,2016-04,112.08,JNJ,BBB
+99.23,Johnson & Johnson,2016-05-01,2016-05,112.74,JNJ,BBB
+99.95,Johnson & Johnson,2016-05-08,2016-05,113.56,JNJ,BBB
+99.14,Johnson & Johnson,2016-05-15,2016-05,112.64,JNJ,BBB
+100.22,Johnson & Johnson,2016-05-22,2016-05,113.06,JNJ,BBB
+101.72,Johnson & Johnson,2016-05-29,2016-05,114.76,JNJ,BBB
+103.72,Johnson & Johnson,2016-06-05,2016-06,117.01,JNJ,BBB
+102.36,Johnson & Johnson,2016-06-12,2016-06,115.48,JNJ,BBB
+102.50,Johnson & Johnson,2016-06-19,2016-06,115.63,JNJ,BBB
+107.51,Johnson & Johnson,2016-06-26,2016-06,121.29,JNJ,BBB
+108.90,Johnson & Johnson,2016-07-03,2016-07,122.85,JNJ,BBB
+109.03,Johnson & Johnson,2016-07-10,2016-07,123.00,JNJ,BBB
+110.83,Johnson & Johnson,2016-07-17,2016-07,125.03,JNJ,BBB
+111.01,Johnson & Johnson,2016-07-24,2016-07,125.23,JNJ,BBB
+110.13,Johnson & Johnson,2016-07-31,2016-07,124.24,JNJ,BBB
+109.22,Johnson & Johnson,2016-08-07,2016-08,123.22,JNJ,BBB
+106.30,Johnson & Johnson,2016-08-14,2016-08,119.92,JNJ,BBB
+106.22,Johnson & Johnson,2016-08-21,2016-08,119.04,JNJ,BBB
+106.47,Johnson & Johnson,2016-08-28,2016-08,119.32,JNJ,BBB
 105.50,Johnson & Johnson,2016-09-04,2016-09,118.23,JNJ,BBB
 105.52,Johnson & Johnson,2016-09-11,2016-09,118.25,JNJ,BBB
 106.02,Johnson & Johnson,2016-09-18,2016-09,118.81,JNJ,BBB
@@ -3655,7 +4035,6 @@ adj_stock,company,date,month_year,stock,symbol,rating
 143.01,Johnson & Johnson,2020-11-23,2020-11,144.00,JNJ,BBB
 149.00,Johnson & Johnson,2020-11-30,2020-11,149.00,JNJ,BBB
 149.00,Johnson & Johnson,2020-12-03,2020-12,149.00,JNJ,BBB
-,,,2015-09,,JNJ,BBB
 58.64,JPMorgan Chase & Co.,2015-11-30,2015-11,67.89,JPM,
 55.34,JPMorgan Chase & Co.,2015-12-07,2015-12,64.07,JPM,
 55.63,JPMorgan Chase & Co.,2015-12-14,2015-12,64.40,JPM,
@@ -3919,7 +4298,85 @@ adj_stock,company,date,month_year,stock,symbol,rating
 121.22,JPMorgan Chase & Co.,2020-11-23,2020-11,121.22,JPM,BB
 121.24,JPMorgan Chase & Co.,2020-11-30,2020-11,121.24,JPM,BB
 121.24,JPMorgan Chase & Co.,2020-12-03,2020-12,121.24,JPM,BB
-40.57,The Coca-Cola Company,2017-05-28,2017-05,45.89,KO,
+36.75,The Coca-Cola Company,2015-11-30,2015-11,43.29,KO,
+35.88,The Coca-Cola Company,2015-12-07,2015-12,42.27,KO,
+36.08,The Coca-Cola Company,2015-12-14,2015-12,42.50,KO,
+36.96,The Coca-Cola Company,2015-12-21,2015-12,43.54,KO,
+36.47,The Coca-Cola Company,2015-12-28,2015-12,42.96,KO,
+35.24,The Coca-Cola Company,2016-01-04,2016-01,41.51,KO,
+35.23,The Coca-Cola Company,2016-01-11,2016-01,41.50,KO,
+35.70,The Coca-Cola Company,2016-01-18,2016-01,42.06,KO,
+36.43,The Coca-Cola Company,2016-01-25,2016-01,42.92,KO,
+36.02,The Coca-Cola Company,2016-02-01,2016-02,42.44,KO,
+36.59,The Coca-Cola Company,2016-02-08,2016-02,43.11,KO,
+37.15,The Coca-Cola Company,2016-02-15,2016-02,43.77,KO,
+36.62,The Coca-Cola Company,2016-02-22,2016-02,43.14,KO,
+37.44,The Coca-Cola Company,2016-02-29,2016-02,44.11,KO,
+38.37,The Coca-Cola Company,2016-03-07,2016-03,45.20,KO,
+39.01,The Coca-Cola Company,2016-03-13,2016-03,45.60,KO,
+38.99,The Coca-Cola Company,2016-03-20,2016-03,45.58,KO,
+40.06,The Coca-Cola Company,2016-03-27,2016-03,46.83,KO,
+40.10,The Coca-Cola Company,2016-04-03,2016-04,46.87,KO,
+39.44,The Coca-Cola Company,2016-04-10,2016-04,46.10,KO,
+38.10,The Coca-Cola Company,2016-04-17,2016-04,44.54,KO,
+38.32,The Coca-Cola Company,2016-04-24,2016-04,44.80,KO,
+38.77,The Coca-Cola Company,2016-05-01,2016-05,45.32,KO,
+38.80,The Coca-Cola Company,2016-05-08,2016-05,45.35,KO,
+37.60,The Coca-Cola Company,2016-05-15,2016-05,43.95,KO,
+38.31,The Coca-Cola Company,2016-05-22,2016-05,44.78,KO,
+38.53,The Coca-Cola Company,2016-05-29,2016-05,45.04,KO,
+39.34,The Coca-Cola Company,2016-06-05,2016-06,45.99,KO,A
+38.32,The Coca-Cola Company,2016-06-12,2016-06,44.79,KO,A
+37.87,The Coca-Cola Company,2016-06-19,2016-06,43.93,KO,A
+38.89,The Coca-Cola Company,2016-06-26,2016-06,45.12,KO,A
+39.12,The Coca-Cola Company,2016-07-03,2016-07,45.38,KO,A
+39.33,The Coca-Cola Company,2016-07-10,2016-07,45.63,KO,A
+39.51,The Coca-Cola Company,2016-07-17,2016-07,45.83,KO,A
+37.61,The Coca-Cola Company,2016-07-24,2016-07,43.63,KO,A
+37.48,The Coca-Cola Company,2016-07-31,2016-07,43.48,KO,A
+37.95,The Coca-Cola Company,2016-08-07,2016-08,44.03,KO,A
+37.86,The Coca-Cola Company,2016-08-14,2016-08,43.92,KO,A
+37.34,The Coca-Cola Company,2016-08-21,2016-08,43.32,KO,A
+37.64,The Coca-Cola Company,2016-08-28,2016-08,43.66,KO,A
+36.44,The Coca-Cola Company,2016-09-04,2016-09,42.27,KO,A
+36.33,The Coca-Cola Company,2016-09-11,2016-09,42.14,KO,A
+37.14,The Coca-Cola Company,2016-09-18,2016-09,42.74,KO,A
+36.78,The Coca-Cola Company,2016-09-25,2016-09,42.32,KO,A
+36.27,The Coca-Cola Company,2016-10-02,2016-10,41.73,KO,A
+36.21,The Coca-Cola Company,2016-10-09,2016-10,41.67,KO,A
+36.61,The Coca-Cola Company,2016-10-16,2016-10,42.13,KO,A
+36.70,The Coca-Cola Company,2016-10-23,2016-10,42.23,KO,A
+36.23,The Coca-Cola Company,2016-10-30,2016-10,41.69,KO,A
+35.66,The Coca-Cola Company,2016-11-07,2016-11,41.03,KO,A
+35.55,The Coca-Cola Company,2016-11-14,2016-11,40.91,KO,A
+36.09,The Coca-Cola Company,2016-11-21,2016-11,41.53,KO,A
+35.08,The Coca-Cola Company,2016-11-28,2016-11,40.36,KO,A
+36.81,The Coca-Cola Company,2016-12-05,2016-12,42.00,KO,A
+36.58,The Coca-Cola Company,2016-12-12,2016-12,41.74,KO,A
+36.46,The Coca-Cola Company,2016-12-19,2016-12,41.60,KO,A
+36.34,The Coca-Cola Company,2016-12-26,2016-12,41.46,KO,A
+36.58,The Coca-Cola Company,2017-01-02,2017-01,41.74,KO,A
+35.83,The Coca-Cola Company,2017-01-09,2017-01,40.88,KO,A
+36.21,The Coca-Cola Company,2017-01-16,2017-01,41.32,KO,A
+36.33,The Coca-Cola Company,2017-01-23,2017-01,41.45,KO,A
+36.41,The Coca-Cola Company,2017-01-30,2017-01,41.54,KO,A
+35.56,The Coca-Cola Company,2017-02-06,2017-02,40.58,KO,A
+36.13,The Coca-Cola Company,2017-02-13,2017-02,41.23,KO,A
+36.62,The Coca-Cola Company,2017-02-20,2017-02,41.78,KO,A
+37.23,The Coca-Cola Company,2017-02-27,2017-02,42.48,KO,A
+37.06,The Coca-Cola Company,2017-03-06,2017-03,42.29,KO,A
+36.84,The Coca-Cola Company,2017-03-12,2017-03,42.03,KO,A
+37.24,The Coca-Cola Company,2017-03-19,2017-03,42.12,KO,A
+37.52,The Coca-Cola Company,2017-03-26,2017-03,42.44,KO,A
+37.67,The Coca-Cola Company,2017-04-02,2017-04,42.61,KO,A
+37.83,The Coca-Cola Company,2017-04-09,2017-04,42.79,KO,A
+38.08,The Coca-Cola Company,2017-04-16,2017-04,43.07,KO,A
+38.15,The Coca-Cola Company,2017-04-23,2017-04,43.15,KO,A
+38.63,The Coca-Cola Company,2017-04-30,2017-04,43.69,KO,A
+38.54,The Coca-Cola Company,2017-05-07,2017-05,43.59,KO,A
+38.81,The Coca-Cola Company,2017-05-14,2017-05,43.90,KO,A
+40.13,The Coca-Cola Company,2017-05-21,2017-05,45.39,KO,A
+40.57,The Coca-Cola Company,2017-05-28,2017-05,45.89,KO,A
 40.07,The Coca-Cola Company,2017-06-04,2017-06,45.32,KO,A
 40.06,The Coca-Cola Company,2017-06-11,2017-06,45.31,KO,A
 40.34,The Coca-Cola Company,2017-06-18,2017-06,45.25,KO,A
@@ -4104,7 +4561,6 @@ adj_stock,company,date,month_year,stock,symbol,rating
 52.29,The Coca-Cola Company,2020-11-23,2020-11,52.70,KO,AA
 52.37,The Coca-Cola Company,2020-11-30,2020-11,52.78,KO,AA
 52.78,The Coca-Cola Company,2020-12-03,2020-12,52.78,KO,AA
-,,,2016-06,,KO,A
 102.11,McDonald's Corporation,2015-11-30,2015-11,116.20,MCD,
 102.00,McDonald's Corporation,2015-12-07,2015-12,116.08,MCD,
 102.51,McDonald's Corporation,2015-12-14,2015-12,116.66,MCD,
@@ -4671,229 +5127,229 @@ adj_stock,company,date,month_year,stock,symbol,rating
 55.88,Merck & Co. Inc.,2016-08-14,2016-08,63.36,MRK,
 55.43,Merck & Co. Inc.,2016-08-21,2016-08,62.85,MRK,
 55.55,Merck & Co. Inc.,2016-08-28,2016-08,62.98,MRK,
-55.11,Merck & Co. Inc.,2016-09-04,2016-09,62.49,MRK,A
-54.93,Merck & Co. Inc.,2016-09-11,2016-09,62.28,MRK,A
-55.94,Merck & Co. Inc.,2016-09-18,2016-09,62.96,MRK,A
-55.45,Merck & Co. Inc.,2016-09-25,2016-09,62.41,MRK,A
-55.77,Merck & Co. Inc.,2016-10-02,2016-10,62.77,MRK,A
-55.21,Merck & Co. Inc.,2016-10-09,2016-10,62.14,MRK,A
-54.37,Merck & Co. Inc.,2016-10-16,2016-10,61.20,MRK,A
-52.28,Merck & Co. Inc.,2016-10-23,2016-10,58.84,MRK,A
-52.26,Merck & Co. Inc.,2016-10-30,2016-10,58.82,MRK,A
-56.82,Merck & Co. Inc.,2016-11-07,2016-11,63.95,MRK,A
-54.97,Merck & Co. Inc.,2016-11-14,2016-11,61.87,MRK,A
-55.27,Merck & Co. Inc.,2016-11-21,2016-11,62.21,MRK,A
-54.31,Merck & Co. Inc.,2016-11-28,2016-11,61.13,MRK,A
-54.40,Merck & Co. Inc.,2016-12-05,2016-12,61.23,MRK,A
-55.47,Merck & Co. Inc.,2016-12-12,2016-12,62.44,MRK,A
-53.32,Merck & Co. Inc.,2016-12-19,2016-12,59.56,MRK,A
-52.70,Merck & Co. Inc.,2016-12-26,2016-12,58.87,MRK,A
-53.96,Merck & Co. Inc.,2017-01-02,2017-01,60.27,MRK,A
-55.81,Merck & Co. Inc.,2017-01-09,2017-01,62.34,MRK,A
-55.98,Merck & Co. Inc.,2017-01-16,2017-01,62.53,MRK,A
-55.28,Merck & Co. Inc.,2017-01-23,2017-01,61.75,MRK,A
-57.56,Merck & Co. Inc.,2017-01-30,2017-01,64.29,MRK,A
-57.43,Merck & Co. Inc.,2017-02-06,2017-02,64.15,MRK,A
-58.54,Merck & Co. Inc.,2017-02-13,2017-02,65.39,MRK,A
-59.23,Merck & Co. Inc.,2017-02-20,2017-02,66.16,MRK,A
-59.61,Merck & Co. Inc.,2017-02-27,2017-02,66.58,MRK,A
-58.73,Merck & Co. Inc.,2017-03-06,2017-03,65.60,MRK,A
-57.21,Merck & Co. Inc.,2017-03-12,2017-03,63.90,MRK,A
-56.97,Merck & Co. Inc.,2017-03-19,2017-03,63.18,MRK,A
-57.29,Merck & Co. Inc.,2017-03-26,2017-03,63.54,MRK,A
-56.92,Merck & Co. Inc.,2017-04-02,2017-04,63.13,MRK,A
-56.46,Merck & Co. Inc.,2017-04-09,2017-04,62.61,MRK,A
-55.81,Merck & Co. Inc.,2017-04-16,2017-04,61.89,MRK,A
-56.20,Merck & Co. Inc.,2017-04-23,2017-04,62.33,MRK,A
-57.68,Merck & Co. Inc.,2017-04-30,2017-04,63.97,MRK,A
-57.32,Merck & Co. Inc.,2017-05-07,2017-05,63.57,MRK,A
-57.51,Merck & Co. Inc.,2017-05-14,2017-05,63.78,MRK,A
-58.54,Merck & Co. Inc.,2017-05-21,2017-05,64.92,MRK,A
-59.03,Merck & Co. Inc.,2017-05-28,2017-05,65.47,MRK,A
-58.06,Merck & Co. Inc.,2017-06-04,2017-06,64.39,MRK,A
-56.78,Merck & Co. Inc.,2017-06-11,2017-06,62.97,MRK,A
-60.10,Merck & Co. Inc.,2017-06-18,2017-06,66.16,MRK,A
-58.22,Merck & Co. Inc.,2017-06-25,2017-06,64.09,MRK,A
-57.37,Merck & Co. Inc.,2017-07-02,2017-07,63.16,MRK,A
-57.28,Merck & Co. Inc.,2017-07-09,2017-07,63.06,MRK,A
-56.89,Merck & Co. Inc.,2017-07-16,2017-07,62.63,MRK,A
-58.23,Merck & Co. Inc.,2017-07-23,2017-07,64.11,MRK,A
-57.32,Merck & Co. Inc.,2017-07-30,2017-07,63.10,MRK,A
-56.66,Merck & Co. Inc.,2017-08-06,2017-08,62.38,MRK,A
-55.85,Merck & Co. Inc.,2017-08-13,2017-08,61.49,MRK,A
-57.17,Merck & Co. Inc.,2017-08-20,2017-08,62.94,MRK,A
-57.98,Merck & Co. Inc.,2017-08-27,2017-08,63.83,MRK,A
-58.38,Merck & Co. Inc.,2017-09-03,2017-09,64.27,MRK,A
-60.10,Merck & Co. Inc.,2017-09-10,2017-09,66.16,MRK,A
-59.59,Merck & Co. Inc.,2017-09-17,2017-09,65.13,MRK,A
-58.58,Merck & Co. Inc.,2017-09-24,2017-09,64.03,MRK,A
-59.06,Merck & Co. Inc.,2017-10-01,2017-10,64.55,MRK,A
-58.00,Merck & Co. Inc.,2017-10-08,2017-10,63.39,MRK,A
-58.44,Merck & Co. Inc.,2017-10-15,2017-10,63.88,MRK,A
-53.28,Merck & Co. Inc.,2017-10-22,2017-10,58.24,MRK,A
-51.29,Merck & Co. Inc.,2017-10-29,2017-10,56.06,MRK,A
-50.76,Merck & Co. Inc.,2017-11-06,2017-11,55.48,MRK,A
-50.50,Merck & Co. Inc.,2017-11-13,2017-11,55.20,MRK,A
-49.73,Merck & Co. Inc.,2017-11-20,2017-11,54.35,MRK,A
-51.12,Merck & Co. Inc.,2017-11-27,2017-11,55.87,MRK,A
-50.84,Merck & Co. Inc.,2017-12-04,2017-12,55.57,MRK,A
-51.45,Merck & Co. Inc.,2017-12-11,2017-12,56.24,MRK,A
-52.00,Merck & Co. Inc.,2017-12-18,2017-12,56.36,MRK,A
-51.92,Merck & Co. Inc.,2017-12-25,2017-12,56.27,MRK,A
-52.58,Merck & Co. Inc.,2018-01-01,2018-01,56.99,MRK,A
-54.13,Merck & Co. Inc.,2018-01-08,2018-01,58.66,MRK,A
-56.54,Merck & Co. Inc.,2018-01-15,2018-01,61.28,MRK,A
-57.24,Merck & Co. Inc.,2018-01-22,2018-01,62.04,MRK,A
-54.03,Merck & Co. Inc.,2018-01-29,2018-01,58.56,MRK,A
-50.63,Merck & Co. Inc.,2018-02-05,2018-02,54.87,MRK,A
-51.94,Merck & Co. Inc.,2018-02-12,2018-02,56.29,MRK,A
-50.63,Merck & Co. Inc.,2018-02-19,2018-02,54.87,MRK,A
-50.16,Merck & Co. Inc.,2018-02-26,2018-02,54.36,MRK,A
-50.88,Merck & Co. Inc.,2018-03-05,2018-03,55.14,MRK,A
-51.37,Merck & Co. Inc.,2018-03-11,2018-03,55.67,MRK,A
-49.71,Merck & Co. Inc.,2018-03-18,2018-03,53.41,MRK,A
-50.70,Merck & Co. Inc.,2018-03-25,2018-03,54.47,MRK,A
-49.67,Merck & Co. Inc.,2018-04-01,2018-04,53.36,MRK,A
-53.21,Merck & Co. Inc.,2018-04-08,2018-04,57.17,MRK,A
-54.76,Merck & Co. Inc.,2018-04-15,2018-04,58.83,MRK,A
-55.35,Merck & Co. Inc.,2018-04-22,2018-04,59.47,MRK,A
-53.75,Merck & Co. Inc.,2018-04-29,2018-04,57.75,MRK,A
-55.56,Merck & Co. Inc.,2018-05-06,2018-05,59.69,MRK,A
-55.05,Merck & Co. Inc.,2018-05-13,2018-05,59.14,MRK,A
-55.00,Merck & Co. Inc.,2018-05-20,2018-05,59.09,MRK,A
-56.37,Merck & Co. Inc.,2018-05-27,2018-05,60.56,MRK,A
-58.25,Merck & Co. Inc.,2018-06-03,2018-06,62.58,MRK,A
-57.74,Merck & Co. Inc.,2018-06-10,2018-06,62.03,MRK,A
-57.66,Merck & Co. Inc.,2018-06-17,2018-06,61.47,MRK,A
-56.93,Merck & Co. Inc.,2018-06-24,2018-06,60.70,MRK,A
-58.34,Merck & Co. Inc.,2018-07-01,2018-07,62.20,MRK,A
-58.99,Merck & Co. Inc.,2018-07-08,2018-07,62.89,MRK,A
-58.64,Merck & Co. Inc.,2018-07-15,2018-07,62.52,MRK,A
-59.55,Merck & Co. Inc.,2018-07-22,2018-07,63.49,MRK,A
-61.84,Merck & Co. Inc.,2018-07-29,2018-07,65.93,MRK,A
-61.97,Merck & Co. Inc.,2018-08-05,2018-08,66.07,MRK,A
-64.78,Merck & Co. Inc.,2018-08-12,2018-08,69.06,MRK,A
-64.76,Merck & Co. Inc.,2018-08-19,2018-08,69.04,MRK,A
-64.33,Merck & Co. Inc.,2018-08-26,2018-08,68.59,MRK,A
-65.35,Merck & Co. Inc.,2018-09-02,2018-09,69.67,MRK,A
-65.64,Merck & Co. Inc.,2018-09-09,2018-09,69.98,MRK,A
-67.14,Merck & Co. Inc.,2018-09-16,2018-09,71.10,MRK,A
-66.99,Merck & Co. Inc.,2018-09-23,2018-09,70.94,MRK,A
-67.08,Merck & Co. Inc.,2018-09-30,2018-09,71.03,MRK,A
-65.93,Merck & Co. Inc.,2018-10-07,2018-10,69.81,MRK,A
-68.32,Merck & Co. Inc.,2018-10-14,2018-10,72.35,MRK,A
-66.48,Merck & Co. Inc.,2018-10-21,2018-10,70.40,MRK,A
-68.25,Merck & Co. Inc.,2018-10-28,2018-10,72.27,MRK,A
-70.69,Merck & Co. Inc.,2018-11-05,2018-11,74.86,MRK,A
-71.83,Merck & Co. Inc.,2018-11-12,2018-11,76.06,MRK,A
-70.51,Merck & Co. Inc.,2018-11-19,2018-11,74.67,MRK,A
-74.93,Merck & Co. Inc.,2018-11-26,2018-11,79.34,MRK,A
-72.45,Merck & Co. Inc.,2018-12-03,2018-12,76.72,MRK,A
-72.22,Merck & Co. Inc.,2018-12-10,2018-12,76.48,MRK,A
-69.33,Merck & Co. Inc.,2018-12-17,2018-12,72.90,MRK,A
-71.67,Merck & Co. Inc.,2018-12-24,2018-12,75.37,MRK,A
-72.53,Merck & Co. Inc.,2018-12-31,2018-12,76.27,MRK,A
-71.23,Merck & Co. Inc.,2019-01-07,2019-01,74.90,MRK,A
-72.15,Merck & Co. Inc.,2019-01-14,2019-01,75.87,MRK,A
-69.37,Merck & Co. Inc.,2019-01-21,2019-01,72.95,MRK,A
-72.70,Merck & Co. Inc.,2019-01-28,2019-01,76.45,MRK,A
-73.72,Merck & Co. Inc.,2019-02-04,2019-02,77.52,MRK,A
-75.90,Merck & Co. Inc.,2019-02-11,2019-02,79.81,MRK,A
-76.81,Merck & Co. Inc.,2019-02-18,2019-02,80.77,MRK,A
-77.65,Merck & Co. Inc.,2019-02-25,2019-02,81.65,MRK,A
-75.89,Merck & Co. Inc.,2019-03-04,2019-03,79.80,MRK,A
-77.57,Merck & Co. Inc.,2019-03-10,2019-03,81.57,MRK,A
-78.79,Merck & Co. Inc.,2019-03-17,2019-03,82.29,MRK,A
-79.63,Merck & Co. Inc.,2019-03-24,2019-03,83.17,MRK,A
-77.70,Merck & Co. Inc.,2019-03-31,2019-03,81.15,MRK,A
-76.05,Merck & Co. Inc.,2019-04-07,2019-04,79.43,MRK,A
-70.07,Merck & Co. Inc.,2019-04-14,2019-04,73.19,MRK,A
-73.37,Merck & Co. Inc.,2019-04-21,2019-04,76.63,MRK,A
-76.59,Merck & Co. Inc.,2019-04-28,2019-04,80.00,MRK,A
-74.86,Merck & Co. Inc.,2019-05-05,2019-05,78.19,MRK,A
-75.37,Merck & Co. Inc.,2019-05-12,2019-05,78.72,MRK,A
-77.71,Merck & Co. Inc.,2019-05-19,2019-05,81.17,MRK,A
-75.84,Merck & Co. Inc.,2019-05-26,2019-05,79.21,MRK,A
-78.95,Merck & Co. Inc.,2019-06-02,2019-06,82.46,MRK,A
-79.26,Merck & Co. Inc.,2019-06-09,2019-06,82.78,MRK,A
-81.51,Merck & Co. Inc.,2019-06-16,2019-06,84.57,MRK,A
-80.82,Merck & Co. Inc.,2019-06-23,2019-06,83.85,MRK,A
-82.50,Merck & Co. Inc.,2019-06-30,2019-06,85.60,MRK,A
-76.85,Merck & Co. Inc.,2019-07-07,2019-07,79.73,MRK,A
-78.45,Merck & Co. Inc.,2019-07-14,2019-07,81.39,MRK,A
-78.48,Merck & Co. Inc.,2019-07-21,2019-07,81.43,MRK,A
-81.41,Merck & Co. Inc.,2019-07-28,2019-07,84.47,MRK,A
-82.43,Merck & Co. Inc.,2019-08-04,2019-08,85.52,MRK,A
-81.98,Merck & Co. Inc.,2019-08-11,2019-08,85.06,MRK,A
-81.87,Merck & Co. Inc.,2019-08-18,2019-08,84.94,MRK,A
-83.34,Merck & Co. Inc.,2019-08-25,2019-08,86.47,MRK,A
-83.44,Merck & Co. Inc.,2019-09-01,2019-09,86.57,MRK,A
-79.62,Merck & Co. Inc.,2019-09-08,2019-09,82.61,MRK,A
-82.62,Merck & Co. Inc.,2019-09-15,2019-09,85.16,MRK,A
-80.44,Merck & Co. Inc.,2019-09-22,2019-09,82.91,MRK,A
-82.47,Merck & Co. Inc.,2019-09-29,2019-09,85.00,MRK,A
-81.83,Merck & Co. Inc.,2019-10-06,2019-10,84.34,MRK,A
-82.16,Merck & Co. Inc.,2019-10-13,2019-10,84.68,MRK,A
-79.81,Merck & Co. Inc.,2019-10-20,2019-10,82.26,MRK,A
-82.41,Merck & Co. Inc.,2019-10-27,2019-10,84.94,MRK,A
-81.10,Merck & Co. Inc.,2019-11-04,2019-11,83.59,MRK,A
-82.37,Merck & Co. Inc.,2019-11-11,2019-11,84.90,MRK,A
-82.91,Merck & Co. Inc.,2019-11-18,2019-11,85.45,MRK,A
-84.58,Merck & Co. Inc.,2019-11-25,2019-11,87.18,MRK,A
-86.20,Merck & Co. Inc.,2019-12-02,2019-12,88.85,MRK,A
-86.53,Merck & Co. Inc.,2019-12-09,2019-12,89.19,MRK,A
-89.46,Merck & Co. Inc.,2019-12-16,2019-12,91.58,MRK,A
-89.38,Merck & Co. Inc.,2019-12-23,2019-12,91.50,MRK,A
-89.14,Merck & Co. Inc.,2019-12-30,2019-12,91.25,MRK,A
-87.46,Merck & Co. Inc.,2020-01-06,2020-01,89.53,MRK,A
-88.87,Merck & Co. Inc.,2020-01-13,2020-01,90.97,MRK,A
-83.99,Merck & Co. Inc.,2020-01-20,2020-01,85.98,MRK,A
-83.46,Merck & Co. Inc.,2020-01-27,2020-01,85.44,MRK,A
-83.11,Merck & Co. Inc.,2020-02-03,2020-02,85.08,MRK,A
-80.74,Merck & Co. Inc.,2020-02-10,2020-02,82.65,MRK,A
-80.44,Merck & Co. Inc.,2020-02-17,2020-02,82.34,MRK,A
-74.79,Merck & Co. Inc.,2020-02-24,2020-02,76.56,MRK,A
-80.30,Merck & Co. Inc.,2020-03-02,2020-03,82.20,MRK,A
-74.98,Merck & Co. Inc.,2020-03-08,2020-03,76.75,MRK,A
-70.29,Merck & Co. Inc.,2020-03-15,2020-03,71.36,MRK,A
-70.65,Merck & Co. Inc.,2020-03-22,2020-03,71.73,MRK,A
-75.10,Merck & Co. Inc.,2020-03-29,2020-03,76.25,MRK,A
-81.25,Merck & Co. Inc.,2020-04-05,2020-04,82.49,MRK,A
-82.20,Merck & Co. Inc.,2020-04-12,2020-04,83.46,MRK,A
-80.20,Merck & Co. Inc.,2020-04-19,2020-04,81.43,MRK,A
-76.50,Merck & Co. Inc.,2020-04-26,2020-04,77.67,MRK,A
-75.25,Merck & Co. Inc.,2020-05-03,2020-05,76.40,MRK,A
-78.58,Merck & Co. Inc.,2020-05-10,2020-05,79.78,MRK,A
-75.22,Merck & Co. Inc.,2020-05-17,2020-05,76.37,MRK,A
-79.51,Merck & Co. Inc.,2020-05-24,2020-05,80.72,MRK,A
-81.02,Merck & Co. Inc.,2020-05-31,2020-05,82.26,MRK,A
-75.15,Merck & Co. Inc.,2020-06-07,2020-06,76.30,MRK,A
-77.34,Merck & Co. Inc.,2020-06-14,2020-06,77.90,MRK,A
-74.65,Merck & Co. Inc.,2020-06-21,2020-06,75.19,MRK,A
-78.21,Merck & Co. Inc.,2020-06-28,2020-06,78.78,MRK,A
-76.18,Merck & Co. Inc.,2020-07-05,2020-07,76.73,MRK,A
-79.29,Merck & Co. Inc.,2020-07-12,2020-07,79.87,MRK,A
-76.54,Merck & Co. Inc.,2020-07-19,2020-07,77.10,MRK,A
-79.66,Merck & Co. Inc.,2020-07-26,2020-07,80.24,MRK,A
-80.43,Merck & Co. Inc.,2020-08-02,2020-08,81.02,MRK,A
-82.88,Merck & Co. Inc.,2020-08-09,2020-08,83.48,MRK,A
-84.37,Merck & Co. Inc.,2020-08-16,2020-08,84.98,MRK,A
-85.03,Merck & Co. Inc.,2020-08-23,2020-08,85.65,MRK,A
-84.62,Merck & Co. Inc.,2020-08-30,2020-08,85.24,MRK,A
-83.87,Merck & Co. Inc.,2020-09-06,2020-09,84.48,MRK,A
-85.19,Merck & Co. Inc.,2020-09-13,2020-09,85.81,MRK,A
-82.93,Merck & Co. Inc.,2020-09-20,2020-09,82.93,MRK,A
-80.80,Merck & Co. Inc.,2020-09-27,2020-09,80.80,MRK,A
-80.36,Merck & Co. Inc.,2020-10-04,2020-10,80.36,MRK,A
-79.83,Merck & Co. Inc.,2020-10-11,2020-10,79.83,MRK,A
-79.83,Merck & Co. Inc.,2020-10-18,2020-10,79.83,MRK,A
-75.21,Merck & Co. Inc.,2020-10-25,2020-10,75.21,MRK,A
-80.36,Merck & Co. Inc.,2020-11-02,2020-11,80.36,MRK,A
-81.09,Merck & Co. Inc.,2020-11-09,2020-11,81.09,MRK,A
-80.45,Merck & Co. Inc.,2020-11-16,2020-11,80.45,MRK,A
-79.86,Merck & Co. Inc.,2020-11-23,2020-11,79.86,MRK,A
-81.45,Merck & Co. Inc.,2020-11-30,2020-11,81.45,MRK,A
-81.45,Merck & Co. Inc.,2020-12-03,2020-12,81.45,MRK,A
+55.11,Merck & Co. Inc.,2016-09-04,2016-09,62.49,MRK,AAA
+54.93,Merck & Co. Inc.,2016-09-11,2016-09,62.28,MRK,AAA
+55.94,Merck & Co. Inc.,2016-09-18,2016-09,62.96,MRK,AAA
+55.45,Merck & Co. Inc.,2016-09-25,2016-09,62.41,MRK,AAA
+55.77,Merck & Co. Inc.,2016-10-02,2016-10,62.77,MRK,AAA
+55.21,Merck & Co. Inc.,2016-10-09,2016-10,62.14,MRK,AAA
+54.37,Merck & Co. Inc.,2016-10-16,2016-10,61.20,MRK,AAA
+52.28,Merck & Co. Inc.,2016-10-23,2016-10,58.84,MRK,AAA
+52.26,Merck & Co. Inc.,2016-10-30,2016-10,58.82,MRK,AAA
+56.82,Merck & Co. Inc.,2016-11-07,2016-11,63.95,MRK,AAA
+54.97,Merck & Co. Inc.,2016-11-14,2016-11,61.87,MRK,AAA
+55.27,Merck & Co. Inc.,2016-11-21,2016-11,62.21,MRK,AAA
+54.31,Merck & Co. Inc.,2016-11-28,2016-11,61.13,MRK,AAA
+54.40,Merck & Co. Inc.,2016-12-05,2016-12,61.23,MRK,AAA
+55.47,Merck & Co. Inc.,2016-12-12,2016-12,62.44,MRK,AAA
+53.32,Merck & Co. Inc.,2016-12-19,2016-12,59.56,MRK,AAA
+52.70,Merck & Co. Inc.,2016-12-26,2016-12,58.87,MRK,AAA
+53.96,Merck & Co. Inc.,2017-01-02,2017-01,60.27,MRK,AAA
+55.81,Merck & Co. Inc.,2017-01-09,2017-01,62.34,MRK,AAA
+55.98,Merck & Co. Inc.,2017-01-16,2017-01,62.53,MRK,AAA
+55.28,Merck & Co. Inc.,2017-01-23,2017-01,61.75,MRK,AAA
+57.56,Merck & Co. Inc.,2017-01-30,2017-01,64.29,MRK,AAA
+57.43,Merck & Co. Inc.,2017-02-06,2017-02,64.15,MRK,AAA
+58.54,Merck & Co. Inc.,2017-02-13,2017-02,65.39,MRK,AAA
+59.23,Merck & Co. Inc.,2017-02-20,2017-02,66.16,MRK,AAA
+59.61,Merck & Co. Inc.,2017-02-27,2017-02,66.58,MRK,AAA
+58.73,Merck & Co. Inc.,2017-03-06,2017-03,65.60,MRK,AAA
+57.21,Merck & Co. Inc.,2017-03-12,2017-03,63.90,MRK,AAA
+56.97,Merck & Co. Inc.,2017-03-19,2017-03,63.18,MRK,AAA
+57.29,Merck & Co. Inc.,2017-03-26,2017-03,63.54,MRK,AAA
+56.92,Merck & Co. Inc.,2017-04-02,2017-04,63.13,MRK,AAA
+56.46,Merck & Co. Inc.,2017-04-09,2017-04,62.61,MRK,AAA
+55.81,Merck & Co. Inc.,2017-04-16,2017-04,61.89,MRK,AAA
+56.20,Merck & Co. Inc.,2017-04-23,2017-04,62.33,MRK,AAA
+57.68,Merck & Co. Inc.,2017-04-30,2017-04,63.97,MRK,AAA
+57.32,Merck & Co. Inc.,2017-05-07,2017-05,63.57,MRK,AAA
+57.51,Merck & Co. Inc.,2017-05-14,2017-05,63.78,MRK,AAA
+58.54,Merck & Co. Inc.,2017-05-21,2017-05,64.92,MRK,AAA
+59.03,Merck & Co. Inc.,2017-05-28,2017-05,65.47,MRK,AAA
+58.06,Merck & Co. Inc.,2017-06-04,2017-06,64.39,MRK,AAA
+56.78,Merck & Co. Inc.,2017-06-11,2017-06,62.97,MRK,AAA
+60.10,Merck & Co. Inc.,2017-06-18,2017-06,66.16,MRK,AAA
+58.22,Merck & Co. Inc.,2017-06-25,2017-06,64.09,MRK,AAA
+57.37,Merck & Co. Inc.,2017-07-02,2017-07,63.16,MRK,AAA
+57.28,Merck & Co. Inc.,2017-07-09,2017-07,63.06,MRK,AAA
+56.89,Merck & Co. Inc.,2017-07-16,2017-07,62.63,MRK,AAA
+58.23,Merck & Co. Inc.,2017-07-23,2017-07,64.11,MRK,AAA
+57.32,Merck & Co. Inc.,2017-07-30,2017-07,63.10,MRK,AAA
+56.66,Merck & Co. Inc.,2017-08-06,2017-08,62.38,MRK,AAA
+55.85,Merck & Co. Inc.,2017-08-13,2017-08,61.49,MRK,AAA
+57.17,Merck & Co. Inc.,2017-08-20,2017-08,62.94,MRK,AAA
+57.98,Merck & Co. Inc.,2017-08-27,2017-08,63.83,MRK,AAA
+58.38,Merck & Co. Inc.,2017-09-03,2017-09,64.27,MRK,AAA
+60.10,Merck & Co. Inc.,2017-09-10,2017-09,66.16,MRK,AAA
+59.59,Merck & Co. Inc.,2017-09-17,2017-09,65.13,MRK,AAA
+58.58,Merck & Co. Inc.,2017-09-24,2017-09,64.03,MRK,AAA
+59.06,Merck & Co. Inc.,2017-10-01,2017-10,64.55,MRK,AAA
+58.00,Merck & Co. Inc.,2017-10-08,2017-10,63.39,MRK,AAA
+58.44,Merck & Co. Inc.,2017-10-15,2017-10,63.88,MRK,AAA
+53.28,Merck & Co. Inc.,2017-10-22,2017-10,58.24,MRK,AAA
+51.29,Merck & Co. Inc.,2017-10-29,2017-10,56.06,MRK,AAA
+50.76,Merck & Co. Inc.,2017-11-06,2017-11,55.48,MRK,AAA
+50.50,Merck & Co. Inc.,2017-11-13,2017-11,55.20,MRK,AAA
+49.73,Merck & Co. Inc.,2017-11-20,2017-11,54.35,MRK,AAA
+51.12,Merck & Co. Inc.,2017-11-27,2017-11,55.87,MRK,AAA
+50.84,Merck & Co. Inc.,2017-12-04,2017-12,55.57,MRK,AAA
+51.45,Merck & Co. Inc.,2017-12-11,2017-12,56.24,MRK,AAA
+52.00,Merck & Co. Inc.,2017-12-18,2017-12,56.36,MRK,AAA
+51.92,Merck & Co. Inc.,2017-12-25,2017-12,56.27,MRK,AAA
+52.58,Merck & Co. Inc.,2018-01-01,2018-01,56.99,MRK,AAA
+54.13,Merck & Co. Inc.,2018-01-08,2018-01,58.66,MRK,AAA
+56.54,Merck & Co. Inc.,2018-01-15,2018-01,61.28,MRK,AAA
+57.24,Merck & Co. Inc.,2018-01-22,2018-01,62.04,MRK,AAA
+54.03,Merck & Co. Inc.,2018-01-29,2018-01,58.56,MRK,AAA
+50.63,Merck & Co. Inc.,2018-02-05,2018-02,54.87,MRK,AAA
+51.94,Merck & Co. Inc.,2018-02-12,2018-02,56.29,MRK,AAA
+50.63,Merck & Co. Inc.,2018-02-19,2018-02,54.87,MRK,AAA
+50.16,Merck & Co. Inc.,2018-02-26,2018-02,54.36,MRK,AAA
+50.88,Merck & Co. Inc.,2018-03-05,2018-03,55.14,MRK,AAA
+51.37,Merck & Co. Inc.,2018-03-11,2018-03,55.67,MRK,AAA
+49.71,Merck & Co. Inc.,2018-03-18,2018-03,53.41,MRK,AAA
+50.70,Merck & Co. Inc.,2018-03-25,2018-03,54.47,MRK,AAA
+49.67,Merck & Co. Inc.,2018-04-01,2018-04,53.36,MRK,AAA
+53.21,Merck & Co. Inc.,2018-04-08,2018-04,57.17,MRK,AAA
+54.76,Merck & Co. Inc.,2018-04-15,2018-04,58.83,MRK,AAA
+55.35,Merck & Co. Inc.,2018-04-22,2018-04,59.47,MRK,AAA
+53.75,Merck & Co. Inc.,2018-04-29,2018-04,57.75,MRK,AAA
+55.56,Merck & Co. Inc.,2018-05-06,2018-05,59.69,MRK,AAA
+55.05,Merck & Co. Inc.,2018-05-13,2018-05,59.14,MRK,AAA
+55.00,Merck & Co. Inc.,2018-05-20,2018-05,59.09,MRK,AAA
+56.37,Merck & Co. Inc.,2018-05-27,2018-05,60.56,MRK,AAA
+58.25,Merck & Co. Inc.,2018-06-03,2018-06,62.58,MRK,AAA
+57.74,Merck & Co. Inc.,2018-06-10,2018-06,62.03,MRK,AAA
+57.66,Merck & Co. Inc.,2018-06-17,2018-06,61.47,MRK,AAA
+56.93,Merck & Co. Inc.,2018-06-24,2018-06,60.70,MRK,AAA
+58.34,Merck & Co. Inc.,2018-07-01,2018-07,62.20,MRK,AAA
+58.99,Merck & Co. Inc.,2018-07-08,2018-07,62.89,MRK,AAA
+58.64,Merck & Co. Inc.,2018-07-15,2018-07,62.52,MRK,AAA
+59.55,Merck & Co. Inc.,2018-07-22,2018-07,63.49,MRK,AAA
+61.84,Merck & Co. Inc.,2018-07-29,2018-07,65.93,MRK,AAA
+61.97,Merck & Co. Inc.,2018-08-05,2018-08,66.07,MRK,AAA
+64.78,Merck & Co. Inc.,2018-08-12,2018-08,69.06,MRK,AAA
+64.76,Merck & Co. Inc.,2018-08-19,2018-08,69.04,MRK,AAA
+64.33,Merck & Co. Inc.,2018-08-26,2018-08,68.59,MRK,AAA
+65.35,Merck & Co. Inc.,2018-09-02,2018-09,69.67,MRK,AAA
+65.64,Merck & Co. Inc.,2018-09-09,2018-09,69.98,MRK,AAA
+67.14,Merck & Co. Inc.,2018-09-16,2018-09,71.10,MRK,AAA
+66.99,Merck & Co. Inc.,2018-09-23,2018-09,70.94,MRK,AAA
+67.08,Merck & Co. Inc.,2018-09-30,2018-09,71.03,MRK,AAA
+65.93,Merck & Co. Inc.,2018-10-07,2018-10,69.81,MRK,AAA
+68.32,Merck & Co. Inc.,2018-10-14,2018-10,72.35,MRK,AAA
+66.48,Merck & Co. Inc.,2018-10-21,2018-10,70.40,MRK,AAA
+68.25,Merck & Co. Inc.,2018-10-28,2018-10,72.27,MRK,AAA
+70.69,Merck & Co. Inc.,2018-11-05,2018-11,74.86,MRK,AAA
+71.83,Merck & Co. Inc.,2018-11-12,2018-11,76.06,MRK,AAA
+70.51,Merck & Co. Inc.,2018-11-19,2018-11,74.67,MRK,AAA
+74.93,Merck & Co. Inc.,2018-11-26,2018-11,79.34,MRK,AAA
+72.45,Merck & Co. Inc.,2018-12-03,2018-12,76.72,MRK,AAA
+72.22,Merck & Co. Inc.,2018-12-10,2018-12,76.48,MRK,AAA
+69.33,Merck & Co. Inc.,2018-12-17,2018-12,72.90,MRK,AAA
+71.67,Merck & Co. Inc.,2018-12-24,2018-12,75.37,MRK,AAA
+72.53,Merck & Co. Inc.,2018-12-31,2018-12,76.27,MRK,AAA
+71.23,Merck & Co. Inc.,2019-01-07,2019-01,74.90,MRK,AAA
+72.15,Merck & Co. Inc.,2019-01-14,2019-01,75.87,MRK,AAA
+69.37,Merck & Co. Inc.,2019-01-21,2019-01,72.95,MRK,AAA
+72.70,Merck & Co. Inc.,2019-01-28,2019-01,76.45,MRK,AAA
+73.72,Merck & Co. Inc.,2019-02-04,2019-02,77.52,MRK,AAA
+75.90,Merck & Co. Inc.,2019-02-11,2019-02,79.81,MRK,AAA
+76.81,Merck & Co. Inc.,2019-02-18,2019-02,80.77,MRK,AAA
+77.65,Merck & Co. Inc.,2019-02-25,2019-02,81.65,MRK,AAA
+75.89,Merck & Co. Inc.,2019-03-04,2019-03,79.80,MRK,AAA
+77.57,Merck & Co. Inc.,2019-03-10,2019-03,81.57,MRK,AAA
+78.79,Merck & Co. Inc.,2019-03-17,2019-03,82.29,MRK,AAA
+79.63,Merck & Co. Inc.,2019-03-24,2019-03,83.17,MRK,AAA
+77.70,Merck & Co. Inc.,2019-03-31,2019-03,81.15,MRK,AAA
+76.05,Merck & Co. Inc.,2019-04-07,2019-04,79.43,MRK,AAA
+70.07,Merck & Co. Inc.,2019-04-14,2019-04,73.19,MRK,AAA
+73.37,Merck & Co. Inc.,2019-04-21,2019-04,76.63,MRK,AAA
+76.59,Merck & Co. Inc.,2019-04-28,2019-04,80.00,MRK,AAA
+74.86,Merck & Co. Inc.,2019-05-05,2019-05,78.19,MRK,AAA
+75.37,Merck & Co. Inc.,2019-05-12,2019-05,78.72,MRK,AAA
+77.71,Merck & Co. Inc.,2019-05-19,2019-05,81.17,MRK,AAA
+75.84,Merck & Co. Inc.,2019-05-26,2019-05,79.21,MRK,AAA
+78.95,Merck & Co. Inc.,2019-06-02,2019-06,82.46,MRK,AAA
+79.26,Merck & Co. Inc.,2019-06-09,2019-06,82.78,MRK,AAA
+81.51,Merck & Co. Inc.,2019-06-16,2019-06,84.57,MRK,AAA
+80.82,Merck & Co. Inc.,2019-06-23,2019-06,83.85,MRK,AAA
+82.50,Merck & Co. Inc.,2019-06-30,2019-06,85.60,MRK,AAA
+76.85,Merck & Co. Inc.,2019-07-07,2019-07,79.73,MRK,AAA
+78.45,Merck & Co. Inc.,2019-07-14,2019-07,81.39,MRK,AAA
+78.48,Merck & Co. Inc.,2019-07-21,2019-07,81.43,MRK,AAA
+81.41,Merck & Co. Inc.,2019-07-28,2019-07,84.47,MRK,AAA
+82.43,Merck & Co. Inc.,2019-08-04,2019-08,85.52,MRK,AAA
+81.98,Merck & Co. Inc.,2019-08-11,2019-08,85.06,MRK,AAA
+81.87,Merck & Co. Inc.,2019-08-18,2019-08,84.94,MRK,AAA
+83.34,Merck & Co. Inc.,2019-08-25,2019-08,86.47,MRK,AAA
+83.44,Merck & Co. Inc.,2019-09-01,2019-09,86.57,MRK,AAA
+79.62,Merck & Co. Inc.,2019-09-08,2019-09,82.61,MRK,AAA
+82.62,Merck & Co. Inc.,2019-09-15,2019-09,85.16,MRK,AAA
+80.44,Merck & Co. Inc.,2019-09-22,2019-09,82.91,MRK,AAA
+82.47,Merck & Co. Inc.,2019-09-29,2019-09,85.00,MRK,AAA
+81.83,Merck & Co. Inc.,2019-10-06,2019-10,84.34,MRK,AAA
+82.16,Merck & Co. Inc.,2019-10-13,2019-10,84.68,MRK,AAA
+79.81,Merck & Co. Inc.,2019-10-20,2019-10,82.26,MRK,AAA
+82.41,Merck & Co. Inc.,2019-10-27,2019-10,84.94,MRK,AAA
+81.10,Merck & Co. Inc.,2019-11-04,2019-11,83.59,MRK,AAA
+82.37,Merck & Co. Inc.,2019-11-11,2019-11,84.90,MRK,AAA
+82.91,Merck & Co. Inc.,2019-11-18,2019-11,85.45,MRK,AAA
+84.58,Merck & Co. Inc.,2019-11-25,2019-11,87.18,MRK,AAA
+86.20,Merck & Co. Inc.,2019-12-02,2019-12,88.85,MRK,AAA
+86.53,Merck & Co. Inc.,2019-12-09,2019-12,89.19,MRK,AAA
+89.46,Merck & Co. Inc.,2019-12-16,2019-12,91.58,MRK,AAA
+89.38,Merck & Co. Inc.,2019-12-23,2019-12,91.50,MRK,AAA
+89.14,Merck & Co. Inc.,2019-12-30,2019-12,91.25,MRK,AAA
+87.46,Merck & Co. Inc.,2020-01-06,2020-01,89.53,MRK,AAA
+88.87,Merck & Co. Inc.,2020-01-13,2020-01,90.97,MRK,AAA
+83.99,Merck & Co. Inc.,2020-01-20,2020-01,85.98,MRK,AAA
+83.46,Merck & Co. Inc.,2020-01-27,2020-01,85.44,MRK,AAA
+83.11,Merck & Co. Inc.,2020-02-03,2020-02,85.08,MRK,AAA
+80.74,Merck & Co. Inc.,2020-02-10,2020-02,82.65,MRK,AAA
+80.44,Merck & Co. Inc.,2020-02-17,2020-02,82.34,MRK,AAA
+74.79,Merck & Co. Inc.,2020-02-24,2020-02,76.56,MRK,AAA
+80.30,Merck & Co. Inc.,2020-03-02,2020-03,82.20,MRK,AAA
+74.98,Merck & Co. Inc.,2020-03-08,2020-03,76.75,MRK,AAA
+70.29,Merck & Co. Inc.,2020-03-15,2020-03,71.36,MRK,AAA
+70.65,Merck & Co. Inc.,2020-03-22,2020-03,71.73,MRK,AAA
+75.10,Merck & Co. Inc.,2020-03-29,2020-03,76.25,MRK,AAA
+81.25,Merck & Co. Inc.,2020-04-05,2020-04,82.49,MRK,AAA
+82.20,Merck & Co. Inc.,2020-04-12,2020-04,83.46,MRK,AAA
+80.20,Merck & Co. Inc.,2020-04-19,2020-04,81.43,MRK,AAA
+76.50,Merck & Co. Inc.,2020-04-26,2020-04,77.67,MRK,AAA
+75.25,Merck & Co. Inc.,2020-05-03,2020-05,76.40,MRK,AAA
+78.58,Merck & Co. Inc.,2020-05-10,2020-05,79.78,MRK,AAA
+75.22,Merck & Co. Inc.,2020-05-17,2020-05,76.37,MRK,AAA
+79.51,Merck & Co. Inc.,2020-05-24,2020-05,80.72,MRK,AAA
+81.02,Merck & Co. Inc.,2020-05-31,2020-05,82.26,MRK,AAA
+75.15,Merck & Co. Inc.,2020-06-07,2020-06,76.30,MRK,AAA
+77.34,Merck & Co. Inc.,2020-06-14,2020-06,77.90,MRK,AAA
+74.65,Merck & Co. Inc.,2020-06-21,2020-06,75.19,MRK,AAA
+78.21,Merck & Co. Inc.,2020-06-28,2020-06,78.78,MRK,AAA
+76.18,Merck & Co. Inc.,2020-07-05,2020-07,76.73,MRK,AAA
+79.29,Merck & Co. Inc.,2020-07-12,2020-07,79.87,MRK,AAA
+76.54,Merck & Co. Inc.,2020-07-19,2020-07,77.10,MRK,AAA
+79.66,Merck & Co. Inc.,2020-07-26,2020-07,80.24,MRK,AAA
+80.43,Merck & Co. Inc.,2020-08-02,2020-08,81.02,MRK,AAA
+82.88,Merck & Co. Inc.,2020-08-09,2020-08,83.48,MRK,AAA
+84.37,Merck & Co. Inc.,2020-08-16,2020-08,84.98,MRK,AAA
+85.03,Merck & Co. Inc.,2020-08-23,2020-08,85.65,MRK,AAA
+84.62,Merck & Co. Inc.,2020-08-30,2020-08,85.24,MRK,AAA
+83.87,Merck & Co. Inc.,2020-09-06,2020-09,84.48,MRK,AAA
+85.19,Merck & Co. Inc.,2020-09-13,2020-09,85.81,MRK,AAA
+82.93,Merck & Co. Inc.,2020-09-20,2020-09,82.93,MRK,AAA
+80.80,Merck & Co. Inc.,2020-09-27,2020-09,80.80,MRK,AAA
+80.36,Merck & Co. Inc.,2020-10-04,2020-10,80.36,MRK,AAA
+79.83,Merck & Co. Inc.,2020-10-11,2020-10,79.83,MRK,AAA
+79.83,Merck & Co. Inc.,2020-10-18,2020-10,79.83,MRK,AAA
+75.21,Merck & Co. Inc.,2020-10-25,2020-10,75.21,MRK,AAA
+80.36,Merck & Co. Inc.,2020-11-02,2020-11,80.36,MRK,AAA
+81.09,Merck & Co. Inc.,2020-11-09,2020-11,81.09,MRK,AAA
+80.45,Merck & Co. Inc.,2020-11-16,2020-11,80.45,MRK,AAA
+79.86,Merck & Co. Inc.,2020-11-23,2020-11,79.86,MRK,AAA
+81.45,Merck & Co. Inc.,2020-11-30,2020-11,81.45,MRK,AAA
+81.45,Merck & Co. Inc.,2020-12-03,2020-12,81.45,MRK,AAA
 51.02,Microsoft Corporation,2015-11-30,2015-11,55.91,MSFT,
 49.33,Microsoft Corporation,2015-12-07,2015-12,54.06,MSFT,
 49.40,Microsoft Corporation,2015-12-14,2015-12,54.13,MSFT,
@@ -5157,287 +5613,609 @@ adj_stock,company,date,month_year,stock,symbol,rating
 215.23,Microsoft Corporation,2020-11-23,2020-11,215.23,MSFT,AAA
 214.24,Microsoft Corporation,2020-11-30,2020-11,214.24,MSFT,AAA
 214.24,Microsoft Corporation,2020-12-03,2020-12,214.24,MSFT,AAA
-50.56,NIKE Inc.,2017-05-21,2017-05,52.59,NKE,
-50.93,NIKE Inc.,2017-05-28,2017-05,52.98,NKE,
-51.57,NIKE Inc.,2017-06-04,2017-06,53.46,NKE,
-49.29,NIKE Inc.,2017-06-11,2017-06,51.10,NKE,
-50.98,NIKE Inc.,2017-06-18,2017-06,52.85,NKE,
-56.91,NIKE Inc.,2017-06-25,2017-06,59.00,NKE,
-55.93,NIKE Inc.,2017-07-02,2017-07,57.98,NKE,
-55.95,NIKE Inc.,2017-07-09,2017-07,58.00,NKE,
-57.83,NIKE Inc.,2017-07-16,2017-07,59.95,NKE,
-56.60,NIKE Inc.,2017-07-23,2017-07,58.67,NKE,
-57.65,NIKE Inc.,2017-07-30,2017-07,59.76,NKE,
-56.89,NIKE Inc.,2017-08-06,2017-08,58.97,NKE,AA
-53.01,NIKE Inc.,2017-08-13,2017-08,54.95,NKE,AA
-51.99,NIKE Inc.,2017-08-20,2017-08,53.90,NKE,AA
-51.47,NIKE Inc.,2017-08-27,2017-08,53.36,NKE,AA
-50.53,NIKE Inc.,2017-09-03,2017-09,52.20,NKE,AA
-52.14,NIKE Inc.,2017-09-10,2017-09,53.87,NKE,AA
-51.53,NIKE Inc.,2017-09-17,2017-09,53.24,NKE,AA
-50.19,NIKE Inc.,2017-09-24,2017-09,51.85,NKE,AA
-50.74,NIKE Inc.,2017-10-01,2017-10,52.42,NKE,AA
-49.35,NIKE Inc.,2017-10-08,2017-10,50.98,NKE,AA
-51.36,NIKE Inc.,2017-10-15,2017-10,53.06,NKE,AA
-54.17,NIKE Inc.,2017-10-22,2017-10,55.96,NKE,AA
-53.93,NIKE Inc.,2017-10-29,2017-10,55.71,NKE,AA
-54.29,NIKE Inc.,2017-11-06,2017-11,56.09,NKE,AA
-57.29,NIKE Inc.,2017-11-13,2017-11,59.19,NKE,AA
-57.42,NIKE Inc.,2017-11-20,2017-11,59.32,NKE,AA
-57.96,NIKE Inc.,2017-11-27,2017-11,59.88,NKE,AA
-59.53,NIKE Inc.,2017-12-04,2017-12,61.30,NKE,AA
-62.92,NIKE Inc.,2017-12-11,2017-12,64.79,NKE,AA
-61.47,NIKE Inc.,2017-12-18,2017-12,63.29,NKE,AA
-60.75,NIKE Inc.,2017-12-25,2017-12,62.55,NKE,AA
-62.14,NIKE Inc.,2018-01-01,2018-01,63.98,NKE,AA
-62.81,NIKE Inc.,2018-01-08,2018-01,64.67,NKE,AA
-65.27,NIKE Inc.,2018-01-15,2018-01,67.21,NKE,AA
-66.08,NIKE Inc.,2018-01-22,2018-01,68.04,NKE,AA
-65.28,NIKE Inc.,2018-01-29,2018-01,67.22,NKE,AA
-63.60,NIKE Inc.,2018-02-05,2018-02,65.49,NKE,AA
-66.33,NIKE Inc.,2018-02-12,2018-02,68.30,NKE,AA
-66.20,NIKE Inc.,2018-02-19,2018-02,68.16,NKE,AA
-63.99,NIKE Inc.,2018-02-26,2018-02,65.89,NKE,AA
-64.58,NIKE Inc.,2018-03-05,2018-03,66.30,NKE,AA
-64.20,NIKE Inc.,2018-03-11,2018-03,65.91,NKE,AA
-62.96,NIKE Inc.,2018-03-18,2018-03,64.63,NKE,AA
-64.72,NIKE Inc.,2018-03-25,2018-03,66.44,NKE,AA
-65.80,NIKE Inc.,2018-04-01,2018-04,67.55,NKE,AA
-65.51,NIKE Inc.,2018-04-08,2018-04,67.25,NKE,AA
-64.38,NIKE Inc.,2018-04-15,2018-04,66.09,NKE,AA
-67.76,NIKE Inc.,2018-04-22,2018-04,69.56,NKE,AA
-66.34,NIKE Inc.,2018-04-29,2018-04,68.10,NKE,AA
-66.66,NIKE Inc.,2018-05-06,2018-05,68.43,NKE,AA
-69.47,NIKE Inc.,2018-05-13,2018-05,71.32,NKE,AA
-70.38,NIKE Inc.,2018-05-20,2018-05,72.25,NKE,AA
-70.88,NIKE Inc.,2018-05-27,2018-05,72.76,NKE,AA
-73.17,NIKE Inc.,2018-06-03,2018-06,74.90,NKE,AA
-74.08,NIKE Inc.,2018-06-10,2018-06,75.84,NKE,AA
-71.73,NIKE Inc.,2018-06-17,2018-06,73.43,NKE,AA
-77.83,NIKE Inc.,2018-06-24,2018-06,79.68,NKE,AA
-74.71,NIKE Inc.,2018-07-01,2018-07,76.48,NKE,AA
-75.59,NIKE Inc.,2018-07-08,2018-07,77.38,NKE,AA
-75.18,NIKE Inc.,2018-07-15,2018-07,76.96,NKE,AA
-75.11,NIKE Inc.,2018-07-22,2018-07,76.89,NKE,AA
-76.92,NIKE Inc.,2018-07-29,2018-07,78.74,NKE,AA
-78.86,NIKE Inc.,2018-08-05,2018-08,80.73,NKE,A
-77.90,NIKE Inc.,2018-08-12,2018-08,79.75,NKE,A
-80.54,NIKE Inc.,2018-08-19,2018-08,82.45,NKE,A
-80.30,NIKE Inc.,2018-08-26,2018-08,82.20,NKE,A
-78.63,NIKE Inc.,2018-09-02,2018-09,80.30,NKE,A
-81.76,NIKE Inc.,2018-09-09,2018-09,83.49,NKE,A
-83.77,NIKE Inc.,2018-09-16,2018-09,85.55,NKE,A
-82.96,NIKE Inc.,2018-09-23,2018-09,84.72,NKE,A
-78.46,NIKE Inc.,2018-09-30,2018-09,80.12,NKE,A
-74.33,NIKE Inc.,2018-10-07,2018-10,75.91,NKE,A
-72.67,NIKE Inc.,2018-10-14,2018-10,74.21,NKE,A
-70.57,NIKE Inc.,2018-10-21,2018-10,72.07,NKE,A
-74.99,NIKE Inc.,2018-10-28,2018-10,76.58,NKE,A
-74.78,NIKE Inc.,2018-11-05,2018-11,76.36,NKE,A
-73.19,NIKE Inc.,2018-11-12,2018-11,74.74,NKE,A
-70.01,NIKE Inc.,2018-11-19,2018-11,71.49,NKE,A
-73.56,NIKE Inc.,2018-11-26,2018-11,75.12,NKE,A
-72.03,NIKE Inc.,2018-12-03,2018-12,73.34,NKE,A
-71.24,NIKE Inc.,2018-12-10,2018-12,72.53,NKE,A
-71.08,NIKE Inc.,2018-12-17,2018-12,72.37,NKE,A
-72.03,NIKE Inc.,2018-12-24,2018-12,73.34,NKE,A
-73.32,NIKE Inc.,2018-12-31,2018-12,74.65,NKE,A
-74.68,NIKE Inc.,2019-01-07,2019-01,76.04,NKE,A
-79.01,NIKE Inc.,2019-01-14,2019-01,80.45,NKE,A
-79.17,NIKE Inc.,2019-01-21,2019-01,80.61,NKE,A
-80.06,NIKE Inc.,2019-01-28,2019-01,81.51,NKE,A
-80.89,NIKE Inc.,2019-02-04,2019-02,82.36,NKE,A
-83.86,NIKE Inc.,2019-02-11,2019-02,85.38,NKE,A
-83.25,NIKE Inc.,2019-02-18,2019-02,84.76,NKE,A
-85.60,NIKE Inc.,2019-02-25,2019-02,87.16,NKE,A
-83.50,NIKE Inc.,2019-03-04,2019-03,84.80,NKE,A
-85.47,NIKE Inc.,2019-03-10,2019-03,86.80,NKE,A
-80.93,NIKE Inc.,2019-03-17,2019-03,82.19,NKE,A
-82.92,NIKE Inc.,2019-03-24,2019-03,84.21,NKE,A
-84.09,NIKE Inc.,2019-03-31,2019-03,85.40,NKE,A
-84.92,NIKE Inc.,2019-04-07,2019-04,86.24,NKE,A
-87.83,NIKE Inc.,2019-04-14,2019-04,89.20,NKE,A
-86.96,NIKE Inc.,2019-04-21,2019-04,88.31,NKE,A
-84.39,NIKE Inc.,2019-04-28,2019-04,85.70,NKE,A
-82.66,NIKE Inc.,2019-05-05,2019-05,83.95,NKE,A
-83.27,NIKE Inc.,2019-05-12,2019-05,84.57,NKE,A
-80.90,NIKE Inc.,2019-05-19,2019-05,82.16,NKE,A
-75.96,NIKE Inc.,2019-05-26,2019-05,77.14,NKE,A
-82.36,NIKE Inc.,2019-06-02,2019-06,83.41,NKE,A
-82.39,NIKE Inc.,2019-06-09,2019-06,83.44,NKE,A
-84.67,NIKE Inc.,2019-06-16,2019-06,85.75,NKE,A
-82.89,NIKE Inc.,2019-06-23,2019-06,83.95,NKE,A
-85.73,NIKE Inc.,2019-06-30,2019-06,86.82,NKE,A
-88.00,NIKE Inc.,2019-07-07,2019-07,89.12,NKE,A
-85.46,NIKE Inc.,2019-07-14,2019-07,86.55,NKE,A
-86.44,NIKE Inc.,2019-07-21,2019-07,87.54,NKE,A
-80.12,NIKE Inc.,2019-07-28,2019-07,81.14,NKE,A
-80.95,NIKE Inc.,2019-08-04,2019-08,81.98,NKE,A
-79.27,NIKE Inc.,2019-08-11,2019-08,80.28,NKE,A
-79.43,NIKE Inc.,2019-08-18,2019-08,80.44,NKE,A
-83.44,NIKE Inc.,2019-08-25,2019-08,84.50,NKE,A
-87.80,NIKE Inc.,2019-09-01,2019-09,88.69,NKE,A
-86.44,NIKE Inc.,2019-09-08,2019-09,87.32,NKE,A
-85.81,NIKE Inc.,2019-09-15,2019-09,86.68,NKE,A
-91.38,NIKE Inc.,2019-09-22,2019-09,92.31,NKE,A
-92.14,NIKE Inc.,2019-09-29,2019-09,93.07,NKE,A
-92.94,NIKE Inc.,2019-10-06,2019-10,93.88,NKE,A
-95.14,NIKE Inc.,2019-10-13,2019-10,96.10,NKE,A
-90.01,NIKE Inc.,2019-10-20,2019-10,90.92,NKE,A
-88.29,NIKE Inc.,2019-10-27,2019-10,89.18,NKE,A
-88.91,NIKE Inc.,2019-11-04,2019-11,89.81,NKE,A
-92.11,NIKE Inc.,2019-11-11,2019-11,93.04,NKE,A
-92.40,NIKE Inc.,2019-11-18,2019-11,93.34,NKE,A
-92.55,NIKE Inc.,2019-11-25,2019-11,93.49,NKE,A
-96.28,NIKE Inc.,2019-12-02,2019-12,97.00,NKE,A
-97.04,NIKE Inc.,2019-12-09,2019-12,97.77,NKE,A
-99.22,NIKE Inc.,2019-12-16,2019-12,99.96,NKE,A
-100.81,NIKE Inc.,2019-12-23,2019-12,101.57,NKE,A
-101.16,NIKE Inc.,2019-12-30,2019-12,101.92,NKE,A
-100.15,NIKE Inc.,2020-01-06,2020-01,100.90,NKE,A
-103.75,NIKE Inc.,2020-01-13,2020-01,104.53,NKE,A
-101.27,NIKE Inc.,2020-01-20,2020-01,102.03,NKE,A
-95.58,NIKE Inc.,2020-01-27,2020-01,96.30,NKE,A
-98.70,NIKE Inc.,2020-02-03,2020-02,99.44,NKE,A
-102.77,NIKE Inc.,2020-02-10,2020-02,103.54,NKE,A
-99.50,NIKE Inc.,2020-02-17,2020-02,100.25,NKE,A
-88.71,NIKE Inc.,2020-02-24,2020-02,89.38,NKE,A
-87.95,NIKE Inc.,2020-03-02,2020-03,88.36,NKE,A
-75.23,NIKE Inc.,2020-03-08,2020-03,75.58,NKE,A
-67.13,NIKE Inc.,2020-03-15,2020-03,67.45,NKE,A
-82.84,NIKE Inc.,2020-03-22,2020-03,83.23,NKE,A
-78.49,NIKE Inc.,2020-03-29,2020-03,78.86,NKE,A
-86.38,NIKE Inc.,2020-04-05,2020-04,86.79,NKE,A
-89.49,NIKE Inc.,2020-04-12,2020-04,89.91,NKE,A
-87.96,NIKE Inc.,2020-04-19,2020-04,88.37,NKE,A
-85.14,NIKE Inc.,2020-04-26,2020-04,85.54,NKE,A
-90.04,NIKE Inc.,2020-05-03,2020-05,90.46,NKE,A
-86.58,NIKE Inc.,2020-05-10,2020-05,86.99,NKE,A
-93.31,NIKE Inc.,2020-05-17,2020-05,93.75,NKE,A
-98.12,NIKE Inc.,2020-05-24,2020-05,98.58,NKE,A
-102.48,NIKE Inc.,2020-05-31,2020-05,102.71,NKE,A
-96.22,NIKE Inc.,2020-06-07,2020-06,96.43,NKE,A
-95.57,NIKE Inc.,2020-06-14,2020-06,95.78,NKE,A
-93.46,NIKE Inc.,2020-06-21,2020-06,93.67,NKE,A
-98.21,NIKE Inc.,2020-06-28,2020-06,98.43,NKE,A
-97.77,NIKE Inc.,2020-07-05,2020-07,97.99,NKE,A
-96.07,NIKE Inc.,2020-07-12,2020-07,96.28,NKE,A
-98.21,NIKE Inc.,2020-07-19,2020-07,98.43,NKE,A
-97.39,NIKE Inc.,2020-07-26,2020-07,97.61,NKE,A
-101.63,NIKE Inc.,2020-08-02,2020-08,101.86,NKE,A
-106.19,NIKE Inc.,2020-08-09,2020-08,106.43,NKE,A
-109.51,NIKE Inc.,2020-08-16,2020-08,109.75,NKE,A
-112.04,NIKE Inc.,2020-08-23,2020-08,112.29,NKE,A
-112.40,NIKE Inc.,2020-08-30,2020-08,112.40,NKE,A
-118.00,NIKE Inc.,2020-09-06,2020-09,118.00,NKE,A
-114.66,NIKE Inc.,2020-09-13,2020-09,114.66,NKE,A
-124.23,NIKE Inc.,2020-09-20,2020-09,124.23,NKE,A
-126.64,NIKE Inc.,2020-09-27,2020-09,126.64,NKE,A
-130.98,NIKE Inc.,2020-10-04,2020-10,130.98,NKE,A
-128.00,NIKE Inc.,2020-10-11,2020-10,128.00,NKE,A
-129.99,NIKE Inc.,2020-10-18,2020-10,129.99,NKE,A
-120.08,NIKE Inc.,2020-10-25,2020-10,120.08,NKE,A
-128.90,NIKE Inc.,2020-11-02,2020-11,128.90,NKE,A
-128.28,NIKE Inc.,2020-11-09,2020-11,128.28,NKE,A
-132.98,NIKE Inc.,2020-11-16,2020-11,132.98,NKE,A
-134.25,NIKE Inc.,2020-11-23,2020-11,134.25,NKE,A
-136.96,NIKE Inc.,2020-11-30,2020-11,136.96,NKE,A
-136.96,NIKE Inc.,2020-12-03,2020-12,136.96,NKE,A
-,,,2015-09,,NKE,AA
-,,,2016-09,,NKE,AA
-94.15,The Procter & Gamble Company,2019-03-04,2019-03,98.41,PG,
-98.01,The Procter & Gamble Company,2019-03-10,2019-03,102.44,PG,
-97.26,The Procter & Gamble Company,2019-03-17,2019-03,101.66,PG,
-99.55,The Procter & Gamble Company,2019-03-24,2019-03,104.05,PG,
-99.16,The Procter & Gamble Company,2019-03-31,2019-03,103.65,PG,
-100.51,The Procter & Gamble Company,2019-04-07,2019-04,105.06,PG,
-101.46,The Procter & Gamble Company,2019-04-14,2019-04,106.05,PG,
-101.99,The Procter & Gamble Company,2019-04-21,2019-04,105.86,PG,
-102.20,The Procter & Gamble Company,2019-04-28,2019-04,106.08,PG,
-102.14,The Procter & Gamble Company,2019-05-05,2019-05,106.01,PG,
-103.52,The Procter & Gamble Company,2019-05-12,2019-05,107.45,PG,
-102.79,The Procter & Gamble Company,2019-05-19,2019-05,106.69,PG,
-99.15,The Procter & Gamble Company,2019-05-26,2019-05,102.91,PG,
-104.80,The Procter & Gamble Company,2019-06-02,2019-06,108.77,PG,
-107.14,The Procter & Gamble Company,2019-06-09,2019-06,111.20,PG,
-107.14,The Procter & Gamble Company,2019-06-16,2019-06,111.20,PG,
-105.64,The Procter & Gamble Company,2019-06-23,2019-06,109.65,PG,
-109.02,The Procter & Gamble Company,2019-06-30,2019-06,113.15,PG,
-110.79,The Procter & Gamble Company,2019-07-07,2019-07,114.99,PG,
-110.81,The Procter & Gamble Company,2019-07-14,2019-07,115.01,PG,
-111.25,The Procter & Gamble Company,2019-07-21,2019-07,114.73,PG,
-112.91,The Procter & Gamble Company,2019-07-28,2019-07,116.44,PG,
-113.24,The Procter & Gamble Company,2019-08-04,2019-08,116.78,PG,
-115.57,The Procter & Gamble Company,2019-08-11,2019-08,119.18,PG,
-113.77,The Procter & Gamble Company,2019-08-18,2019-08,117.32,PG,
-116.59,The Procter & Gamble Company,2019-08-25,2019-08,120.23,PG,
-119.15,The Procter & Gamble Company,2019-09-01,2019-09,122.87,PG,
-118.42,The Procter & Gamble Company,2019-09-08,2019-09,122.12,PG,
-118.54,The Procter & Gamble Company,2019-09-15,2019-09,122.24,PG,
-120.80,The Procter & Gamble Company,2019-09-22,2019-09,124.57,PG,
-120.24,The Procter & Gamble Company,2019-09-29,2019-09,124.00,PG,
-117.42,The Procter & Gamble Company,2019-10-06,2019-10,121.09,PG,
-113.91,The Procter & Gamble Company,2019-10-13,2019-10,117.47,PG,
-120.28,The Procter & Gamble Company,2019-10-20,2019-10,123.25,PG,
-120.88,The Procter & Gamble Company,2019-10-27,2019-10,123.87,PG,
-116.81,The Procter & Gamble Company,2019-11-04,2019-11,119.70,PG,
-117.63,The Procter & Gamble Company,2019-11-11,2019-11,120.54,PG,
-117.39,The Procter & Gamble Company,2019-11-18,2019-11,120.29,PG,
-119.12,The Procter & Gamble Company,2019-11-25,2019-11,122.06,PG,
-121.20,The Procter & Gamble Company,2019-12-02,2019-12,124.19,PG,
-122.45,The Procter & Gamble Company,2019-12-09,2019-12,125.47,PG,
-122.34,The Procter & Gamble Company,2019-12-16,2019-12,125.36,PG,
-123.05,The Procter & Gamble Company,2019-12-23,2019-12,126.09,PG,
-119.63,The Procter & Gamble Company,2019-12-30,2019-12,122.58,PG,
-120.98,The Procter & Gamble Company,2020-01-06,2020-01,123.97,PG,
-123.36,The Procter & Gamble Company,2020-01-13,2020-01,126.41,PG,
-122.12,The Procter & Gamble Company,2020-01-20,2020-01,125.14,PG,
-122.34,The Procter & Gamble Company,2020-01-27,2020-01,124.62,PG,
-123.77,The Procter & Gamble Company,2020-02-03,2020-02,126.08,PG,
-123.83,The Procter & Gamble Company,2020-02-10,2020-02,126.14,PG,
-124.38,The Procter & Gamble Company,2020-02-17,2020-02,126.70,PG,
-111.16,The Procter & Gamble Company,2020-02-24,2020-02,113.23,PG,
-119.43,The Procter & Gamble Company,2020-03-02,2020-03,121.66,PG,
-111.98,The Procter & Gamble Company,2020-03-08,2020-03,114.07,PG,
-100.56,The Procter & Gamble Company,2020-03-15,2020-03,102.43,PG,
-108.15,The Procter & Gamble Company,2020-03-22,2020-03,110.17,PG,
-112.97,The Procter & Gamble Company,2020-03-29,2020-03,115.08,PG,
-112.56,The Procter & Gamble Company,2020-04-05,2020-04,114.66,PG,
-122.41,The Procter & Gamble Company,2020-04-12,2020-04,124.69,PG,
-116.61,The Procter & Gamble Company,2020-04-19,2020-04,118.78,PG,
-115.45,The Procter & Gamble Company,2020-04-26,2020-04,116.82,PG,
-114.59,The Procter & Gamble Company,2020-05-03,2020-05,115.95,PG,
-113.26,The Procter & Gamble Company,2020-05-10,2020-05,114.61,PG,
-111.28,The Procter & Gamble Company,2020-05-17,2020-05,112.60,PG,
-114.56,The Procter & Gamble Company,2020-05-24,2020-05,115.92,PG,
-116.94,The Procter & Gamble Company,2020-05-31,2020-05,118.33,PG,
-114.26,The Procter & Gamble Company,2020-06-07,2020-06,115.62,PG,
-117.52,The Procter & Gamble Company,2020-06-14,2020-06,118.92,PG,
-113.88,The Procter & Gamble Company,2020-06-21,2020-06,115.23,PG,
-119.46,The Procter & Gamble Company,2020-06-28,2020-06,120.88,PG,
-122.43,The Procter & Gamble Company,2020-07-05,2020-07,123.89,PG,
-124.15,The Procter & Gamble Company,2020-07-12,2020-07,125.63,PG,
-124.48,The Procter & Gamble Company,2020-07-19,2020-07,125.96,PG,
-130.40,The Procter & Gamble Company,2020-07-26,2020-07,131.12,PG,
-132.81,The Procter & Gamble Company,2020-08-02,2020-08,133.55,PG,
-134.35,The Procter & Gamble Company,2020-08-09,2020-08,135.10,PG,
-136.68,The Procter & Gamble Company,2020-08-16,2020-08,137.44,PG,
-138.00,The Procter & Gamble Company,2020-08-23,2020-08,138.77,PG,
-137.20,The Procter & Gamble Company,2020-08-30,2020-08,137.96,PG,
-137.38,The Procter & Gamble Company,2020-09-06,2020-09,138.14,PG,
-136.61,The Procter & Gamble Company,2020-09-13,2020-09,137.37,PG,
-136.86,The Procter & Gamble Company,2020-09-20,2020-09,137.62,PG,
-137.36,The Procter & Gamble Company,2020-09-27,2020-09,138.12,PG,
-142.13,The Procter & Gamble Company,2020-10-04,2020-10,142.92,PG,
-143.59,The Procter & Gamble Company,2020-10-11,2020-10,144.39,PG,
-141.59,The Procter & Gamble Company,2020-10-18,2020-10,142.38,PG,
-137.10,The Procter & Gamble Company,2020-10-25,2020-10,137.10,PG,
-143.23,The Procter & Gamble Company,2020-11-02,2020-11,143.23,PG,
-144.28,The Procter & Gamble Company,2020-11-09,2020-11,144.28,PG,
-139.30,The Procter & Gamble Company,2020-11-16,2020-11,139.30,PG,
-138.61,The Procter & Gamble Company,2020-11-23,2020-11,138.61,PG,
-137.34,The Procter & Gamble Company,2020-11-30,2020-11,137.34,PG,
-137.34,The Procter & Gamble Company,2020-12-03,2020-12,137.34,PG,
+62.06,NIKE Inc.,2015-11-30,2015-11,66.17,NKE,AA
+59.23,NIKE Inc.,2015-12-07,2015-12,63.15,NKE,AA
+60.57,NIKE Inc.,2015-12-14,2015-12,64.26,NKE,AA
+59.55,NIKE Inc.,2015-12-21,2015-12,63.18,NKE,AA
+58.91,NIKE Inc.,2015-12-28,2015-12,62.50,NKE,AA
+55.49,NIKE Inc.,2016-01-04,2016-01,58.87,NKE,AA
+54.26,NIKE Inc.,2016-01-11,2016-01,57.56,NKE,AA
+57.38,NIKE Inc.,2016-01-18,2016-01,60.88,NKE,AA
+58.45,NIKE Inc.,2016-01-25,2016-01,62.01,NKE,AA
+53.89,NIKE Inc.,2016-02-01,2016-02,57.17,NKE,AA
+53.18,NIKE Inc.,2016-02-08,2016-02,56.42,NKE,AA
+55.91,NIKE Inc.,2016-02-15,2016-02,59.31,NKE,AA
+59.01,NIKE Inc.,2016-02-22,2016-02,62.60,NKE,AA
+57.74,NIKE Inc.,2016-02-29,2016-02,61.26,NKE,AA
+56.78,NIKE Inc.,2016-03-07,2016-03,60.08,NKE,AA
+59.53,NIKE Inc.,2016-03-13,2016-03,62.99,NKE,AA
+58.26,NIKE Inc.,2016-03-20,2016-03,61.65,NKE,AA
+58.20,NIKE Inc.,2016-03-27,2016-03,61.59,NKE,AA
+56.15,NIKE Inc.,2016-04-03,2016-04,59.42,NKE,AA
+56.23,NIKE Inc.,2016-04-10,2016-04,59.50,NKE,AA
+56.16,NIKE Inc.,2016-04-17,2016-04,59.43,NKE,AA
+55.70,NIKE Inc.,2016-04-24,2016-04,58.94,NKE,AA
+55.22,NIKE Inc.,2016-05-01,2016-05,58.43,NKE,AA
+54.16,NIKE Inc.,2016-05-08,2016-05,57.31,NKE,AA
+53.37,NIKE Inc.,2016-05-15,2016-05,56.48,NKE,AA
+53.10,NIKE Inc.,2016-05-22,2016-05,56.19,NKE,AA
+50.51,NIKE Inc.,2016-05-29,2016-05,53.45,NKE,AA
+52.23,NIKE Inc.,2016-06-05,2016-06,55.11,NKE,AA
+50.91,NIKE Inc.,2016-06-12,2016-06,53.71,NKE,AA
+49.84,NIKE Inc.,2016-06-19,2016-06,52.59,NKE,AA
+52.71,NIKE Inc.,2016-06-26,2016-06,55.61,NKE,AA
+53.76,NIKE Inc.,2016-07-03,2016-07,56.72,NKE,AA
+54.85,NIKE Inc.,2016-07-10,2016-07,57.87,NKE,AA
+53.77,NIKE Inc.,2016-07-17,2016-07,56.73,NKE,AA
+52.60,NIKE Inc.,2016-07-24,2016-07,55.50,NKE,AA
+52.93,NIKE Inc.,2016-07-31,2016-07,55.85,NKE,AA
+53.50,NIKE Inc.,2016-08-07,2016-08,56.45,NKE,AA
+55.82,NIKE Inc.,2016-08-14,2016-08,58.90,NKE,AA
+55.92,NIKE Inc.,2016-08-21,2016-08,59.00,NKE,AA
+54.99,NIKE Inc.,2016-08-28,2016-08,58.02,NKE,AA
+52.73,NIKE Inc.,2016-09-04,2016-09,55.33,NKE,AA
+52.59,NIKE Inc.,2016-09-11,2016-09,55.18,NKE,AA
+52.56,NIKE Inc.,2016-09-18,2016-09,55.15,NKE,AA
+50.18,NIKE Inc.,2016-09-25,2016-09,52.65,NKE,AA
+49.36,NIKE Inc.,2016-10-02,2016-10,51.79,NKE,AA
+49.20,NIKE Inc.,2016-10-09,2016-10,51.62,NKE,AA
+49.34,NIKE Inc.,2016-10-16,2016-10,51.77,NKE,AA
+49.58,NIKE Inc.,2016-10-23,2016-10,52.02,NKE,AA
+47.61,NIKE Inc.,2016-10-30,2016-10,49.96,NKE,AA
+48.39,NIKE Inc.,2016-11-07,2016-11,50.77,NKE,AA
+48.70,NIKE Inc.,2016-11-14,2016-11,51.10,NKE,AA
+49.10,NIKE Inc.,2016-11-21,2016-11,51.52,NKE,AA
+48.09,NIKE Inc.,2016-11-28,2016-11,50.46,NKE,AA
+49.47,NIKE Inc.,2016-12-05,2016-12,51.72,NKE,AA
+48.70,NIKE Inc.,2016-12-12,2016-12,50.92,NKE,AA
+49.65,NIKE Inc.,2016-12-19,2016-12,51.91,NKE,AA
+48.62,NIKE Inc.,2016-12-26,2016-12,50.83,NKE,AA
+51.56,NIKE Inc.,2017-01-02,2017-01,53.91,NKE,AA
+50.62,NIKE Inc.,2017-01-09,2017-01,52.92,NKE,AA
+50.88,NIKE Inc.,2017-01-16,2017-01,53.20,NKE,AA
+50.87,NIKE Inc.,2017-01-23,2017-01,53.19,NKE,AA
+50.08,NIKE Inc.,2017-01-30,2017-01,52.36,NKE,AA
+53.77,NIKE Inc.,2017-02-06,2017-02,56.22,NKE,AA
+54.28,NIKE Inc.,2017-02-13,2017-02,56.75,NKE,AA
+55.34,NIKE Inc.,2017-02-20,2017-02,57.86,NKE,AA
+54.23,NIKE Inc.,2017-02-27,2017-02,56.70,NKE,AA
+54.14,NIKE Inc.,2017-03-06,2017-03,56.43,NKE,AA
+55.46,NIKE Inc.,2017-03-12,2017-03,57.80,NKE,AA
+54.07,NIKE Inc.,2017-03-19,2017-03,56.36,NKE,AA
+53.47,NIKE Inc.,2017-03-26,2017-03,55.73,NKE,AA
+52.87,NIKE Inc.,2017-04-02,2017-04,55.11,NKE,AA
+53.10,NIKE Inc.,2017-04-09,2017-04,55.34,NKE,AA
+53.58,NIKE Inc.,2017-04-16,2017-04,55.85,NKE,AA
+53.16,NIKE Inc.,2017-04-23,2017-04,55.41,NKE,AA
+51.76,NIKE Inc.,2017-04-30,2017-04,53.95,NKE,AA
+52.00,NIKE Inc.,2017-05-07,2017-05,54.20,NKE,AA
+49.67,NIKE Inc.,2017-05-14,2017-05,51.77,NKE,AA
+50.46,NIKE Inc.,2017-05-21,2017-05,52.59,NKE,AA
+50.83,NIKE Inc.,2017-05-28,2017-05,52.98,NKE,AA
+51.47,NIKE Inc.,2017-06-04,2017-06,53.46,NKE,AA
+49.19,NIKE Inc.,2017-06-11,2017-06,51.10,NKE,AA
+50.88,NIKE Inc.,2017-06-18,2017-06,52.85,NKE,AA
+56.80,NIKE Inc.,2017-06-25,2017-06,59.00,NKE,AA
+55.82,NIKE Inc.,2017-07-02,2017-07,57.98,NKE,AA
+55.84,NIKE Inc.,2017-07-09,2017-07,58.00,NKE,AA
+57.71,NIKE Inc.,2017-07-16,2017-07,59.95,NKE,AA
+56.48,NIKE Inc.,2017-07-23,2017-07,58.67,NKE,AA
+57.53,NIKE Inc.,2017-07-30,2017-07,59.76,NKE,AA
+56.77,NIKE Inc.,2017-08-06,2017-08,58.97,NKE,AA
+52.90,NIKE Inc.,2017-08-13,2017-08,54.95,NKE,AA
+51.89,NIKE Inc.,2017-08-20,2017-08,53.90,NKE,AA
+51.37,NIKE Inc.,2017-08-27,2017-08,53.36,NKE,AA
+50.43,NIKE Inc.,2017-09-03,2017-09,52.20,NKE,AA
+52.04,NIKE Inc.,2017-09-10,2017-09,53.87,NKE,AA
+51.43,NIKE Inc.,2017-09-17,2017-09,53.24,NKE,AA
+50.09,NIKE Inc.,2017-09-24,2017-09,51.85,NKE,AA
+50.64,NIKE Inc.,2017-10-01,2017-10,52.42,NKE,AA
+49.25,NIKE Inc.,2017-10-08,2017-10,50.98,NKE,AA
+51.26,NIKE Inc.,2017-10-15,2017-10,53.06,NKE,AA
+54.06,NIKE Inc.,2017-10-22,2017-10,55.96,NKE,AA
+53.82,NIKE Inc.,2017-10-29,2017-10,55.71,NKE,AA
+54.18,NIKE Inc.,2017-11-06,2017-11,56.09,NKE,AA
+57.18,NIKE Inc.,2017-11-13,2017-11,59.19,NKE,AA
+57.30,NIKE Inc.,2017-11-20,2017-11,59.32,NKE,AA
+57.85,NIKE Inc.,2017-11-27,2017-11,59.88,NKE,AA
+59.41,NIKE Inc.,2017-12-04,2017-12,61.30,NKE,AA
+62.80,NIKE Inc.,2017-12-11,2017-12,64.79,NKE,AA
+61.34,NIKE Inc.,2017-12-18,2017-12,63.29,NKE,AA
+60.63,NIKE Inc.,2017-12-25,2017-12,62.55,NKE,AA
+62.01,NIKE Inc.,2018-01-01,2018-01,63.98,NKE,AA
+62.68,NIKE Inc.,2018-01-08,2018-01,64.67,NKE,AA
+65.14,NIKE Inc.,2018-01-15,2018-01,67.21,NKE,AA
+65.95,NIKE Inc.,2018-01-22,2018-01,68.04,NKE,AA
+65.15,NIKE Inc.,2018-01-29,2018-01,67.22,NKE,AA
+63.47,NIKE Inc.,2018-02-05,2018-02,65.49,NKE,AA
+66.20,NIKE Inc.,2018-02-12,2018-02,68.30,NKE,AA
+66.06,NIKE Inc.,2018-02-19,2018-02,68.16,NKE,AA
+63.86,NIKE Inc.,2018-02-26,2018-02,65.89,NKE,AA
+64.45,NIKE Inc.,2018-03-05,2018-03,66.30,NKE,AA
+64.08,NIKE Inc.,2018-03-11,2018-03,65.91,NKE,AA
+62.83,NIKE Inc.,2018-03-18,2018-03,64.63,NKE,AA
+64.59,NIKE Inc.,2018-03-25,2018-03,66.44,NKE,AA
+65.67,NIKE Inc.,2018-04-01,2018-04,67.55,NKE,AA
+65.38,NIKE Inc.,2018-04-08,2018-04,67.25,NKE,AA
+64.25,NIKE Inc.,2018-04-15,2018-04,66.09,NKE,AA
+67.62,NIKE Inc.,2018-04-22,2018-04,69.56,NKE,AA
+66.20,NIKE Inc.,2018-04-29,2018-04,68.10,NKE,AA
+66.53,NIKE Inc.,2018-05-06,2018-05,68.43,NKE,AA
+69.33,NIKE Inc.,2018-05-13,2018-05,71.32,NKE,AA
+70.24,NIKE Inc.,2018-05-20,2018-05,72.25,NKE,AA
+70.73,NIKE Inc.,2018-05-27,2018-05,72.76,NKE,AA
+73.02,NIKE Inc.,2018-06-03,2018-06,74.90,NKE,AA
+73.93,NIKE Inc.,2018-06-10,2018-06,75.84,NKE,AA
+71.59,NIKE Inc.,2018-06-17,2018-06,73.43,NKE,AA
+77.68,NIKE Inc.,2018-06-24,2018-06,79.68,NKE,AA
+74.56,NIKE Inc.,2018-07-01,2018-07,76.48,NKE,AA
+75.44,NIKE Inc.,2018-07-08,2018-07,77.38,NKE,AA
+75.03,NIKE Inc.,2018-07-15,2018-07,76.96,NKE,AA
+74.96,NIKE Inc.,2018-07-22,2018-07,76.89,NKE,AA
+76.76,NIKE Inc.,2018-07-29,2018-07,78.74,NKE,AA
+78.70,NIKE Inc.,2018-08-05,2018-08,80.73,NKE,A
+77.75,NIKE Inc.,2018-08-12,2018-08,79.75,NKE,A
+80.38,NIKE Inc.,2018-08-19,2018-08,82.45,NKE,A
+80.13,NIKE Inc.,2018-08-26,2018-08,82.20,NKE,A
+78.48,NIKE Inc.,2018-09-02,2018-09,80.30,NKE,A
+81.59,NIKE Inc.,2018-09-09,2018-09,83.49,NKE,A
+83.61,NIKE Inc.,2018-09-16,2018-09,85.55,NKE,A
+82.80,NIKE Inc.,2018-09-23,2018-09,84.72,NKE,A
+78.30,NIKE Inc.,2018-09-30,2018-09,80.12,NKE,A
+74.19,NIKE Inc.,2018-10-07,2018-10,75.91,NKE,A
+72.52,NIKE Inc.,2018-10-14,2018-10,74.21,NKE,A
+70.43,NIKE Inc.,2018-10-21,2018-10,72.07,NKE,A
+74.84,NIKE Inc.,2018-10-28,2018-10,76.58,NKE,A
+74.63,NIKE Inc.,2018-11-05,2018-11,76.36,NKE,A
+73.04,NIKE Inc.,2018-11-12,2018-11,74.74,NKE,A
+69.87,NIKE Inc.,2018-11-19,2018-11,71.49,NKE,A
+73.41,NIKE Inc.,2018-11-26,2018-11,75.12,NKE,A
+71.89,NIKE Inc.,2018-12-03,2018-12,73.34,NKE,A
+71.09,NIKE Inc.,2018-12-10,2018-12,72.53,NKE,A
+70.94,NIKE Inc.,2018-12-17,2018-12,72.37,NKE,A
+71.89,NIKE Inc.,2018-12-24,2018-12,73.34,NKE,A
+73.17,NIKE Inc.,2018-12-31,2018-12,74.65,NKE,A
+74.53,NIKE Inc.,2019-01-07,2019-01,76.04,NKE,A
+78.86,NIKE Inc.,2019-01-14,2019-01,80.45,NKE,A
+79.01,NIKE Inc.,2019-01-21,2019-01,80.61,NKE,A
+79.89,NIKE Inc.,2019-01-28,2019-01,81.51,NKE,A
+80.73,NIKE Inc.,2019-02-04,2019-02,82.36,NKE,A
+83.69,NIKE Inc.,2019-02-11,2019-02,85.38,NKE,A
+83.08,NIKE Inc.,2019-02-18,2019-02,84.76,NKE,A
+85.43,NIKE Inc.,2019-02-25,2019-02,87.16,NKE,A
+83.33,NIKE Inc.,2019-03-04,2019-03,84.80,NKE,A
+85.30,NIKE Inc.,2019-03-10,2019-03,86.80,NKE,A
+80.77,NIKE Inc.,2019-03-17,2019-03,82.19,NKE,A
+82.75,NIKE Inc.,2019-03-24,2019-03,84.21,NKE,A
+83.92,NIKE Inc.,2019-03-31,2019-03,85.40,NKE,A
+84.75,NIKE Inc.,2019-04-07,2019-04,86.24,NKE,A
+87.66,NIKE Inc.,2019-04-14,2019-04,89.20,NKE,A
+86.78,NIKE Inc.,2019-04-21,2019-04,88.31,NKE,A
+84.22,NIKE Inc.,2019-04-28,2019-04,85.70,NKE,A
+82.50,NIKE Inc.,2019-05-05,2019-05,83.95,NKE,A
+83.11,NIKE Inc.,2019-05-12,2019-05,84.57,NKE,A
+80.74,NIKE Inc.,2019-05-19,2019-05,82.16,NKE,A
+75.81,NIKE Inc.,2019-05-26,2019-05,77.14,NKE,A
+82.20,NIKE Inc.,2019-06-02,2019-06,83.41,NKE,A
+82.22,NIKE Inc.,2019-06-09,2019-06,83.44,NKE,A
+84.50,NIKE Inc.,2019-06-16,2019-06,85.75,NKE,A
+82.73,NIKE Inc.,2019-06-23,2019-06,83.95,NKE,A
+85.56,NIKE Inc.,2019-06-30,2019-06,86.82,NKE,A
+87.82,NIKE Inc.,2019-07-07,2019-07,89.12,NKE,A
+85.29,NIKE Inc.,2019-07-14,2019-07,86.55,NKE,A
+86.27,NIKE Inc.,2019-07-21,2019-07,87.54,NKE,A
+79.96,NIKE Inc.,2019-07-28,2019-07,81.14,NKE,A
+80.79,NIKE Inc.,2019-08-04,2019-08,81.98,NKE,A
+79.11,NIKE Inc.,2019-08-11,2019-08,80.28,NKE,A
+79.27,NIKE Inc.,2019-08-18,2019-08,80.44,NKE,A
+83.27,NIKE Inc.,2019-08-25,2019-08,84.50,NKE,A
+87.62,NIKE Inc.,2019-09-01,2019-09,88.69,NKE,A
+86.27,NIKE Inc.,2019-09-08,2019-09,87.32,NKE,A
+85.64,NIKE Inc.,2019-09-15,2019-09,86.68,NKE,A
+91.20,NIKE Inc.,2019-09-22,2019-09,92.31,NKE,A
+91.95,NIKE Inc.,2019-09-29,2019-09,93.07,NKE,A
+92.75,NIKE Inc.,2019-10-06,2019-10,93.88,NKE,A
+94.95,NIKE Inc.,2019-10-13,2019-10,96.10,NKE,A
+89.83,NIKE Inc.,2019-10-20,2019-10,90.92,NKE,A
+88.11,NIKE Inc.,2019-10-27,2019-10,89.18,NKE,A
+88.73,NIKE Inc.,2019-11-04,2019-11,89.81,NKE,A
+91.92,NIKE Inc.,2019-11-11,2019-11,93.04,NKE,A
+92.22,NIKE Inc.,2019-11-18,2019-11,93.34,NKE,A
+92.37,NIKE Inc.,2019-11-25,2019-11,93.49,NKE,A
+96.08,NIKE Inc.,2019-12-02,2019-12,97.00,NKE,A
+96.85,NIKE Inc.,2019-12-09,2019-12,97.77,NKE,A
+99.02,NIKE Inc.,2019-12-16,2019-12,99.96,NKE,A
+100.61,NIKE Inc.,2019-12-23,2019-12,101.57,NKE,A
+100.96,NIKE Inc.,2019-12-30,2019-12,101.92,NKE,A
+99.95,NIKE Inc.,2020-01-06,2020-01,100.90,NKE,A
+103.54,NIKE Inc.,2020-01-13,2020-01,104.53,NKE,A
+101.07,NIKE Inc.,2020-01-20,2020-01,102.03,NKE,A
+95.39,NIKE Inc.,2020-01-27,2020-01,96.30,NKE,A
+98.50,NIKE Inc.,2020-02-03,2020-02,99.44,NKE,A
+102.56,NIKE Inc.,2020-02-10,2020-02,103.54,NKE,A
+99.30,NIKE Inc.,2020-02-17,2020-02,100.25,NKE,A
+88.54,NIKE Inc.,2020-02-24,2020-02,89.38,NKE,A
+87.77,NIKE Inc.,2020-03-02,2020-03,88.36,NKE,A
+75.07,NIKE Inc.,2020-03-08,2020-03,75.58,NKE,A
+67.00,NIKE Inc.,2020-03-15,2020-03,67.45,NKE,A
+82.67,NIKE Inc.,2020-03-22,2020-03,83.23,NKE,A
+78.33,NIKE Inc.,2020-03-29,2020-03,78.86,NKE,A
+86.21,NIKE Inc.,2020-04-05,2020-04,86.79,NKE,A
+89.31,NIKE Inc.,2020-04-12,2020-04,89.91,NKE,A
+87.78,NIKE Inc.,2020-04-19,2020-04,88.37,NKE,A
+84.97,NIKE Inc.,2020-04-26,2020-04,85.54,NKE,A
+89.85,NIKE Inc.,2020-05-03,2020-05,90.46,NKE,A
+86.41,NIKE Inc.,2020-05-10,2020-05,86.99,NKE,A
+93.12,NIKE Inc.,2020-05-17,2020-05,93.75,NKE,A
+97.92,NIKE Inc.,2020-05-24,2020-05,98.58,NKE,A
+102.28,NIKE Inc.,2020-05-31,2020-05,102.71,NKE,A
+96.02,NIKE Inc.,2020-06-07,2020-06,96.43,NKE,A
+95.38,NIKE Inc.,2020-06-14,2020-06,95.78,NKE,A
+93.28,NIKE Inc.,2020-06-21,2020-06,93.67,NKE,A
+98.02,NIKE Inc.,2020-06-28,2020-06,98.43,NKE,A
+97.58,NIKE Inc.,2020-07-05,2020-07,97.99,NKE,A
+95.87,NIKE Inc.,2020-07-12,2020-07,96.28,NKE,A
+98.02,NIKE Inc.,2020-07-19,2020-07,98.43,NKE,A
+97.20,NIKE Inc.,2020-07-26,2020-07,97.61,NKE,A
+101.43,NIKE Inc.,2020-08-02,2020-08,101.86,NKE,A
+105.98,NIKE Inc.,2020-08-09,2020-08,106.43,NKE,A
+109.29,NIKE Inc.,2020-08-16,2020-08,109.75,NKE,A
+111.82,NIKE Inc.,2020-08-23,2020-08,112.29,NKE,A
+112.17,NIKE Inc.,2020-08-30,2020-08,112.40,NKE,A
+117.76,NIKE Inc.,2020-09-06,2020-09,118.00,NKE,A
+114.43,NIKE Inc.,2020-09-13,2020-09,114.66,NKE,A
+123.98,NIKE Inc.,2020-09-20,2020-09,124.23,NKE,A
+126.39,NIKE Inc.,2020-09-27,2020-09,126.64,NKE,A
+130.72,NIKE Inc.,2020-10-04,2020-10,130.98,NKE,A
+127.74,NIKE Inc.,2020-10-11,2020-10,128.00,NKE,A
+129.73,NIKE Inc.,2020-10-18,2020-10,129.99,NKE,A
+119.84,NIKE Inc.,2020-10-25,2020-10,120.08,NKE,A
+128.64,NIKE Inc.,2020-11-02,2020-11,128.90,NKE,A
+128.02,NIKE Inc.,2020-11-09,2020-11,128.28,NKE,A
+132.71,NIKE Inc.,2020-11-16,2020-11,132.98,NKE,A
+133.98,NIKE Inc.,2020-11-23,2020-11,134.25,NKE,A
+136.68,NIKE Inc.,2020-11-30,2020-11,136.96,NKE,A
+136.68,NIKE Inc.,2020-12-03,2020-12,136.96,NKE,A
+67.00,The Procter & Gamble Company,2015-11-30,2015-11,77.83,PG,
+66.95,The Procter & Gamble Company,2015-12-07,2015-12,77.78,PG,
+67.25,The Procter & Gamble Company,2015-12-14,2015-12,78.13,PG,
+68.68,The Procter & Gamble Company,2015-12-21,2015-12,79.79,PG,
+68.36,The Procter & Gamble Company,2015-12-28,2015-12,79.41,PG,
+65.39,The Procter & Gamble Company,2016-01-04,2016-01,75.97,PG,
+64.54,The Procter & Gamble Company,2016-01-11,2016-01,74.98,PG,
+66.59,The Procter & Gamble Company,2016-01-18,2016-01,77.36,PG,
+70.93,The Procter & Gamble Company,2016-01-25,2016-01,81.69,PG,
+70.51,The Procter & Gamble Company,2016-02-01,2016-02,81.20,PG,
+70.32,The Procter & Gamble Company,2016-02-08,2016-02,80.99,PG,
+71.02,The Procter & Gamble Company,2016-02-15,2016-02,81.79,PG,
+70.42,The Procter & Gamble Company,2016-02-22,2016-02,81.10,PG,
+72.49,The Procter & Gamble Company,2016-02-29,2016-02,83.49,PG,
+70.98,The Procter & Gamble Company,2016-03-07,2016-03,81.75,PG,
+72.20,The Procter & Gamble Company,2016-03-13,2016-03,83.15,PG,
+71.97,The Procter & Gamble Company,2016-03-20,2016-03,82.89,PG,
+72.53,The Procter & Gamble Company,2016-03-27,2016-03,83.53,PG,
+72.24,The Procter & Gamble Company,2016-04-03,2016-04,83.20,PG,
+71.46,The Procter & Gamble Company,2016-04-10,2016-04,82.30,PG,
+70.86,The Procter & Gamble Company,2016-04-17,2016-04,80.95,PG,
+70.14,The Procter & Gamble Company,2016-04-24,2016-04,80.12,PG,
+71.90,The Procter & Gamble Company,2016-05-01,2016-05,82.13,PG,
+71.11,The Procter & Gamble Company,2016-05-08,2016-05,81.23,PG,
+70.05,The Procter & Gamble Company,2016-05-15,2016-05,80.02,PG,
+71.28,The Procter & Gamble Company,2016-05-22,2016-05,81.43,PG,
+72.19,The Procter & Gamble Company,2016-05-29,2016-05,82.47,PG,
+72.83,The Procter & Gamble Company,2016-06-05,2016-06,83.20,PG,
+72.77,The Procter & Gamble Company,2016-06-12,2016-06,83.13,PG,
+72.01,The Procter & Gamble Company,2016-06-19,2016-06,82.26,PG,
+74.22,The Procter & Gamble Company,2016-06-26,2016-06,84.78,PG,
+75.08,The Procter & Gamble Company,2016-07-03,2016-07,85.77,PG,BBB
+75.29,The Procter & Gamble Company,2016-07-10,2016-07,86.01,PG,BBB
+75.04,The Procter & Gamble Company,2016-07-17,2016-07,85.72,PG,BBB
+75.51,The Procter & Gamble Company,2016-07-24,2016-07,85.59,PG,BBB
+75.68,The Procter & Gamble Company,2016-07-31,2016-07,85.78,PG,BBB
+76.79,The Procter & Gamble Company,2016-08-07,2016-08,87.04,PG,BBB
+77.03,The Procter & Gamble Company,2016-08-14,2016-08,87.31,PG,BBB
+77.27,The Procter & Gamble Company,2016-08-21,2016-08,87.58,PG,BBB
+77.82,The Procter & Gamble Company,2016-08-28,2016-08,88.20,PG,BBB
+76.09,The Procter & Gamble Company,2016-09-04,2016-09,86.24,PG,BBB
+77.68,The Procter & Gamble Company,2016-09-11,2016-09,88.05,PG,BBB
+77.43,The Procter & Gamble Company,2016-09-18,2016-09,87.76,PG,BBB
+79.18,The Procter & Gamble Company,2016-09-25,2016-09,89.75,PG,BBB
+79.40,The Procter & Gamble Company,2016-10-02,2016-10,90.00,PG,BBB
+78.02,The Procter & Gamble Company,2016-10-09,2016-10,88.43,PG,BBB
+74.40,The Procter & Gamble Company,2016-10-16,2016-10,84.33,PG,BBB
+77.21,The Procter & Gamble Company,2016-10-23,2016-10,86.84,PG,BBB
+75.64,The Procter & Gamble Company,2016-10-30,2016-10,85.08,PG,BBB
+74.31,The Procter & Gamble Company,2016-11-07,2016-11,83.58,PG,BBB
+72.90,The Procter & Gamble Company,2016-11-14,2016-11,82.00,PG,BBB
+74.20,The Procter & Gamble Company,2016-11-21,2016-11,83.46,PG,BBB
+73.26,The Procter & Gamble Company,2016-11-28,2016-11,82.40,PG,BBB
+75.01,The Procter & Gamble Company,2016-12-05,2016-12,84.37,PG,BBB
+75.29,The Procter & Gamble Company,2016-12-12,2016-12,84.68,PG,BBB
+75.54,The Procter & Gamble Company,2016-12-19,2016-12,84.96,PG,BBB
+74.75,The Procter & Gamble Company,2016-12-26,2016-12,84.08,PG,BBB
+75.60,The Procter & Gamble Company,2017-01-02,2017-01,85.03,PG,BBB
+74.69,The Procter & Gamble Company,2017-01-09,2017-01,84.01,PG,BBB
+77.75,The Procter & Gamble Company,2017-01-16,2017-01,87.45,PG,BBB
+77.71,The Procter & Gamble Company,2017-01-23,2017-01,86.72,PG,BBB
+78.33,The Procter & Gamble Company,2017-01-30,2017-01,87.41,PG,BBB
+78.83,The Procter & Gamble Company,2017-02-06,2017-02,87.97,PG,BBB
+81.63,The Procter & Gamble Company,2017-02-13,2017-02,91.09,PG,BBB
+81.59,The Procter & Gamble Company,2017-02-20,2017-02,91.05,PG,BBB
+81.10,The Procter & Gamble Company,2017-02-27,2017-02,90.50,PG,BBB
+81.61,The Procter & Gamble Company,2017-03-06,2017-03,91.07,PG,BBB
+81.55,The Procter & Gamble Company,2017-03-12,2017-03,91.00,PG,BBB
+81.16,The Procter & Gamble Company,2017-03-19,2017-03,90.57,PG,BBB
+80.52,The Procter & Gamble Company,2017-03-26,2017-03,89.85,PG,BBB
+79.96,The Procter & Gamble Company,2017-04-02,2017-04,89.23,PG,BBB
+80.68,The Procter & Gamble Company,2017-04-09,2017-04,90.03,PG,BBB
+79.41,The Procter & Gamble Company,2017-04-16,2017-04,88.62,PG,BBB
+78.86,The Procter & Gamble Company,2017-04-23,2017-04,87.33,PG,BBB
+78.11,The Procter & Gamble Company,2017-04-30,2017-04,86.50,PG,BBB
+77.83,The Procter & Gamble Company,2017-05-07,2017-05,86.19,PG,BBB
+77.87,The Procter & Gamble Company,2017-05-14,2017-05,86.24,PG,BBB
+78.79,The Procter & Gamble Company,2017-05-21,2017-05,87.25,PG,BBB
+80.00,The Procter & Gamble Company,2017-05-28,2017-05,88.59,PG,BBB
+79.61,The Procter & Gamble Company,2017-06-04,2017-06,88.16,PG,BBB
+80.96,The Procter & Gamble Company,2017-06-11,2017-06,89.66,PG,BBB
+80.74,The Procter & Gamble Company,2017-06-18,2017-06,89.42,PG,BBB
+78.69,The Procter & Gamble Company,2017-06-25,2017-06,87.15,PG,BBB
+79.15,The Procter & Gamble Company,2017-07-02,2017-07,87.65,PG,BBB
+78.65,The Procter & Gamble Company,2017-07-09,2017-07,87.10,PG,BBB
+80.01,The Procter & Gamble Company,2017-07-16,2017-07,88.61,PG,BBB
+82.10,The Procter & Gamble Company,2017-07-23,2017-07,90.21,PG,BBB
+82.52,The Procter & Gamble Company,2017-07-30,2017-07,90.67,PG,BBB
+83.13,The Procter & Gamble Company,2017-08-06,2017-08,91.34,PG,BBB
+84.15,The Procter & Gamble Company,2017-08-13,2017-08,92.47,PG,BBB
+84.19,The Procter & Gamble Company,2017-08-20,2017-08,92.51,PG,BBB
+84.21,The Procter & Gamble Company,2017-08-27,2017-08,92.53,PG,BBB
+84.49,The Procter & Gamble Company,2017-09-03,2017-09,92.84,PG,BBB
+84.88,The Procter & Gamble Company,2017-09-10,2017-09,93.27,PG,BBB
+83.94,The Procter & Gamble Company,2017-09-17,2017-09,92.24,PG,BBB
+82.80,The Procter & Gamble Company,2017-09-24,2017-09,90.98,PG,BBB
+84.03,The Procter & Gamble Company,2017-10-01,2017-10,92.33,PG,BBB
+84.67,The Procter & Gamble Company,2017-10-08,2017-10,93.04,PG,BBB
+80.31,The Procter & Gamble Company,2017-10-15,2017-10,88.25,PG,BBB
+79.81,The Procter & Gamble Company,2017-10-22,2017-10,87.04,PG,BBB
+79.38,The Procter & Gamble Company,2017-10-29,2017-10,86.58,PG,BBB
+80.83,The Procter & Gamble Company,2017-11-06,2017-11,88.16,PG,BBB
+81.08,The Procter & Gamble Company,2017-11-13,2017-11,88.43,PG,BBB
+81.10,The Procter & Gamble Company,2017-11-20,2017-11,88.45,PG,BBB
+82.85,The Procter & Gamble Company,2017-11-27,2017-11,90.36,PG,BBB
+82.86,The Procter & Gamble Company,2017-12-04,2017-12,90.37,PG,BBB
+84.25,The Procter & Gamble Company,2017-12-11,2017-12,91.89,PG,BBB
+84.47,The Procter & Gamble Company,2017-12-18,2017-12,92.13,PG,BBB
+84.24,The Procter & Gamble Company,2017-12-25,2017-12,91.88,PG,BBB
+83.66,The Procter & Gamble Company,2018-01-01,2018-01,91.24,PG,BBB
+82.16,The Procter & Gamble Company,2018-01-08,2018-01,89.61,PG,BBB
+83.50,The Procter & Gamble Company,2018-01-15,2018-01,91.07,PG,BBB
+81.05,The Procter & Gamble Company,2018-01-22,2018-01,87.73,PG,BBB
+77.84,The Procter & Gamble Company,2018-01-29,2018-01,84.25,PG,BBB
+73.84,The Procter & Gamble Company,2018-02-05,2018-02,79.92,PG,BBB
+76.31,The Procter & Gamble Company,2018-02-12,2018-02,82.60,PG,BBB
+74.88,The Procter & Gamble Company,2018-02-19,2018-02,81.05,PG,BBB
+73.45,The Procter & Gamble Company,2018-02-26,2018-02,79.50,PG,BBB
+74.18,The Procter & Gamble Company,2018-03-05,2018-03,80.29,PG,BBB
+72.96,The Procter & Gamble Company,2018-03-11,2018-03,78.97,PG,BBB
+70.13,The Procter & Gamble Company,2018-03-18,2018-03,75.91,PG,BBB
+73.24,The Procter & Gamble Company,2018-03-25,2018-03,79.28,PG,BBB
+72.46,The Procter & Gamble Company,2018-04-01,2018-04,78.43,PG,BBB
+72.40,The Procter & Gamble Company,2018-04-08,2018-04,78.37,PG,BBB
+68.18,The Procter & Gamble Company,2018-04-15,2018-04,73.80,PG,BBB
+67.89,The Procter & Gamble Company,2018-04-22,2018-04,72.81,PG,BBB
+67.54,The Procter & Gamble Company,2018-04-29,2018-04,72.43,PG,BBB
+68.41,The Procter & Gamble Company,2018-05-06,2018-05,73.37,PG,BBB
+68.49,The Procter & Gamble Company,2018-05-13,2018-05,73.45,PG,BBB
+69.29,The Procter & Gamble Company,2018-05-20,2018-05,74.31,PG,BBB
+68.49,The Procter & Gamble Company,2018-05-27,2018-05,73.45,PG,BBB
+71.96,The Procter & Gamble Company,2018-06-03,2018-06,77.18,PG,BBB
+72.15,The Procter & Gamble Company,2018-06-10,2018-06,77.38,PG,BBB
+72.20,The Procter & Gamble Company,2018-06-17,2018-06,77.43,PG,BBB
+72.79,The Procter & Gamble Company,2018-06-24,2018-06,78.06,PG,BBB
+73.95,The Procter & Gamble Company,2018-07-01,2018-07,79.31,PG,BBB
+73.95,The Procter & Gamble Company,2018-07-08,2018-07,79.31,PG,BBB
+73.36,The Procter & Gamble Company,2018-07-15,2018-07,78.68,PG,BBB
+75.82,The Procter & Gamble Company,2018-07-22,2018-07,80.58,PG,BBB
+77.46,The Procter & Gamble Company,2018-07-29,2018-07,82.33,PG,BBB
+76.62,The Procter & Gamble Company,2018-08-05,2018-08,81.43,PG,BBB
+78.74,The Procter & Gamble Company,2018-08-12,2018-08,83.69,PG,BBB
+78.43,The Procter & Gamble Company,2018-08-19,2018-08,83.36,PG,BBB
+78.05,The Procter & Gamble Company,2018-08-26,2018-08,82.95,PG,BBB
+77.07,The Procter & Gamble Company,2018-09-02,2018-09,81.91,PG,BB
+78.67,The Procter & Gamble Company,2018-09-09,2018-09,83.61,PG,BB
+80.75,The Procter & Gamble Company,2018-09-16,2018-09,85.82,PG,BB
+78.31,The Procter & Gamble Company,2018-09-23,2018-09,83.23,PG,BB
+77.29,The Procter & Gamble Company,2018-09-30,2018-09,82.15,PG,BB
+74.39,The Procter & Gamble Company,2018-10-07,2018-10,79.06,PG,BB
+82.14,The Procter & Gamble Company,2018-10-14,2018-10,87.30,PG,BB
+83.40,The Procter & Gamble Company,2018-10-21,2018-10,87.86,PG,BB
+85.25,The Procter & Gamble Company,2018-10-28,2018-10,89.81,PG,BB
+87.72,The Procter & Gamble Company,2018-11-05,2018-11,92.41,PG,BB
+89.05,The Procter & Gamble Company,2018-11-12,2018-11,93.82,PG,BB
+86.89,The Procter & Gamble Company,2018-11-19,2018-11,91.54,PG,BB
+89.71,The Procter & Gamble Company,2018-11-26,2018-11,94.51,PG,BB
+87.75,The Procter & Gamble Company,2018-12-03,2018-12,92.45,PG,BB
+91.73,The Procter & Gamble Company,2018-12-10,2018-12,96.64,PG,BB
+86.35,The Procter & Gamble Company,2018-12-17,2018-12,90.97,PG,BB
+86.55,The Procter & Gamble Company,2018-12-24,2018-12,91.18,PG,BB
+87.79,The Procter & Gamble Company,2018-12-31,2018-12,92.49,PG,BB
+87.11,The Procter & Gamble Company,2019-01-07,2019-01,91.77,PG,BB
+86.78,The Procter & Gamble Company,2019-01-14,2019-01,91.42,PG,BB
+89.55,The Procter & Gamble Company,2019-01-21,2019-01,93.60,PG,BB
+93.25,The Procter & Gamble Company,2019-01-28,2019-01,97.47,PG,BB
+93.48,The Procter & Gamble Company,2019-02-04,2019-02,97.71,PG,BB
+94.22,The Procter & Gamble Company,2019-02-11,2019-02,98.48,PG,BB
+95.91,The Procter & Gamble Company,2019-02-18,2019-02,100.25,PG,BB
+94.18,The Procter & Gamble Company,2019-02-25,2019-02,98.44,PG,BB
+94.15,The Procter & Gamble Company,2019-03-04,2019-03,98.41,PG,BB
+98.01,The Procter & Gamble Company,2019-03-10,2019-03,102.44,PG,BB
+97.26,The Procter & Gamble Company,2019-03-17,2019-03,101.66,PG,BB
+99.55,The Procter & Gamble Company,2019-03-24,2019-03,104.05,PG,BB
+99.16,The Procter & Gamble Company,2019-03-31,2019-03,103.65,PG,BB
+100.51,The Procter & Gamble Company,2019-04-07,2019-04,105.06,PG,BB
+101.46,The Procter & Gamble Company,2019-04-14,2019-04,106.05,PG,BB
+101.99,The Procter & Gamble Company,2019-04-21,2019-04,105.86,PG,BB
+102.20,The Procter & Gamble Company,2019-04-28,2019-04,106.08,PG,BB
+102.14,The Procter & Gamble Company,2019-05-05,2019-05,106.01,PG,BB
+103.52,The Procter & Gamble Company,2019-05-12,2019-05,107.45,PG,BB
+102.79,The Procter & Gamble Company,2019-05-19,2019-05,106.69,PG,BB
+99.15,The Procter & Gamble Company,2019-05-26,2019-05,102.91,PG,BB
+104.80,The Procter & Gamble Company,2019-06-02,2019-06,108.77,PG,BB
+107.14,The Procter & Gamble Company,2019-06-09,2019-06,111.20,PG,BB
+107.14,The Procter & Gamble Company,2019-06-16,2019-06,111.20,PG,BB
+105.64,The Procter & Gamble Company,2019-06-23,2019-06,109.65,PG,BB
+109.02,The Procter & Gamble Company,2019-06-30,2019-06,113.15,PG,BB
+110.79,The Procter & Gamble Company,2019-07-07,2019-07,114.99,PG,BB
+110.81,The Procter & Gamble Company,2019-07-14,2019-07,115.01,PG,BB
+111.25,The Procter & Gamble Company,2019-07-21,2019-07,114.73,PG,BB
+112.91,The Procter & Gamble Company,2019-07-28,2019-07,116.44,PG,BB
+113.24,The Procter & Gamble Company,2019-08-04,2019-08,116.78,PG,BB
+115.57,The Procter & Gamble Company,2019-08-11,2019-08,119.18,PG,BB
+113.77,The Procter & Gamble Company,2019-08-18,2019-08,117.32,PG,BB
+116.59,The Procter & Gamble Company,2019-08-25,2019-08,120.23,PG,BB
+119.15,The Procter & Gamble Company,2019-09-01,2019-09,122.87,PG,BB
+118.42,The Procter & Gamble Company,2019-09-08,2019-09,122.12,PG,BB
+118.54,The Procter & Gamble Company,2019-09-15,2019-09,122.24,PG,BB
+120.80,The Procter & Gamble Company,2019-09-22,2019-09,124.57,PG,BB
+120.24,The Procter & Gamble Company,2019-09-29,2019-09,124.00,PG,BB
+117.42,The Procter & Gamble Company,2019-10-06,2019-10,121.09,PG,BB
+113.91,The Procter & Gamble Company,2019-10-13,2019-10,117.47,PG,BB
+120.28,The Procter & Gamble Company,2019-10-20,2019-10,123.25,PG,BB
+120.88,The Procter & Gamble Company,2019-10-27,2019-10,123.87,PG,BB
+116.81,The Procter & Gamble Company,2019-11-04,2019-11,119.70,PG,BB
+117.63,The Procter & Gamble Company,2019-11-11,2019-11,120.54,PG,BB
+117.39,The Procter & Gamble Company,2019-11-18,2019-11,120.29,PG,BB
+119.12,The Procter & Gamble Company,2019-11-25,2019-11,122.06,PG,BB
+121.20,The Procter & Gamble Company,2019-12-02,2019-12,124.19,PG,BB
+122.45,The Procter & Gamble Company,2019-12-09,2019-12,125.47,PG,BB
+122.34,The Procter & Gamble Company,2019-12-16,2019-12,125.36,PG,BB
+123.05,The Procter & Gamble Company,2019-12-23,2019-12,126.09,PG,BB
+119.63,The Procter & Gamble Company,2019-12-30,2019-12,122.58,PG,BB
+120.98,The Procter & Gamble Company,2020-01-06,2020-01,123.97,PG,BB
+123.36,The Procter & Gamble Company,2020-01-13,2020-01,126.41,PG,BB
+122.12,The Procter & Gamble Company,2020-01-20,2020-01,125.14,PG,BB
+122.34,The Procter & Gamble Company,2020-01-27,2020-01,124.62,PG,BB
+123.77,The Procter & Gamble Company,2020-02-03,2020-02,126.08,PG,BB
+123.83,The Procter & Gamble Company,2020-02-10,2020-02,126.14,PG,BB
+124.38,The Procter & Gamble Company,2020-02-17,2020-02,126.70,PG,BB
+111.16,The Procter & Gamble Company,2020-02-24,2020-02,113.23,PG,BB
+119.43,The Procter & Gamble Company,2020-03-02,2020-03,121.66,PG,BB
+111.98,The Procter & Gamble Company,2020-03-08,2020-03,114.07,PG,BB
+100.56,The Procter & Gamble Company,2020-03-15,2020-03,102.43,PG,BB
+108.15,The Procter & Gamble Company,2020-03-22,2020-03,110.17,PG,BB
+112.97,The Procter & Gamble Company,2020-03-29,2020-03,115.08,PG,BB
+112.56,The Procter & Gamble Company,2020-04-05,2020-04,114.66,PG,BB
+122.41,The Procter & Gamble Company,2020-04-12,2020-04,124.69,PG,BB
+116.61,The Procter & Gamble Company,2020-04-19,2020-04,118.78,PG,BB
+115.45,The Procter & Gamble Company,2020-04-26,2020-04,116.82,PG,BB
+114.59,The Procter & Gamble Company,2020-05-03,2020-05,115.95,PG,BB
+113.26,The Procter & Gamble Company,2020-05-10,2020-05,114.61,PG,BB
+111.28,The Procter & Gamble Company,2020-05-17,2020-05,112.60,PG,BB
+114.56,The Procter & Gamble Company,2020-05-24,2020-05,115.92,PG,BB
+116.94,The Procter & Gamble Company,2020-05-31,2020-05,118.33,PG,BB
+114.26,The Procter & Gamble Company,2020-06-07,2020-06,115.62,PG,BB
+117.52,The Procter & Gamble Company,2020-06-14,2020-06,118.92,PG,BB
+113.88,The Procter & Gamble Company,2020-06-21,2020-06,115.23,PG,BB
+119.46,The Procter & Gamble Company,2020-06-28,2020-06,120.88,PG,BB
+122.43,The Procter & Gamble Company,2020-07-05,2020-07,123.89,PG,BB
+124.15,The Procter & Gamble Company,2020-07-12,2020-07,125.63,PG,BB
+124.48,The Procter & Gamble Company,2020-07-19,2020-07,125.96,PG,BB
+130.40,The Procter & Gamble Company,2020-07-26,2020-07,131.12,PG,BB
+132.81,The Procter & Gamble Company,2020-08-02,2020-08,133.55,PG,BB
+134.35,The Procter & Gamble Company,2020-08-09,2020-08,135.10,PG,BB
+136.68,The Procter & Gamble Company,2020-08-16,2020-08,137.44,PG,BB
+138.00,The Procter & Gamble Company,2020-08-23,2020-08,138.77,PG,BB
+137.20,The Procter & Gamble Company,2020-08-30,2020-08,137.96,PG,BB
+137.38,The Procter & Gamble Company,2020-09-06,2020-09,138.14,PG,BB
+136.61,The Procter & Gamble Company,2020-09-13,2020-09,137.37,PG,BB
+136.86,The Procter & Gamble Company,2020-09-20,2020-09,137.62,PG,BB
+137.36,The Procter & Gamble Company,2020-09-27,2020-09,138.12,PG,BB
+142.13,The Procter & Gamble Company,2020-10-04,2020-10,142.92,PG,BB
+143.59,The Procter & Gamble Company,2020-10-11,2020-10,144.39,PG,BB
+141.59,The Procter & Gamble Company,2020-10-18,2020-10,142.38,PG,BB
+137.10,The Procter & Gamble Company,2020-10-25,2020-10,137.10,PG,BB
+143.23,The Procter & Gamble Company,2020-11-02,2020-11,143.23,PG,BB
+144.28,The Procter & Gamble Company,2020-11-09,2020-11,144.28,PG,BB
+139.30,The Procter & Gamble Company,2020-11-16,2020-11,139.30,PG,BB
+138.61,The Procter & Gamble Company,2020-11-23,2020-11,138.61,PG,BB
+137.34,The Procter & Gamble Company,2020-11-30,2020-11,137.34,PG,BB
+137.34,The Procter & Gamble Company,2020-12-03,2020-12,137.34,PG,BB
+101.39,The Travelers Companies Inc.,2015-11-30,2015-11,114.06,TRV,
+97.57,The Travelers Companies Inc.,2015-12-07,2015-12,109.76,TRV,
+98.42,The Travelers Companies Inc.,2015-12-14,2015-12,110.13,TRV,
+101.23,The Travelers Companies Inc.,2015-12-21,2015-12,113.27,TRV,
+100.86,The Travelers Companies Inc.,2015-12-28,2015-12,112.86,TRV,
+94.72,The Travelers Companies Inc.,2016-01-04,2016-01,105.99,TRV,
+93.93,The Travelers Companies Inc.,2016-01-11,2016-01,105.10,TRV,
+92.18,The Travelers Companies Inc.,2016-01-18,2016-01,103.14,TRV,
+95.66,The Travelers Companies Inc.,2016-01-25,2016-01,107.04,TRV,
+94.99,The Travelers Companies Inc.,2016-02-01,2016-02,106.29,TRV,
+96.06,The Travelers Companies Inc.,2016-02-08,2016-02,107.49,TRV,
+96.60,The Travelers Companies Inc.,2016-02-15,2016-02,108.09,TRV,
+96.93,The Travelers Companies Inc.,2016-02-22,2016-02,108.46,TRV,
+98.66,The Travelers Companies Inc.,2016-02-29,2016-02,110.40,TRV,
+101.56,The Travelers Companies Inc.,2016-03-07,2016-03,113.64,TRV,
+104.03,The Travelers Companies Inc.,2016-03-13,2016-03,115.76,TRV,
+103.70,The Travelers Companies Inc.,2016-03-20,2016-03,115.39,TRV,
+105.50,The Travelers Companies Inc.,2016-03-27,2016-03,117.40,TRV,
+103.55,The Travelers Companies Inc.,2016-04-03,2016-04,115.23,TRV,
+104.45,The Travelers Companies Inc.,2016-04-10,2016-04,116.23,TRV,
+99.61,The Travelers Companies Inc.,2016-04-17,2016-04,110.84,TRV,
+98.76,The Travelers Companies Inc.,2016-04-24,2016-04,109.90,TRV,
+99.26,The Travelers Companies Inc.,2016-05-01,2016-05,110.45,TRV,BBB
+101.25,The Travelers Companies Inc.,2016-05-08,2016-05,112.67,TRV,BBB
+100.55,The Travelers Companies Inc.,2016-05-15,2016-05,111.89,TRV,BBB
+102.61,The Travelers Companies Inc.,2016-05-22,2016-05,114.18,TRV,BBB
+103.00,The Travelers Companies Inc.,2016-05-29,2016-05,114.62,TRV,BBB
+102.28,The Travelers Companies Inc.,2016-06-05,2016-06,113.81,TRV,BBB
+101.12,The Travelers Companies Inc.,2016-06-12,2016-06,111.86,TRV,BBB
+100.36,The Travelers Companies Inc.,2016-06-19,2016-06,111.02,TRV,BBB
+107.43,The Travelers Companies Inc.,2016-06-26,2016-06,118.85,TRV,BBB
+106.74,The Travelers Companies Inc.,2016-07-03,2016-07,118.08,TRV,BBB
+107.24,The Travelers Companies Inc.,2016-07-10,2016-07,118.64,TRV,BBB
+105.90,The Travelers Companies Inc.,2016-07-17,2016-07,117.15,TRV,BBB
+105.06,The Travelers Companies Inc.,2016-07-24,2016-07,116.22,TRV,BBB
+107.19,The Travelers Companies Inc.,2016-07-31,2016-07,118.58,TRV,BBB
+107.13,The Travelers Companies Inc.,2016-08-07,2016-08,118.51,TRV,BBB
+106.19,The Travelers Companies Inc.,2016-08-14,2016-08,117.47,TRV,BBB
+105.89,The Travelers Companies Inc.,2016-08-21,2016-08,117.14,TRV,BBB
+107.43,The Travelers Companies Inc.,2016-08-28,2016-08,118.84,TRV,BBB
+103.45,The Travelers Companies Inc.,2016-09-04,2016-09,114.44,TRV,BBB
+104.24,The Travelers Companies Inc.,2016-09-11,2016-09,114.67,TRV,BBB
+104.82,The Travelers Companies Inc.,2016-09-18,2016-09,115.31,TRV,BBB
+104.13,The Travelers Companies Inc.,2016-09-25,2016-09,114.55,TRV,BBB
+104.11,The Travelers Companies Inc.,2016-10-02,2016-10,114.53,TRV,BBB
+104.61,The Travelers Companies Inc.,2016-10-09,2016-10,115.08,TRV,BBB
+98.50,The Travelers Companies Inc.,2016-10-16,2016-10,108.35,TRV,BBB
+98.57,The Travelers Companies Inc.,2016-10-23,2016-10,108.43,TRV,BBB
+95.15,The Travelers Companies Inc.,2016-10-30,2016-10,104.67,TRV,BBB
+100.25,The Travelers Companies Inc.,2016-11-07,2016-11,110.28,TRV,BBB
+101.65,The Travelers Companies Inc.,2016-11-14,2016-11,111.82,TRV,BBB
+103.13,The Travelers Companies Inc.,2016-11-21,2016-11,113.45,TRV,BBB
+105.13,The Travelers Companies Inc.,2016-11-28,2016-11,115.65,TRV,BBB
+108.35,The Travelers Companies Inc.,2016-12-05,2016-12,119.19,TRV,BBB
+111.18,The Travelers Companies Inc.,2016-12-12,2016-12,121.60,TRV,BBB
+111.65,The Travelers Companies Inc.,2016-12-19,2016-12,122.12,TRV,BBB
+111.93,The Travelers Companies Inc.,2016-12-26,2016-12,122.42,TRV,BBB
+108.13,The Travelers Companies Inc.,2017-01-02,2017-01,118.27,TRV,BBB
+107.02,The Travelers Companies Inc.,2017-01-09,2017-01,117.05,TRV,BBB
+107.91,The Travelers Companies Inc.,2017-01-16,2017-01,118.02,TRV,BBB
+107.98,The Travelers Companies Inc.,2017-01-23,2017-01,118.10,TRV,BBB
+107.69,The Travelers Companies Inc.,2017-01-30,2017-01,117.78,TRV,BBB
+109.47,The Travelers Companies Inc.,2017-02-06,2017-02,119.73,TRV,BBB
+111.50,The Travelers Companies Inc.,2017-02-13,2017-02,121.95,TRV,BBB
+111.79,The Travelers Companies Inc.,2017-02-20,2017-02,122.27,TRV,BBB
+113.49,The Travelers Companies Inc.,2017-02-27,2017-02,124.13,TRV,BBB
+112.30,The Travelers Companies Inc.,2017-03-06,2017-03,122.83,TRV,BBB
+113.21,The Travelers Companies Inc.,2017-03-12,2017-03,123.14,TRV,BBB
+111.03,The Travelers Companies Inc.,2017-03-19,2017-03,120.77,TRV,BBB
+110.82,The Travelers Companies Inc.,2017-03-26,2017-03,120.54,TRV,BBB
+110.46,The Travelers Companies Inc.,2017-04-02,2017-04,120.15,TRV,BBB
+110.81,The Travelers Companies Inc.,2017-04-09,2017-04,120.53,TRV,BBB
+109.49,The Travelers Companies Inc.,2017-04-16,2017-04,119.10,TRV,BBB
+111.85,The Travelers Companies Inc.,2017-04-23,2017-04,121.66,TRV,BBB
+111.52,The Travelers Companies Inc.,2017-04-30,2017-04,121.30,TRV,BBB
+110.86,The Travelers Companies Inc.,2017-05-07,2017-05,120.59,TRV,A
+111.05,The Travelers Companies Inc.,2017-05-14,2017-05,120.79,TRV,A
 113.69,The Travelers Companies Inc.,2017-05-21,2017-05,123.66,TRV,A
 115.06,The Travelers Companies Inc.,2017-05-28,2017-05,125.15,TRV,A
 115.13,The Travelers Companies Inc.,2017-06-04,2017-06,125.23,TRV,A
@@ -5624,270 +6402,346 @@ adj_stock,company,date,month_year,stock,symbol,rating
 134.44,The Travelers Companies Inc.,2020-11-23,2020-11,134.44,TRV,A
 135.09,The Travelers Companies Inc.,2020-11-30,2020-11,135.09,TRV,A
 135.09,The Travelers Companies Inc.,2020-12-03,2020-12,135.09,TRV,A
-,,,2016-05,,TRV,BBB
-108.75,UnitedHealth Group Incorporated,2015-11-30,2015-11,117.74,UNH,
-107.58,UnitedHealth Group Incorporated,2015-12-07,2015-12,115.98,UNH,
-107.44,UnitedHealth Group Incorporated,2015-12-14,2015-12,115.82,UNH,
-109.77,UnitedHealth Group Incorporated,2015-12-21,2015-12,118.34,UNH,
-109.12,UnitedHealth Group Incorporated,2015-12-28,2015-12,117.64,UNH,
-102.19,UnitedHealth Group Incorporated,2016-01-04,2016-01,110.16,UNH,
-101.36,UnitedHealth Group Incorporated,2016-01-11,2016-01,109.27,UNH,
-106.05,UnitedHealth Group Incorporated,2016-01-18,2016-01,114.33,UNH,
-106.82,UnitedHealth Group Incorporated,2016-01-25,2016-01,115.16,UNH,
-103.63,UnitedHealth Group Incorporated,2016-02-01,2016-02,111.72,UNH,
-103.73,UnitedHealth Group Incorporated,2016-02-08,2016-02,111.82,UNH,
-109.16,UnitedHealth Group Incorporated,2016-02-15,2016-02,117.68,UNH,
-112.55,UnitedHealth Group Incorporated,2016-02-22,2016-02,121.33,UNH,
-112.98,UnitedHealth Group Incorporated,2016-02-29,2016-02,121.80,UNH,
-116.04,UnitedHealth Group Incorporated,2016-03-07,2016-03,125.10,UNH,
-118.03,UnitedHealth Group Incorporated,2016-03-13,2016-03,126.72,UNH,
-119.77,UnitedHealth Group Incorporated,2016-03-20,2016-03,128.59,UNH,
-121.01,UnitedHealth Group Incorporated,2016-03-27,2016-03,129.92,UNH,
-117.06,UnitedHealth Group Incorporated,2016-04-03,2016-04,125.68,UNH,
-118.60,UnitedHealth Group Incorporated,2016-04-10,2016-04,127.33,UNH,
-124.93,UnitedHealth Group Incorporated,2016-04-17,2016-04,134.13,UNH,
-122.65,UnitedHealth Group Incorporated,2016-04-24,2016-04,131.68,UNH,
-122.99,UnitedHealth Group Incorporated,2016-05-01,2016-05,132.04,UNH,CCC
-120.16,UnitedHealth Group Incorporated,2016-05-08,2016-05,129.00,UNH,CCC
-121.96,UnitedHealth Group Incorporated,2016-05-15,2016-05,130.94,UNH,CCC
-124.81,UnitedHealth Group Incorporated,2016-05-22,2016-05,134.00,UNH,CCC
-127.46,UnitedHealth Group Incorporated,2016-05-29,2016-05,136.84,UNH,CCC
-129.69,UnitedHealth Group Incorporated,2016-06-05,2016-06,139.24,UNH,CCC
-128.25,UnitedHealth Group Incorporated,2016-06-12,2016-06,137.69,UNH,CCC
-128.46,UnitedHealth Group Incorporated,2016-06-19,2016-06,137.29,UNH,CCC
-131.80,UnitedHealth Group Incorporated,2016-06-26,2016-06,140.86,UNH,CCC
-132.18,UnitedHealth Group Incorporated,2016-07-03,2016-07,141.27,UNH,CCC
-132.24,UnitedHealth Group Incorporated,2016-07-10,2016-07,141.33,UNH,CCC
-134.45,UnitedHealth Group Incorporated,2016-07-17,2016-07,143.69,UNH,CCC
-133.99,UnitedHealth Group Incorporated,2016-07-24,2016-07,143.20,UNH,CCC
-133.79,UnitedHealth Group Incorporated,2016-07-31,2016-07,142.99,UNH,CCC
-133.69,UnitedHealth Group Incorporated,2016-08-07,2016-08,142.88,UNH,CCC
-132.90,UnitedHealth Group Incorporated,2016-08-14,2016-08,142.04,UNH,CCC
-127.83,UnitedHealth Group Incorporated,2016-08-21,2016-08,136.62,UNH,CCC
-127.82,UnitedHealth Group Incorporated,2016-08-28,2016-08,136.61,UNH,CCC
-125.03,UnitedHealth Group Incorporated,2016-09-04,2016-09,133.62,UNH,CCC
-130.16,UnitedHealth Group Incorporated,2016-09-11,2016-09,138.47,UNH,CCC
-132.08,UnitedHealth Group Incorporated,2016-09-18,2016-09,140.51,UNH,CCC
-131.60,UnitedHealth Group Incorporated,2016-09-25,2016-09,140.00,UNH,CCC
-128.46,UnitedHealth Group Incorporated,2016-10-02,2016-10,136.66,UNH,CCC
-125.89,UnitedHealth Group Incorporated,2016-10-09,2016-10,133.92,UNH,CCC
-136.65,UnitedHealth Group Incorporated,2016-10-16,2016-10,145.37,UNH,CCC
-131.93,UnitedHealth Group Incorporated,2016-10-23,2016-10,140.35,UNH,CCC
-129.45,UnitedHealth Group Incorporated,2016-10-30,2016-10,137.71,UNH,CCC
-137.64,UnitedHealth Group Incorporated,2016-11-07,2016-11,146.42,UNH,CCC
-140.48,UnitedHealth Group Incorporated,2016-11-14,2016-11,149.45,UNH,CCC
-143.64,UnitedHealth Group Incorporated,2016-11-21,2016-11,152.81,UNH,CCC
-151.09,UnitedHealth Group Incorporated,2016-11-28,2016-11,160.73,UNH,CCC
-151.11,UnitedHealth Group Incorporated,2016-12-05,2016-12,160.12,UNH,CCC
-154.72,UnitedHealth Group Incorporated,2016-12-12,2016-12,163.94,UNH,CCC
-153.86,UnitedHealth Group Incorporated,2016-12-19,2016-12,163.03,UNH,CCC
-151.04,UnitedHealth Group Incorporated,2016-12-26,2016-12,160.04,UNH,CCC
-153.27,UnitedHealth Group Incorporated,2017-01-02,2017-01,162.41,UNH,CCC
-152.70,UnitedHealth Group Incorporated,2017-01-09,2017-01,161.80,UNH,CCC
-149.73,UnitedHealth Group Incorporated,2017-01-16,2017-01,158.66,UNH,CCC
-153.82,UnitedHealth Group Incorporated,2017-01-23,2017-01,162.99,UNH,CCC
-152.76,UnitedHealth Group Incorporated,2017-01-30,2017-01,161.87,UNH,CCC
-151.71,UnitedHealth Group Incorporated,2017-02-06,2017-02,160.75,UNH,CCC
-148.75,UnitedHealth Group Incorporated,2017-02-13,2017-02,157.62,UNH,CCC
-153.89,UnitedHealth Group Incorporated,2017-02-20,2017-02,163.06,UNH,CCC
-158.74,UnitedHealth Group Incorporated,2017-02-27,2017-02,168.20,UNH,CCC
-160.42,UnitedHealth Group Incorporated,2017-03-06,2017-03,169.98,UNH,CCC
-160.75,UnitedHealth Group Incorporated,2017-03-12,2017-03,169.70,UNH,CCC
-156.30,UnitedHealth Group Incorporated,2017-03-19,2017-03,165.00,UNH,CCC
-155.36,UnitedHealth Group Incorporated,2017-03-26,2017-03,164.01,UNH,CCC
-157.26,UnitedHealth Group Incorporated,2017-04-02,2017-04,166.02,UNH,CCC
-156.26,UnitedHealth Group Incorporated,2017-04-09,2017-04,164.96,UNH,CCC
-162.13,UnitedHealth Group Incorporated,2017-04-16,2017-04,171.16,UNH,CCC
-165.66,UnitedHealth Group Incorporated,2017-04-23,2017-04,174.88,UNH,CCC
-164.94,UnitedHealth Group Incorporated,2017-04-30,2017-04,174.12,UNH,CCC
-162.75,UnitedHealth Group Incorporated,2017-05-07,2017-05,171.81,UNH,B
-163.49,UnitedHealth Group Incorporated,2017-05-14,2017-05,172.59,UNH,B
-168.14,UnitedHealth Group Incorporated,2017-05-21,2017-05,177.50,UNH,B
-169.93,UnitedHealth Group Incorporated,2017-05-28,2017-05,179.39,UNH,B
-171.89,UnitedHealth Group Incorporated,2017-06-04,2017-06,181.46,UNH,B
-172.05,UnitedHealth Group Incorporated,2017-06-11,2017-06,181.63,UNH,B
-176.21,UnitedHealth Group Incorporated,2017-06-18,2017-06,185.25,UNH,B
-176.37,UnitedHealth Group Incorporated,2017-06-25,2017-06,185.42,UNH,B
-178.78,UnitedHealth Group Incorporated,2017-07-02,2017-07,187.96,UNH,B
-177.77,UnitedHealth Group Incorporated,2017-07-09,2017-07,186.90,UNH,B
-182.42,UnitedHealth Group Incorporated,2017-07-16,2017-07,191.78,UNH,B
-181.82,UnitedHealth Group Incorporated,2017-07-23,2017-07,191.15,UNH,B
-185.37,UnitedHealth Group Incorporated,2017-07-30,2017-07,194.88,UNH,B
-183.60,UnitedHealth Group Incorporated,2017-08-06,2017-08,193.02,UNH,B
-181.50,UnitedHealth Group Incorporated,2017-08-13,2017-08,190.82,UNH,B
-184.87,UnitedHealth Group Incorporated,2017-08-20,2017-08,194.36,UNH,B
-190.00,UnitedHealth Group Incorporated,2017-08-27,2017-08,199.75,UNH,B
-188.10,UnitedHealth Group Incorporated,2017-09-03,2017-09,197.75,UNH,B
-189.22,UnitedHealth Group Incorporated,2017-09-10,2017-09,198.18,UNH,B
-184.30,UnitedHealth Group Incorporated,2017-09-17,2017-09,193.03,UNH,B
-186.99,UnitedHealth Group Incorporated,2017-09-24,2017-09,195.85,UNH,B
-189.10,UnitedHealth Group Incorporated,2017-10-01,2017-10,198.06,UNH,B
-183.82,UnitedHealth Group Incorporated,2017-10-08,2017-10,192.52,UNH,B
-198.11,UnitedHealth Group Incorporated,2017-10-15,2017-10,207.49,UNH,B
-202.99,UnitedHealth Group Incorporated,2017-10-22,2017-10,212.60,UNH,B
-203.25,UnitedHealth Group Incorporated,2017-10-29,2017-10,212.87,UNH,B
-201.53,UnitedHealth Group Incorporated,2017-11-06,2017-11,211.07,UNH,B
-200.41,UnitedHealth Group Incorporated,2017-11-13,2017-11,209.90,UNH,B
-202.90,UnitedHealth Group Incorporated,2017-11-20,2017-11,212.51,UNH,B
-216.53,UnitedHealth Group Incorporated,2017-11-27,2017-11,226.78,UNH,B
-214.51,UnitedHealth Group Incorporated,2017-12-04,2017-12,223.91,UNH,B
-212.51,UnitedHealth Group Incorporated,2017-12-11,2017-12,221.82,UNH,B
-210.76,UnitedHealth Group Incorporated,2017-12-18,2017-12,220.00,UNH,B
-211.20,UnitedHealth Group Incorporated,2017-12-25,2017-12,220.46,UNH,B
-219.13,UnitedHealth Group Incorporated,2018-01-01,2018-01,228.73,UNH,B
-219.04,UnitedHealth Group Incorporated,2018-01-08,2018-01,228.64,UNH,B
-233.13,UnitedHealth Group Incorporated,2018-01-15,2018-01,243.35,UNH,B
-238.04,UnitedHealth Group Incorporated,2018-01-22,2018-01,248.47,UNH,B
-222.14,UnitedHealth Group Incorporated,2018-01-29,2018-01,231.88,UNH,B
-211.68,UnitedHealth Group Incorporated,2018-02-05,2018-02,220.96,UNH,B
-219.74,UnitedHealth Group Incorporated,2018-02-12,2018-02,229.37,UNH,B
-220.50,UnitedHealth Group Incorporated,2018-02-19,2018-02,230.16,UNH,B
-215.73,UnitedHealth Group Incorporated,2018-02-26,2018-02,225.19,UNH,B
-215.96,UnitedHealth Group Incorporated,2018-03-05,2018-03,225.43,UNH,B
-219.01,UnitedHealth Group Incorporated,2018-03-11,2018-03,227.86,UNH,B
-204.30,UnitedHealth Group Incorporated,2018-03-18,2018-03,212.55,UNH,B
-205.69,UnitedHealth Group Incorporated,2018-03-25,2018-03,214.00,UNH,B
-215.27,UnitedHealth Group Incorporated,2018-04-01,2018-04,223.96,UNH,B
-215.57,UnitedHealth Group Incorporated,2018-04-08,2018-04,224.28,UNH,B
-225.94,UnitedHealth Group Incorporated,2018-04-15,2018-04,235.06,UNH,B
-230.86,UnitedHealth Group Incorporated,2018-04-22,2018-04,240.18,UNH,B
-226.74,UnitedHealth Group Incorporated,2018-04-29,2018-04,235.90,UNH,B
-229.03,UnitedHealth Group Incorporated,2018-05-06,2018-05,238.28,UNH,B
-235.14,UnitedHealth Group Incorporated,2018-05-13,2018-05,244.64,UNH,B
-235.44,UnitedHealth Group Incorporated,2018-05-20,2018-05,244.95,UNH,B
-233.90,UnitedHealth Group Incorporated,2018-05-27,2018-05,243.35,UNH,B
-240.95,UnitedHealth Group Incorporated,2018-06-03,2018-06,250.68,UNH,BB
-246.04,UnitedHealth Group Incorporated,2018-06-10,2018-06,255.98,UNH,BB
-245.36,UnitedHealth Group Incorporated,2018-06-17,2018-06,254.37,UNH,BB
-236.65,UnitedHealth Group Incorporated,2018-06-24,2018-06,245.34,UNH,BB
-241.88,UnitedHealth Group Incorporated,2018-07-01,2018-07,250.76,UNH,BB
-249.54,UnitedHealth Group Incorporated,2018-07-08,2018-07,258.70,UNH,BB
-243.75,UnitedHealth Group Incorporated,2018-07-15,2018-07,252.70,UNH,BB
-246.88,UnitedHealth Group Incorporated,2018-07-22,2018-07,255.95,UNH,BB
-248.11,UnitedHealth Group Incorporated,2018-07-29,2018-07,257.22,UNH,BB
-251.14,UnitedHealth Group Incorporated,2018-08-05,2018-08,260.36,UNH,BB
-253.04,UnitedHealth Group Incorporated,2018-08-12,2018-08,262.33,UNH,BB
-254.92,UnitedHealth Group Incorporated,2018-08-19,2018-08,264.28,UNH,BB
-258.95,UnitedHealth Group Incorporated,2018-08-26,2018-08,268.46,UNH,BB
-258.78,UnitedHealth Group Incorporated,2018-09-02,2018-09,268.28,UNH,BB
-256.78,UnitedHealth Group Incorporated,2018-09-09,2018-09,265.31,UNH,BB
-258.09,UnitedHealth Group Incorporated,2018-09-16,2018-09,266.67,UNH,BB
-257.48,UnitedHealth Group Incorporated,2018-09-23,2018-09,266.04,UNH,BB
-260.54,UnitedHealth Group Incorporated,2018-09-30,2018-09,269.20,UNH,BB
-251.26,UnitedHealth Group Incorporated,2018-10-07,2018-10,259.61,UNH,BB
-256.77,UnitedHealth Group Incorporated,2018-10-14,2018-10,265.30,UNH,BB
-249.88,UnitedHealth Group Incorporated,2018-10-21,2018-10,258.18,UNH,BB
-252.61,UnitedHealth Group Incorporated,2018-10-28,2018-10,261.01,UNH,BB
-267.66,UnitedHealth Group Incorporated,2018-11-05,2018-11,276.55,UNH,BB
-262.39,UnitedHealth Group Incorporated,2018-11-12,2018-11,271.11,UNH,BB
-253.21,UnitedHealth Group Incorporated,2018-11-19,2018-11,261.62,UNH,BB
-272.31,UnitedHealth Group Incorporated,2018-11-26,2018-11,281.36,UNH,BB
-261.35,UnitedHealth Group Incorporated,2018-12-03,2018-12,269.18,UNH,BB
-257.32,UnitedHealth Group Incorporated,2018-12-10,2018-12,265.02,UNH,BB
-231.41,UnitedHealth Group Incorporated,2018-12-17,2018-12,238.34,UNH,BB
-239.08,UnitedHealth Group Incorporated,2018-12-24,2018-12,246.24,UNH,BB
-232.65,UnitedHealth Group Incorporated,2018-12-31,2018-12,239.62,UNH,BB
-240.47,UnitedHealth Group Incorporated,2019-01-07,2019-01,247.67,UNH,BB
-257.78,UnitedHealth Group Incorporated,2019-01-14,2019-01,265.50,UNH,BB
-260.26,UnitedHealth Group Incorporated,2019-01-21,2019-01,268.05,UNH,BB
-260.91,UnitedHealth Group Incorporated,2019-01-28,2019-01,268.72,UNH,BB
-254.29,UnitedHealth Group Incorporated,2019-02-04,2019-02,261.90,UNH,BB
-263.25,UnitedHealth Group Incorporated,2019-02-11,2019-02,271.13,UNH,BB
-259.34,UnitedHealth Group Incorporated,2019-02-18,2019-02,267.11,UNH,BB
-238.99,UnitedHealth Group Incorporated,2019-02-25,2019-02,246.15,UNH,BB
-230.39,UnitedHealth Group Incorporated,2019-03-04,2019-03,237.29,UNH,BB
-245.02,UnitedHealth Group Incorporated,2019-03-10,2019-03,251.40,UNH,BB
-240.82,UnitedHealth Group Incorporated,2019-03-17,2019-03,247.09,UNH,BB
-240.99,UnitedHealth Group Incorporated,2019-03-24,2019-03,247.26,UNH,BB
-242.47,UnitedHealth Group Incorporated,2019-03-31,2019-03,248.78,UNH,BB
-217.56,UnitedHealth Group Incorporated,2019-04-07,2019-04,223.22,UNH,BB
-216.13,UnitedHealth Group Incorporated,2019-04-14,2019-04,221.75,UNH,BB
-230.99,UnitedHealth Group Incorporated,2019-04-21,2019-04,237.00,UNH,BB
-226.07,UnitedHealth Group Incorporated,2019-04-28,2019-04,231.95,UNH,BB
-234.49,UnitedHealth Group Incorporated,2019-05-05,2019-05,240.59,UNH,BB
-235.26,UnitedHealth Group Incorporated,2019-05-12,2019-05,241.38,UNH,BB
-241.35,UnitedHealth Group Incorporated,2019-05-19,2019-05,247.63,UNH,BB
-235.67,UnitedHealth Group Incorporated,2019-05-26,2019-05,241.80,UNH,BB
-240.51,UnitedHealth Group Incorporated,2019-06-02,2019-06,246.77,UNH,BB
-239.15,UnitedHealth Group Incorporated,2019-06-09,2019-06,245.37,UNH,BB
-246.97,UnitedHealth Group Incorporated,2019-06-16,2019-06,252.28,UNH,BB
-238.87,UnitedHealth Group Incorporated,2019-06-23,2019-06,244.01,UNH,BB
-241.79,UnitedHealth Group Incorporated,2019-06-30,2019-06,246.99,UNH,BB
-260.30,UnitedHealth Group Incorporated,2019-07-07,2019-07,265.90,UNH,BB
-251.25,UnitedHealth Group Incorporated,2019-07-14,2019-07,256.65,UNH,BB
-247.62,UnitedHealth Group Incorporated,2019-07-21,2019-07,252.94,UNH,BB
-244.79,UnitedHealth Group Incorporated,2019-07-28,2019-07,250.05,UNH,BB
-243.40,UnitedHealth Group Incorporated,2019-08-04,2019-08,248.63,UNH,BB
-240.52,UnitedHealth Group Incorporated,2019-08-11,2019-08,245.69,UNH,BB
-225.80,UnitedHealth Group Incorporated,2019-08-18,2019-08,230.66,UNH,BB
-229.07,UnitedHealth Group Incorporated,2019-08-25,2019-08,234.00,UNH,BB
-224.18,UnitedHealth Group Incorporated,2019-09-01,2019-09,229.00,UNH,BB
-228.69,UnitedHealth Group Incorporated,2019-09-08,2019-09,233.61,UNH,BB
-229.06,UnitedHealth Group Incorporated,2019-09-15,2019-09,232.89,UNH,BB
-211.72,UnitedHealth Group Incorporated,2019-09-22,2019-09,215.26,UNH,BB
-216.19,UnitedHealth Group Incorporated,2019-09-29,2019-09,219.80,UNH,BB
-218.42,UnitedHealth Group Incorporated,2019-10-06,2019-10,222.07,UNH,BB
-241.31,UnitedHealth Group Incorporated,2019-10-13,2019-10,245.34,UNH,BB
-240.89,UnitedHealth Group Incorporated,2019-10-20,2019-10,244.91,UNH,BB
-248.07,UnitedHealth Group Incorporated,2019-10-27,2019-10,252.21,UNH,BB
-252.75,UnitedHealth Group Incorporated,2019-11-04,2019-11,256.97,UNH,BB
-264.97,UnitedHealth Group Incorporated,2019-11-11,2019-11,269.40,UNH,BB
-272.29,UnitedHealth Group Incorporated,2019-11-18,2019-11,276.84,UNH,BB
-275.27,UnitedHealth Group Incorporated,2019-11-25,2019-11,279.87,UNH,BB
-275.59,UnitedHealth Group Incorporated,2019-12-02,2019-12,280.19,UNH,BB
-281.87,UnitedHealth Group Incorporated,2019-12-09,2019-12,285.48,UNH,BB
-288.89,UnitedHealth Group Incorporated,2019-12-16,2019-12,292.59,UNH,BB
-292.23,UnitedHealth Group Incorporated,2019-12-23,2019-12,295.97,UNH,BB
-285.88,UnitedHealth Group Incorporated,2019-12-30,2019-12,289.54,UNH,BB
-291.40,UnitedHealth Group Incorporated,2020-01-06,2020-01,295.13,UNH,BB
-294.69,UnitedHealth Group Incorporated,2020-01-13,2020-01,298.47,UNH,BB
-289.11,UnitedHealth Group Incorporated,2020-01-20,2020-01,292.81,UNH,BB
-269.00,UnitedHealth Group Incorporated,2020-01-27,2020-01,272.45,UNH,BB
-285.56,UnitedHealth Group Incorporated,2020-02-03,2020-02,289.22,UNH,BB
-295.00,UnitedHealth Group Incorporated,2020-02-10,2020-02,298.78,UNH,BB
-297.62,UnitedHealth Group Incorporated,2020-02-17,2020-02,301.43,UNH,BB
-251.73,UnitedHealth Group Incorporated,2020-02-24,2020-02,254.96,UNH,BB
-280.28,UnitedHealth Group Incorporated,2020-03-02,2020-03,283.87,UNH,BB
-268.60,UnitedHealth Group Incorporated,2020-03-08,2020-03,272.04,UNH,BB
-204.86,UnitedHealth Group Incorporated,2020-03-15,2020-03,206.59,UNH,BB
-240.42,UnitedHealth Group Incorporated,2020-03-22,2020-03,242.45,UNH,BB
-227.57,UnitedHealth Group Incorporated,2020-03-29,2020-03,229.49,UNH,BB
-261.92,UnitedHealth Group Incorporated,2020-04-05,2020-04,264.13,UNH,BB
-288.13,UnitedHealth Group Incorporated,2020-04-12,2020-04,290.56,UNH,BB
-288.85,UnitedHealth Group Incorporated,2020-04-19,2020-04,291.29,UNH,BB
-282.13,UnitedHealth Group Incorporated,2020-04-26,2020-04,284.51,UNH,BB
-284.60,UnitedHealth Group Incorporated,2020-05-03,2020-05,287.00,UNH,BB
-288.52,UnitedHealth Group Incorporated,2020-05-10,2020-05,290.96,UNH,BB
-287.51,UnitedHealth Group Incorporated,2020-05-17,2020-05,289.94,UNH,BB
-302.30,UnitedHealth Group Incorporated,2020-05-24,2020-05,304.85,UNH,BB
-309.24,UnitedHealth Group Incorporated,2020-05-31,2020-05,311.85,UNH,BB
-282.76,UnitedHealth Group Incorporated,2020-06-07,2020-06,285.15,UNH,BB
-288.80,UnitedHealth Group Incorporated,2020-06-14,2020-06,291.24,UNH,BB
-285.70,UnitedHealth Group Incorporated,2020-06-21,2020-06,286.88,UNH,BB
-297.04,UnitedHealth Group Incorporated,2020-06-28,2020-06,298.26,UNH,BB
-290.03,UnitedHealth Group Incorporated,2020-07-05,2020-07,291.23,UNH,BB
-305.27,UnitedHealth Group Incorporated,2020-07-12,2020-07,306.53,UNH,BB
-299.56,UnitedHealth Group Incorporated,2020-07-19,2020-07,300.79,UNH,BB
-301.54,UnitedHealth Group Incorporated,2020-07-26,2020-07,302.78,UNH,BB
-315.73,UnitedHealth Group Incorporated,2020-08-02,2020-08,317.03,UNH,BB
-322.37,UnitedHealth Group Incorporated,2020-08-09,2020-08,323.70,UNH,BB
-312.85,UnitedHealth Group Incorporated,2020-08-16,2020-08,314.14,UNH,BB
-313.08,UnitedHealth Group Incorporated,2020-08-23,2020-08,314.37,UNH,BB
-310.72,UnitedHealth Group Incorporated,2020-08-30,2020-08,312.00,UNH,BB
-300.24,UnitedHealth Group Incorporated,2020-09-06,2020-09,301.48,UNH,BB
-308.02,UnitedHealth Group Incorporated,2020-09-13,2020-09,308.02,UNH,BB
-302.50,UnitedHealth Group Incorporated,2020-09-20,2020-09,302.50,UNH,BB
-311.98,UnitedHealth Group Incorporated,2020-09-27,2020-09,311.98,UNH,BB
-327.84,UnitedHealth Group Incorporated,2020-10-04,2020-10,327.84,UNH,BB
-329.90,UnitedHealth Group Incorporated,2020-10-11,2020-10,329.90,UNH,BB
-330.60,UnitedHealth Group Incorporated,2020-10-18,2020-10,330.60,UNH,BB
-305.14,UnitedHealth Group Incorporated,2020-10-25,2020-10,305.14,UNH,BB
-347.46,UnitedHealth Group Incorporated,2020-11-02,2020-11,347.46,UNH,BB
-355.67,UnitedHealth Group Incorporated,2020-11-09,2020-11,355.67,UNH,BB
-334.70,UnitedHealth Group Incorporated,2020-11-16,2020-11,334.70,UNH,BB
-337.94,UnitedHealth Group Incorporated,2020-11-23,2020-11,337.94,UNH,BB
-348.68,UnitedHealth Group Incorporated,2020-11-30,2020-11,348.68,UNH,BB
-348.68,UnitedHealth Group Incorporated,2020-12-03,2020-12,348.68,UNH,BB
+108.36,UnitedHealth Group Incorporated,2015-11-30,2015-11,117.74,UNH,
+107.20,UnitedHealth Group Incorporated,2015-12-07,2015-12,115.98,UNH,
+107.05,UnitedHealth Group Incorporated,2015-12-14,2015-12,115.82,UNH,
+109.38,UnitedHealth Group Incorporated,2015-12-21,2015-12,118.34,UNH,
+108.73,UnitedHealth Group Incorporated,2015-12-28,2015-12,117.64,UNH,
+101.82,UnitedHealth Group Incorporated,2016-01-04,2016-01,110.16,UNH,
+101.00,UnitedHealth Group Incorporated,2016-01-11,2016-01,109.27,UNH,
+105.67,UnitedHealth Group Incorporated,2016-01-18,2016-01,114.33,UNH,
+106.44,UnitedHealth Group Incorporated,2016-01-25,2016-01,115.16,UNH,
+103.26,UnitedHealth Group Incorporated,2016-02-01,2016-02,111.72,UNH,
+103.35,UnitedHealth Group Incorporated,2016-02-08,2016-02,111.82,UNH,
+108.77,UnitedHealth Group Incorporated,2016-02-15,2016-02,117.68,UNH,
+112.14,UnitedHealth Group Incorporated,2016-02-22,2016-02,121.33,UNH,
+112.58,UnitedHealth Group Incorporated,2016-02-29,2016-02,121.80,UNH,
+115.63,UnitedHealth Group Incorporated,2016-03-07,2016-03,125.10,UNH,
+117.61,UnitedHealth Group Incorporated,2016-03-13,2016-03,126.72,UNH,
+119.34,UnitedHealth Group Incorporated,2016-03-20,2016-03,128.59,UNH,
+120.58,UnitedHealth Group Incorporated,2016-03-27,2016-03,129.92,UNH,
+116.64,UnitedHealth Group Incorporated,2016-04-03,2016-04,125.68,UNH,
+118.18,UnitedHealth Group Incorporated,2016-04-10,2016-04,127.33,UNH,
+124.49,UnitedHealth Group Incorporated,2016-04-17,2016-04,134.13,UNH,
+122.21,UnitedHealth Group Incorporated,2016-04-24,2016-04,131.68,UNH,
+122.55,UnitedHealth Group Incorporated,2016-05-01,2016-05,132.04,UNH,CCC
+119.73,UnitedHealth Group Incorporated,2016-05-08,2016-05,129.00,UNH,CCC
+121.53,UnitedHealth Group Incorporated,2016-05-15,2016-05,130.94,UNH,CCC
+124.37,UnitedHealth Group Incorporated,2016-05-22,2016-05,134.00,UNH,CCC
+127.00,UnitedHealth Group Incorporated,2016-05-29,2016-05,136.84,UNH,CCC
+129.23,UnitedHealth Group Incorporated,2016-06-05,2016-06,139.24,UNH,CCC
+127.79,UnitedHealth Group Incorporated,2016-06-12,2016-06,137.69,UNH,CCC
+128.00,UnitedHealth Group Incorporated,2016-06-19,2016-06,137.29,UNH,CCC
+131.33,UnitedHealth Group Incorporated,2016-06-26,2016-06,140.86,UNH,CCC
+131.71,UnitedHealth Group Incorporated,2016-07-03,2016-07,141.27,UNH,CCC
+131.77,UnitedHealth Group Incorporated,2016-07-10,2016-07,141.33,UNH,CCC
+133.97,UnitedHealth Group Incorporated,2016-07-17,2016-07,143.69,UNH,CCC
+133.51,UnitedHealth Group Incorporated,2016-07-24,2016-07,143.20,UNH,CCC
+133.31,UnitedHealth Group Incorporated,2016-07-31,2016-07,142.99,UNH,CCC
+133.21,UnitedHealth Group Incorporated,2016-08-07,2016-08,142.88,UNH,CCC
+132.43,UnitedHealth Group Incorporated,2016-08-14,2016-08,142.04,UNH,CCC
+127.37,UnitedHealth Group Incorporated,2016-08-21,2016-08,136.62,UNH,CCC
+127.37,UnitedHealth Group Incorporated,2016-08-28,2016-08,136.61,UNH,CCC
+124.58,UnitedHealth Group Incorporated,2016-09-04,2016-09,133.62,UNH,CCC
+129.70,UnitedHealth Group Incorporated,2016-09-11,2016-09,138.47,UNH,CCC
+131.61,UnitedHealth Group Incorporated,2016-09-18,2016-09,140.51,UNH,CCC
+131.13,UnitedHealth Group Incorporated,2016-09-25,2016-09,140.00,UNH,CCC
+128.00,UnitedHealth Group Incorporated,2016-10-02,2016-10,136.66,UNH,CCC
+125.43,UnitedHealth Group Incorporated,2016-10-09,2016-10,133.92,UNH,CCC
+136.16,UnitedHealth Group Incorporated,2016-10-16,2016-10,145.37,UNH,CCC
+131.46,UnitedHealth Group Incorporated,2016-10-23,2016-10,140.35,UNH,CCC
+128.98,UnitedHealth Group Incorporated,2016-10-30,2016-10,137.71,UNH,CCC
+137.14,UnitedHealth Group Incorporated,2016-11-07,2016-11,146.42,UNH,CCC
+139.98,UnitedHealth Group Incorporated,2016-11-14,2016-11,149.45,UNH,CCC
+143.13,UnitedHealth Group Incorporated,2016-11-21,2016-11,152.81,UNH,CCC
+150.55,UnitedHealth Group Incorporated,2016-11-28,2016-11,160.73,UNH,CCC
+150.57,UnitedHealth Group Incorporated,2016-12-05,2016-12,160.12,UNH,CCC
+154.16,UnitedHealth Group Incorporated,2016-12-12,2016-12,163.94,UNH,CCC
+153.31,UnitedHealth Group Incorporated,2016-12-19,2016-12,163.03,UNH,CCC
+150.50,UnitedHealth Group Incorporated,2016-12-26,2016-12,160.04,UNH,CCC
+152.72,UnitedHealth Group Incorporated,2017-01-02,2017-01,162.41,UNH,CCC
+152.15,UnitedHealth Group Incorporated,2017-01-09,2017-01,161.80,UNH,CCC
+149.20,UnitedHealth Group Incorporated,2017-01-16,2017-01,158.66,UNH,CCC
+153.27,UnitedHealth Group Incorporated,2017-01-23,2017-01,162.99,UNH,CCC
+152.22,UnitedHealth Group Incorporated,2017-01-30,2017-01,161.87,UNH,CCC
+151.16,UnitedHealth Group Incorporated,2017-02-06,2017-02,160.75,UNH,CCC
+148.22,UnitedHealth Group Incorporated,2017-02-13,2017-02,157.62,UNH,CCC
+153.34,UnitedHealth Group Incorporated,2017-02-20,2017-02,163.06,UNH,CCC
+158.17,UnitedHealth Group Incorporated,2017-02-27,2017-02,168.20,UNH,CCC
+159.84,UnitedHealth Group Incorporated,2017-03-06,2017-03,169.98,UNH,CCC
+160.17,UnitedHealth Group Incorporated,2017-03-12,2017-03,169.70,UNH,CCC
+155.74,UnitedHealth Group Incorporated,2017-03-19,2017-03,165.00,UNH,CCC
+154.80,UnitedHealth Group Incorporated,2017-03-26,2017-03,164.01,UNH,CCC
+156.70,UnitedHealth Group Incorporated,2017-04-02,2017-04,166.02,UNH,CCC
+155.70,UnitedHealth Group Incorporated,2017-04-09,2017-04,164.96,UNH,CCC
+161.55,UnitedHealth Group Incorporated,2017-04-16,2017-04,171.16,UNH,CCC
+165.06,UnitedHealth Group Incorporated,2017-04-23,2017-04,174.88,UNH,CCC
+164.35,UnitedHealth Group Incorporated,2017-04-30,2017-04,174.12,UNH,CCC
+162.17,UnitedHealth Group Incorporated,2017-05-07,2017-05,171.81,UNH,B
+162.90,UnitedHealth Group Incorporated,2017-05-14,2017-05,172.59,UNH,B
+167.54,UnitedHealth Group Incorporated,2017-05-21,2017-05,177.50,UNH,B
+169.32,UnitedHealth Group Incorporated,2017-05-28,2017-05,179.39,UNH,B
+171.27,UnitedHealth Group Incorporated,2017-06-04,2017-06,181.46,UNH,B
+171.43,UnitedHealth Group Incorporated,2017-06-11,2017-06,181.63,UNH,B
+175.57,UnitedHealth Group Incorporated,2017-06-18,2017-06,185.25,UNH,B
+175.73,UnitedHealth Group Incorporated,2017-06-25,2017-06,185.42,UNH,B
+178.14,UnitedHealth Group Incorporated,2017-07-02,2017-07,187.96,UNH,B
+177.14,UnitedHealth Group Incorporated,2017-07-09,2017-07,186.90,UNH,B
+181.76,UnitedHealth Group Incorporated,2017-07-16,2017-07,191.78,UNH,B
+181.17,UnitedHealth Group Incorporated,2017-07-23,2017-07,191.15,UNH,B
+184.70,UnitedHealth Group Incorporated,2017-07-30,2017-07,194.88,UNH,B
+182.94,UnitedHealth Group Incorporated,2017-08-06,2017-08,193.02,UNH,B
+180.85,UnitedHealth Group Incorporated,2017-08-13,2017-08,190.82,UNH,B
+184.21,UnitedHealth Group Incorporated,2017-08-20,2017-08,194.36,UNH,B
+189.32,UnitedHealth Group Incorporated,2017-08-27,2017-08,199.75,UNH,B
+187.42,UnitedHealth Group Incorporated,2017-09-03,2017-09,197.75,UNH,B
+188.54,UnitedHealth Group Incorporated,2017-09-10,2017-09,198.18,UNH,B
+183.64,UnitedHealth Group Incorporated,2017-09-17,2017-09,193.03,UNH,B
+186.32,UnitedHealth Group Incorporated,2017-09-24,2017-09,195.85,UNH,B
+188.43,UnitedHealth Group Incorporated,2017-10-01,2017-10,198.06,UNH,B
+183.16,UnitedHealth Group Incorporated,2017-10-08,2017-10,192.52,UNH,B
+197.40,UnitedHealth Group Incorporated,2017-10-15,2017-10,207.49,UNH,B
+202.26,UnitedHealth Group Incorporated,2017-10-22,2017-10,212.60,UNH,B
+202.52,UnitedHealth Group Incorporated,2017-10-29,2017-10,212.87,UNH,B
+200.80,UnitedHealth Group Incorporated,2017-11-06,2017-11,211.07,UNH,B
+199.69,UnitedHealth Group Incorporated,2017-11-13,2017-11,209.90,UNH,B
+202.17,UnitedHealth Group Incorporated,2017-11-20,2017-11,212.51,UNH,B
+215.75,UnitedHealth Group Incorporated,2017-11-27,2017-11,226.78,UNH,B
+213.74,UnitedHealth Group Incorporated,2017-12-04,2017-12,223.91,UNH,B
+211.74,UnitedHealth Group Incorporated,2017-12-11,2017-12,221.82,UNH,B
+210.01,UnitedHealth Group Incorporated,2017-12-18,2017-12,220.00,UNH,B
+210.45,UnitedHealth Group Incorporated,2017-12-25,2017-12,220.46,UNH,B
+218.34,UnitedHealth Group Incorporated,2018-01-01,2018-01,228.73,UNH,B
+218.25,UnitedHealth Group Incorporated,2018-01-08,2018-01,228.64,UNH,B
+232.30,UnitedHealth Group Incorporated,2018-01-15,2018-01,243.35,UNH,B
+237.18,UnitedHealth Group Incorporated,2018-01-22,2018-01,248.47,UNH,B
+221.35,UnitedHealth Group Incorporated,2018-01-29,2018-01,231.88,UNH,B
+210.92,UnitedHealth Group Incorporated,2018-02-05,2018-02,220.96,UNH,B
+218.95,UnitedHealth Group Incorporated,2018-02-12,2018-02,229.37,UNH,B
+219.71,UnitedHealth Group Incorporated,2018-02-19,2018-02,230.16,UNH,B
+214.96,UnitedHealth Group Incorporated,2018-02-26,2018-02,225.19,UNH,B
+215.19,UnitedHealth Group Incorporated,2018-03-05,2018-03,225.43,UNH,B
+218.23,UnitedHealth Group Incorporated,2018-03-11,2018-03,227.86,UNH,B
+203.57,UnitedHealth Group Incorporated,2018-03-18,2018-03,212.55,UNH,B
+204.96,UnitedHealth Group Incorporated,2018-03-25,2018-03,214.00,UNH,B
+214.49,UnitedHealth Group Incorporated,2018-04-01,2018-04,223.96,UNH,B
+214.80,UnitedHealth Group Incorporated,2018-04-08,2018-04,224.28,UNH,B
+225.13,UnitedHealth Group Incorporated,2018-04-15,2018-04,235.06,UNH,B
+230.03,UnitedHealth Group Incorporated,2018-04-22,2018-04,240.18,UNH,B
+225.93,UnitedHealth Group Incorporated,2018-04-29,2018-04,235.90,UNH,B
+228.21,UnitedHealth Group Incorporated,2018-05-06,2018-05,238.28,UNH,B
+234.30,UnitedHealth Group Incorporated,2018-05-13,2018-05,244.64,UNH,B
+234.60,UnitedHealth Group Incorporated,2018-05-20,2018-05,244.95,UNH,B
+233.07,UnitedHealth Group Incorporated,2018-05-27,2018-05,243.35,UNH,B
+240.09,UnitedHealth Group Incorporated,2018-06-03,2018-06,250.68,UNH,BB
+245.16,UnitedHealth Group Incorporated,2018-06-10,2018-06,255.98,UNH,BB
+244.48,UnitedHealth Group Incorporated,2018-06-17,2018-06,254.37,UNH,BB
+235.80,UnitedHealth Group Incorporated,2018-06-24,2018-06,245.34,UNH,BB
+241.01,UnitedHealth Group Incorporated,2018-07-01,2018-07,250.76,UNH,BB
+248.64,UnitedHealth Group Incorporated,2018-07-08,2018-07,258.70,UNH,BB
+242.88,UnitedHealth Group Incorporated,2018-07-15,2018-07,252.70,UNH,BB
+246.00,UnitedHealth Group Incorporated,2018-07-22,2018-07,255.95,UNH,BB
+247.22,UnitedHealth Group Incorporated,2018-07-29,2018-07,257.22,UNH,BB
+250.24,UnitedHealth Group Incorporated,2018-08-05,2018-08,260.36,UNH,BB
+252.13,UnitedHealth Group Incorporated,2018-08-12,2018-08,262.33,UNH,BB
+254.01,UnitedHealth Group Incorporated,2018-08-19,2018-08,264.28,UNH,BB
+258.02,UnitedHealth Group Incorporated,2018-08-26,2018-08,268.46,UNH,BB
+257.85,UnitedHealth Group Incorporated,2018-09-02,2018-09,268.28,UNH,BB
+255.86,UnitedHealth Group Incorporated,2018-09-09,2018-09,265.31,UNH,BB
+257.17,UnitedHealth Group Incorporated,2018-09-16,2018-09,266.67,UNH,BB
+256.56,UnitedHealth Group Incorporated,2018-09-23,2018-09,266.04,UNH,BB
+259.61,UnitedHealth Group Incorporated,2018-09-30,2018-09,269.20,UNH,BB
+250.36,UnitedHealth Group Incorporated,2018-10-07,2018-10,259.61,UNH,BB
+255.85,UnitedHealth Group Incorporated,2018-10-14,2018-10,265.30,UNH,BB
+248.98,UnitedHealth Group Incorporated,2018-10-21,2018-10,258.18,UNH,BB
+251.71,UnitedHealth Group Incorporated,2018-10-28,2018-10,261.01,UNH,BB
+266.70,UnitedHealth Group Incorporated,2018-11-05,2018-11,276.55,UNH,BB
+261.45,UnitedHealth Group Incorporated,2018-11-12,2018-11,271.11,UNH,BB
+252.30,UnitedHealth Group Incorporated,2018-11-19,2018-11,261.62,UNH,BB
+271.33,UnitedHealth Group Incorporated,2018-11-26,2018-11,281.36,UNH,BB
+260.42,UnitedHealth Group Incorporated,2018-12-03,2018-12,269.18,UNH,BB
+256.39,UnitedHealth Group Incorporated,2018-12-10,2018-12,265.02,UNH,BB
+230.58,UnitedHealth Group Incorporated,2018-12-17,2018-12,238.34,UNH,BB
+238.22,UnitedHealth Group Incorporated,2018-12-24,2018-12,246.24,UNH,BB
+231.82,UnitedHealth Group Incorporated,2018-12-31,2018-12,239.62,UNH,BB
+239.61,UnitedHealth Group Incorporated,2019-01-07,2019-01,247.67,UNH,BB
+256.86,UnitedHealth Group Incorporated,2019-01-14,2019-01,265.50,UNH,BB
+259.32,UnitedHealth Group Incorporated,2019-01-21,2019-01,268.05,UNH,BB
+259.97,UnitedHealth Group Incorporated,2019-01-28,2019-01,268.72,UNH,BB
+253.37,UnitedHealth Group Incorporated,2019-02-04,2019-02,261.90,UNH,BB
+262.30,UnitedHealth Group Incorporated,2019-02-11,2019-02,271.13,UNH,BB
+258.42,UnitedHealth Group Incorporated,2019-02-18,2019-02,267.11,UNH,BB
+238.14,UnitedHealth Group Incorporated,2019-02-25,2019-02,246.15,UNH,BB
+229.57,UnitedHealth Group Incorporated,2019-03-04,2019-03,237.29,UNH,BB
+244.14,UnitedHealth Group Incorporated,2019-03-10,2019-03,251.40,UNH,BB
+239.96,UnitedHealth Group Incorporated,2019-03-17,2019-03,247.09,UNH,BB
+240.12,UnitedHealth Group Incorporated,2019-03-24,2019-03,247.26,UNH,BB
+241.60,UnitedHealth Group Incorporated,2019-03-31,2019-03,248.78,UNH,BB
+216.78,UnitedHealth Group Incorporated,2019-04-07,2019-04,223.22,UNH,BB
+215.35,UnitedHealth Group Incorporated,2019-04-14,2019-04,221.75,UNH,BB
+230.16,UnitedHealth Group Incorporated,2019-04-21,2019-04,237.00,UNH,BB
+225.26,UnitedHealth Group Incorporated,2019-04-28,2019-04,231.95,UNH,BB
+233.65,UnitedHealth Group Incorporated,2019-05-05,2019-05,240.59,UNH,BB
+234.41,UnitedHealth Group Incorporated,2019-05-12,2019-05,241.38,UNH,BB
+240.48,UnitedHealth Group Incorporated,2019-05-19,2019-05,247.63,UNH,BB
+234.82,UnitedHealth Group Incorporated,2019-05-26,2019-05,241.80,UNH,BB
+239.65,UnitedHealth Group Incorporated,2019-06-02,2019-06,246.77,UNH,BB
+238.29,UnitedHealth Group Incorporated,2019-06-09,2019-06,245.37,UNH,BB
+246.08,UnitedHealth Group Incorporated,2019-06-16,2019-06,252.28,UNH,BB
+238.02,UnitedHealth Group Incorporated,2019-06-23,2019-06,244.01,UNH,BB
+240.92,UnitedHealth Group Incorporated,2019-06-30,2019-06,246.99,UNH,BB
+259.37,UnitedHealth Group Incorporated,2019-07-07,2019-07,265.90,UNH,BB
+250.35,UnitedHealth Group Incorporated,2019-07-14,2019-07,256.65,UNH,BB
+246.73,UnitedHealth Group Incorporated,2019-07-21,2019-07,252.94,UNH,BB
+243.91,UnitedHealth Group Incorporated,2019-07-28,2019-07,250.05,UNH,BB
+242.52,UnitedHealth Group Incorporated,2019-08-04,2019-08,248.63,UNH,BB
+239.66,UnitedHealth Group Incorporated,2019-08-11,2019-08,245.69,UNH,BB
+225.00,UnitedHealth Group Incorporated,2019-08-18,2019-08,230.66,UNH,BB
+228.25,UnitedHealth Group Incorporated,2019-08-25,2019-08,234.00,UNH,BB
+223.38,UnitedHealth Group Incorporated,2019-09-01,2019-09,229.00,UNH,BB
+227.87,UnitedHealth Group Incorporated,2019-09-08,2019-09,233.61,UNH,BB
+228.24,UnitedHealth Group Incorporated,2019-09-15,2019-09,232.89,UNH,BB
+210.96,UnitedHealth Group Incorporated,2019-09-22,2019-09,215.26,UNH,BB
+215.41,UnitedHealth Group Incorporated,2019-09-29,2019-09,219.80,UNH,BB
+217.64,UnitedHealth Group Incorporated,2019-10-06,2019-10,222.07,UNH,BB
+240.44,UnitedHealth Group Incorporated,2019-10-13,2019-10,245.34,UNH,BB
+240.02,UnitedHealth Group Incorporated,2019-10-20,2019-10,244.91,UNH,BB
+247.18,UnitedHealth Group Incorporated,2019-10-27,2019-10,252.21,UNH,BB
+251.84,UnitedHealth Group Incorporated,2019-11-04,2019-11,256.97,UNH,BB
+264.02,UnitedHealth Group Incorporated,2019-11-11,2019-11,269.40,UNH,BB
+271.31,UnitedHealth Group Incorporated,2019-11-18,2019-11,276.84,UNH,BB
+274.28,UnitedHealth Group Incorporated,2019-11-25,2019-11,279.87,UNH,BB
+274.60,UnitedHealth Group Incorporated,2019-12-02,2019-12,280.19,UNH,BB
+280.86,UnitedHealth Group Incorporated,2019-12-09,2019-12,285.48,UNH,BB
+287.85,UnitedHealth Group Incorporated,2019-12-16,2019-12,292.59,UNH,BB
+291.18,UnitedHealth Group Incorporated,2019-12-23,2019-12,295.97,UNH,BB
+284.85,UnitedHealth Group Incorporated,2019-12-30,2019-12,289.54,UNH,BB
+290.35,UnitedHealth Group Incorporated,2020-01-06,2020-01,295.13,UNH,BB
+293.64,UnitedHealth Group Incorporated,2020-01-13,2020-01,298.47,UNH,BB
+288.07,UnitedHealth Group Incorporated,2020-01-20,2020-01,292.81,UNH,BB
+268.04,UnitedHealth Group Incorporated,2020-01-27,2020-01,272.45,UNH,BB
+284.54,UnitedHealth Group Incorporated,2020-02-03,2020-02,289.22,UNH,BB
+293.94,UnitedHealth Group Incorporated,2020-02-10,2020-02,298.78,UNH,BB
+296.55,UnitedHealth Group Incorporated,2020-02-17,2020-02,301.43,UNH,BB
+250.83,UnitedHealth Group Incorporated,2020-02-24,2020-02,254.96,UNH,BB
+279.27,UnitedHealth Group Incorporated,2020-03-02,2020-03,283.87,UNH,BB
+267.64,UnitedHealth Group Incorporated,2020-03-08,2020-03,272.04,UNH,BB
+204.13,UnitedHealth Group Incorporated,2020-03-15,2020-03,206.59,UNH,BB
+239.56,UnitedHealth Group Incorporated,2020-03-22,2020-03,242.45,UNH,BB
+226.75,UnitedHealth Group Incorporated,2020-03-29,2020-03,229.49,UNH,BB
+260.98,UnitedHealth Group Incorporated,2020-04-05,2020-04,264.13,UNH,BB
+287.09,UnitedHealth Group Incorporated,2020-04-12,2020-04,290.56,UNH,BB
+287.82,UnitedHealth Group Incorporated,2020-04-19,2020-04,291.29,UNH,BB
+281.12,UnitedHealth Group Incorporated,2020-04-26,2020-04,284.51,UNH,BB
+283.58,UnitedHealth Group Incorporated,2020-05-03,2020-05,287.00,UNH,BB
+287.49,UnitedHealth Group Incorporated,2020-05-10,2020-05,290.96,UNH,BB
+286.48,UnitedHealth Group Incorporated,2020-05-17,2020-05,289.94,UNH,BB
+301.21,UnitedHealth Group Incorporated,2020-05-24,2020-05,304.85,UNH,BB
+308.13,UnitedHealth Group Incorporated,2020-05-31,2020-05,311.85,UNH,BB
+281.75,UnitedHealth Group Incorporated,2020-06-07,2020-06,285.15,UNH,BB
+287.77,UnitedHealth Group Incorporated,2020-06-14,2020-06,291.24,UNH,BB
+284.68,UnitedHealth Group Incorporated,2020-06-21,2020-06,286.88,UNH,BB
+295.97,UnitedHealth Group Incorporated,2020-06-28,2020-06,298.26,UNH,BB
+289.00,UnitedHealth Group Incorporated,2020-07-05,2020-07,291.23,UNH,BB
+304.18,UnitedHealth Group Incorporated,2020-07-12,2020-07,306.53,UNH,BB
+298.48,UnitedHealth Group Incorporated,2020-07-19,2020-07,300.79,UNH,BB
+300.46,UnitedHealth Group Incorporated,2020-07-26,2020-07,302.78,UNH,BB
+314.60,UnitedHealth Group Incorporated,2020-08-02,2020-08,317.03,UNH,BB
+321.22,UnitedHealth Group Incorporated,2020-08-09,2020-08,323.70,UNH,BB
+311.73,UnitedHealth Group Incorporated,2020-08-16,2020-08,314.14,UNH,BB
+311.96,UnitedHealth Group Incorporated,2020-08-23,2020-08,314.37,UNH,BB
+309.61,UnitedHealth Group Incorporated,2020-08-30,2020-08,312.00,UNH,BB
+299.17,UnitedHealth Group Incorporated,2020-09-06,2020-09,301.48,UNH,BB
+306.92,UnitedHealth Group Incorporated,2020-09-13,2020-09,308.02,UNH,BB
+301.42,UnitedHealth Group Incorporated,2020-09-20,2020-09,302.50,UNH,BB
+310.86,UnitedHealth Group Incorporated,2020-09-27,2020-09,311.98,UNH,BB
+326.66,UnitedHealth Group Incorporated,2020-10-04,2020-10,327.84,UNH,BB
+328.72,UnitedHealth Group Incorporated,2020-10-11,2020-10,329.90,UNH,BB
+329.41,UnitedHealth Group Incorporated,2020-10-18,2020-10,330.60,UNH,BB
+304.05,UnitedHealth Group Incorporated,2020-10-25,2020-10,305.14,UNH,BB
+346.21,UnitedHealth Group Incorporated,2020-11-02,2020-11,347.46,UNH,BB
+354.39,UnitedHealth Group Incorporated,2020-11-09,2020-11,355.67,UNH,BB
+333.50,UnitedHealth Group Incorporated,2020-11-16,2020-11,334.70,UNH,BB
+336.73,UnitedHealth Group Incorporated,2020-11-23,2020-11,337.94,UNH,BB
+347.43,UnitedHealth Group Incorporated,2020-11-30,2020-11,348.68,UNH,BB
+347.43,UnitedHealth Group Incorporated,2020-12-03,2020-12,348.68,UNH,BB
+77.57,Visa Inc.,2015-11-30,2015-11,80.40,V,
+73.43,Visa Inc.,2015-12-07,2015-12,76.11,V,
+73.63,Visa Inc.,2015-12-14,2015-12,76.32,V,
+75.50,Visa Inc.,2015-12-21,2015-12,78.26,V,
+74.82,Visa Inc.,2015-12-28,2015-12,77.55,V,
+70.31,Visa Inc.,2016-01-04,2016-01,72.88,V,
+69.30,Visa Inc.,2016-01-11,2016-01,71.83,V,
+70.14,Visa Inc.,2016-01-18,2016-01,72.70,V,
+71.87,Visa Inc.,2016-01-25,2016-01,74.49,V,
+69.02,Visa Inc.,2016-02-01,2016-02,71.54,V,
+67.94,Visa Inc.,2016-02-08,2016-02,70.42,V,
+69.15,Visa Inc.,2016-02-15,2016-02,71.53,V,
+70.45,Visa Inc.,2016-02-22,2016-02,72.73,V,
+71.58,Visa Inc.,2016-02-29,2016-02,73.90,V,
+69.39,Visa Inc.,2016-03-07,2016-03,71.63,V,
+71.47,Visa Inc.,2016-03-13,2016-03,73.78,V,
+71.82,Visa Inc.,2016-03-20,2016-03,74.14,V,
+75.16,Visa Inc.,2016-03-27,2016-03,77.59,V,
+75.59,Visa Inc.,2016-04-03,2016-04,78.03,V,
+77.57,Visa Inc.,2016-04-10,2016-04,80.08,V,
+76.63,Visa Inc.,2016-04-17,2016-04,79.11,V,
+74.82,Visa Inc.,2016-04-24,2016-04,77.24,V,
+75.28,Visa Inc.,2016-05-01,2016-05,77.72,V,
+74.42,Visa Inc.,2016-05-08,2016-05,76.83,V,
+75.37,Visa Inc.,2016-05-15,2016-05,77.67,V,
+77.30,Visa Inc.,2016-05-22,2016-05,79.66,V,
+77.57,Visa Inc.,2016-05-29,2016-05,79.94,V,
+77.81,Visa Inc.,2016-06-05,2016-06,80.18,V,
+74.71,Visa Inc.,2016-06-12,2016-06,76.99,V,
+72.83,Visa Inc.,2016-06-19,2016-06,75.05,V,
+72.27,Visa Inc.,2016-06-26,2016-06,74.48,V,
+74.16,Visa Inc.,2016-07-03,2016-07,76.42,V,
+75.98,Visa Inc.,2016-07-10,2016-07,78.30,V,
+77.54,Visa Inc.,2016-07-17,2016-07,79.91,V,
+75.74,Visa Inc.,2016-07-24,2016-07,78.05,V,
+77.77,Visa Inc.,2016-07-31,2016-07,80.14,V,
+77.65,Visa Inc.,2016-08-07,2016-08,80.02,V,
+78.09,Visa Inc.,2016-08-14,2016-08,80.47,V,
+78.32,Visa Inc.,2016-08-21,2016-08,80.57,V,
+79.71,Visa Inc.,2016-08-28,2016-08,82.00,V,
+79.06,Visa Inc.,2016-09-04,2016-09,81.33,V,
+79.78,Visa Inc.,2016-09-11,2016-09,82.07,V,
+80.23,Visa Inc.,2016-09-18,2016-09,82.54,V,
+80.39,Visa Inc.,2016-09-25,2016-09,82.70,V,
+80.56,Visa Inc.,2016-10-02,2016-10,82.88,V,
+80.15,Visa Inc.,2016-10-09,2016-10,82.45,V,
+80.05,Visa Inc.,2016-10-16,2016-10,82.35,V,
+79.92,Visa Inc.,2016-10-23,2016-10,82.22,V,
+78.12,Visa Inc.,2016-10-30,2016-10,80.36,V,
+79.59,Visa Inc.,2016-11-07,2016-11,81.88,V,
+78.56,Visa Inc.,2016-11-14,2016-11,80.82,V,
+78.06,Visa Inc.,2016-11-21,2016-11,80.13,V,
+73.76,Visa Inc.,2016-11-28,2016-11,75.72,V,
+77.09,Visa Inc.,2016-12-05,2016-12,79.14,V,
+76.32,Visa Inc.,2016-12-12,2016-12,78.35,V,
+76.13,Visa Inc.,2016-12-19,2016-12,78.15,V,
+76.00,Visa Inc.,2016-12-26,2016-12,78.02,V,
+80.08,Visa Inc.,2017-01-02,2017-01,82.21,V,
+79.07,Visa Inc.,2017-01-09,2017-01,81.17,V,
+79.72,Visa Inc.,2017-01-16,2017-01,81.84,V,
+81.60,Visa Inc.,2017-01-23,2017-01,83.77,V,
+83.85,Visa Inc.,2017-01-30,2017-01,86.08,V,
+83.68,Visa Inc.,2017-02-06,2017-02,85.90,V,
+85.20,Visa Inc.,2017-02-13,2017-02,87.46,V,
+86.30,Visa Inc.,2017-02-20,2017-02,88.43,V,
+86.66,Visa Inc.,2017-02-27,2017-02,88.79,V,
+87.57,Visa Inc.,2017-03-06,2017-03,89.73,V,
+88.07,Visa Inc.,2017-03-12,2017-03,90.24,V,
+87.05,Visa Inc.,2017-03-19,2017-03,89.19,V,
+86.73,Visa Inc.,2017-03-26,2017-03,88.87,V,
+86.61,Visa Inc.,2017-04-02,2017-04,88.74,V,
+86.73,Visa Inc.,2017-04-09,2017-04,88.87,V,
+88.96,Visa Inc.,2017-04-16,2017-04,91.15,V,
+89.03,Visa Inc.,2017-04-23,2017-04,91.22,V,
+89.88,Visa Inc.,2017-04-30,2017-04,92.09,V,
+90.50,Visa Inc.,2017-05-07,2017-05,92.73,V,BBB
+90.26,Visa Inc.,2017-05-14,2017-05,92.48,V,BBB
 92.56,Visa Inc.,2017-05-21,2017-05,94.67,V,BBB
 94.01,Visa Inc.,2017-05-28,2017-05,96.15,V,BBB
 92.45,Visa Inc.,2017-06-04,2017-06,94.56,V,BBB
@@ -6337,17 +7191,94 @@ adj_stock,company,date,month_year,stock,symbol,rating
 60.58,Verizon Communications Inc.,2020-11-23,2020-11,60.58,VZ,BBB
 61.74,Verizon Communications Inc.,2020-11-30,2020-11,61.74,VZ,BBB
 61.74,Verizon Communications Inc.,2020-12-03,2020-12,61.74,VZ,BBB
-72.88,Walgreens Boots Alliance Inc.,2017-05-21,2017-05,81.25,WBA,
-74.54,Walgreens Boots Alliance Inc.,2017-05-28,2017-05,83.10,WBA,
-72.65,Walgreens Boots Alliance Inc.,2017-06-04,2017-06,80.99,WBA,
-70.36,Walgreens Boots Alliance Inc.,2017-06-11,2017-06,78.44,WBA,
-68.48,Walgreens Boots Alliance Inc.,2017-06-18,2017-06,76.34,WBA,
-70.25,Walgreens Boots Alliance Inc.,2017-06-25,2017-06,78.31,WBA,
-69.49,Walgreens Boots Alliance Inc.,2017-07-02,2017-07,77.47,WBA,
-70.78,Walgreens Boots Alliance Inc.,2017-07-09,2017-07,78.91,WBA,
-70.77,Walgreens Boots Alliance Inc.,2017-07-16,2017-07,78.90,WBA,
-71.42,Walgreens Boots Alliance Inc.,2017-07-23,2017-07,79.62,WBA,
-72.71,Walgreens Boots Alliance Inc.,2017-07-30,2017-07,81.06,WBA,
+73.86,Walgreens Boots Alliance Inc.,2015-11-30,2015-11,84.62,WBA,
+71.32,Walgreens Boots Alliance Inc.,2015-12-07,2015-12,81.71,WBA,
+72.02,Walgreens Boots Alliance Inc.,2015-12-14,2015-12,82.51,WBA,
+75.46,Walgreens Boots Alliance Inc.,2015-12-21,2015-12,86.46,WBA,
+74.33,Walgreens Boots Alliance Inc.,2015-12-28,2015-12,85.16,WBA,
+70.74,Walgreens Boots Alliance Inc.,2016-01-04,2016-01,81.05,WBA,
+69.76,Walgreens Boots Alliance Inc.,2016-01-11,2016-01,79.93,WBA,
+70.56,Walgreens Boots Alliance Inc.,2016-01-18,2016-01,80.84,WBA,
+69.58,Walgreens Boots Alliance Inc.,2016-01-25,2016-01,79.72,WBA,
+65.64,Walgreens Boots Alliance Inc.,2016-02-01,2016-02,75.20,WBA,
+67.28,Walgreens Boots Alliance Inc.,2016-02-08,2016-02,77.08,WBA,
+67.70,Walgreens Boots Alliance Inc.,2016-02-15,2016-02,77.57,WBA,
+69.78,Walgreens Boots Alliance Inc.,2016-02-22,2016-02,79.57,WBA,
+69.67,Walgreens Boots Alliance Inc.,2016-02-29,2016-02,79.45,WBA,
+71.39,Walgreens Boots Alliance Inc.,2016-03-07,2016-03,81.41,WBA,
+73.61,Walgreens Boots Alliance Inc.,2016-03-13,2016-03,83.94,WBA,
+72.20,Walgreens Boots Alliance Inc.,2016-03-20,2016-03,82.33,WBA,
+76.03,Walgreens Boots Alliance Inc.,2016-03-27,2016-03,86.70,WBA,
+71.35,Walgreens Boots Alliance Inc.,2016-04-03,2016-04,81.37,WBA,
+71.42,Walgreens Boots Alliance Inc.,2016-04-10,2016-04,81.44,WBA,
+70.28,Walgreens Boots Alliance Inc.,2016-04-17,2016-04,80.14,WBA,
+69.52,Walgreens Boots Alliance Inc.,2016-04-24,2016-04,79.28,WBA,
+69.65,Walgreens Boots Alliance Inc.,2016-05-01,2016-05,79.43,WBA,
+68.93,Walgreens Boots Alliance Inc.,2016-05-08,2016-05,78.61,WBA,
+67.72,Walgreens Boots Alliance Inc.,2016-05-15,2016-05,77.22,WBA,
+67.83,Walgreens Boots Alliance Inc.,2016-05-22,2016-05,77.00,WBA,
+69.31,Walgreens Boots Alliance Inc.,2016-05-29,2016-05,78.68,WBA,
+72.65,Walgreens Boots Alliance Inc.,2016-06-05,2016-06,82.47,WBA,
+72.81,Walgreens Boots Alliance Inc.,2016-06-12,2016-06,82.65,WBA,
+72.04,Walgreens Boots Alliance Inc.,2016-06-19,2016-06,81.78,WBA,
+73.17,Walgreens Boots Alliance Inc.,2016-06-26,2016-06,83.06,WBA,
+72.06,Walgreens Boots Alliance Inc.,2016-07-03,2016-07,81.80,WBA,
+72.69,Walgreens Boots Alliance Inc.,2016-07-10,2016-07,82.51,WBA,
+71.67,Walgreens Boots Alliance Inc.,2016-07-17,2016-07,81.35,WBA,
+69.82,Walgreens Boots Alliance Inc.,2016-07-24,2016-07,79.25,WBA,
+70.94,Walgreens Boots Alliance Inc.,2016-07-31,2016-07,80.53,WBA,
+73.40,Walgreens Boots Alliance Inc.,2016-08-07,2016-08,83.32,WBA,B
+72.76,Walgreens Boots Alliance Inc.,2016-08-14,2016-08,82.59,WBA,B
+70.26,Walgreens Boots Alliance Inc.,2016-08-21,2016-08,79.39,WBA,B
+72.76,Walgreens Boots Alliance Inc.,2016-08-28,2016-08,82.22,WBA,B
+73.38,Walgreens Boots Alliance Inc.,2016-09-04,2016-09,82.92,WBA,B
+72.12,Walgreens Boots Alliance Inc.,2016-09-11,2016-09,81.49,WBA,B
+72.61,Walgreens Boots Alliance Inc.,2016-09-18,2016-09,82.05,WBA,B
+71.35,Walgreens Boots Alliance Inc.,2016-09-25,2016-09,80.62,WBA,B
+70.69,Walgreens Boots Alliance Inc.,2016-10-02,2016-10,79.88,WBA,B
+69.30,Walgreens Boots Alliance Inc.,2016-10-09,2016-10,78.31,WBA,B
+72.19,Walgreens Boots Alliance Inc.,2016-10-16,2016-10,81.57,WBA,B
+71.77,Walgreens Boots Alliance Inc.,2016-10-23,2016-10,81.10,WBA,B
+71.11,Walgreens Boots Alliance Inc.,2016-10-30,2016-10,80.35,WBA,B
+71.73,Walgreens Boots Alliance Inc.,2016-11-07,2016-11,81.05,WBA,B
+73.69,Walgreens Boots Alliance Inc.,2016-11-14,2016-11,83.27,WBA,B
+75.06,Walgreens Boots Alliance Inc.,2016-11-21,2016-11,84.43,WBA,B
+75.67,Walgreens Boots Alliance Inc.,2016-11-28,2016-11,85.11,WBA,B
+76.80,Walgreens Boots Alliance Inc.,2016-12-05,2016-12,86.39,WBA,B
+76.53,Walgreens Boots Alliance Inc.,2016-12-12,2016-12,86.08,WBA,B
+74.93,Walgreens Boots Alliance Inc.,2016-12-19,2016-12,84.28,WBA,B
+73.58,Walgreens Boots Alliance Inc.,2016-12-26,2016-12,82.76,WBA,B
+73.88,Walgreens Boots Alliance Inc.,2017-01-02,2017-01,83.10,WBA,B
+74.52,Walgreens Boots Alliance Inc.,2017-01-09,2017-01,83.82,WBA,B
+72.65,Walgreens Boots Alliance Inc.,2017-01-16,2017-01,81.72,WBA,B
+72.46,Walgreens Boots Alliance Inc.,2017-01-23,2017-01,81.50,WBA,B
+71.54,Walgreens Boots Alliance Inc.,2017-01-30,2017-01,80.47,WBA,B
+74.07,Walgreens Boots Alliance Inc.,2017-02-06,2017-02,83.31,WBA,B
+76.33,Walgreens Boots Alliance Inc.,2017-02-13,2017-02,85.86,WBA,B
+78.24,Walgreens Boots Alliance Inc.,2017-02-20,2017-02,87.61,WBA,B
+76.70,Walgreens Boots Alliance Inc.,2017-02-27,2017-02,85.89,WBA,B
+76.47,Walgreens Boots Alliance Inc.,2017-03-06,2017-03,85.63,WBA,B
+76.72,Walgreens Boots Alliance Inc.,2017-03-12,2017-03,85.91,WBA,B
+74.10,Walgreens Boots Alliance Inc.,2017-03-19,2017-03,82.97,WBA,B
+74.17,Walgreens Boots Alliance Inc.,2017-03-26,2017-03,83.05,WBA,B
+73.53,Walgreens Boots Alliance Inc.,2017-04-02,2017-04,82.33,WBA,B
+73.66,Walgreens Boots Alliance Inc.,2017-04-09,2017-04,82.48,WBA,B
+75.04,Walgreens Boots Alliance Inc.,2017-04-16,2017-04,84.03,WBA,B
+77.29,Walgreens Boots Alliance Inc.,2017-04-23,2017-04,86.54,WBA,B
+76.70,Walgreens Boots Alliance Inc.,2017-04-30,2017-04,85.89,WBA,B
+76.13,Walgreens Boots Alliance Inc.,2017-05-07,2017-05,85.25,WBA,B
+71.99,Walgreens Boots Alliance Inc.,2017-05-14,2017-05,80.61,WBA,B
+72.88,Walgreens Boots Alliance Inc.,2017-05-21,2017-05,81.25,WBA,B
+74.54,Walgreens Boots Alliance Inc.,2017-05-28,2017-05,83.10,WBA,B
+72.65,Walgreens Boots Alliance Inc.,2017-06-04,2017-06,80.99,WBA,B
+70.36,Walgreens Boots Alliance Inc.,2017-06-11,2017-06,78.44,WBA,B
+68.48,Walgreens Boots Alliance Inc.,2017-06-18,2017-06,76.34,WBA,B
+70.25,Walgreens Boots Alliance Inc.,2017-06-25,2017-06,78.31,WBA,B
+69.49,Walgreens Boots Alliance Inc.,2017-07-02,2017-07,77.47,WBA,B
+70.78,Walgreens Boots Alliance Inc.,2017-07-09,2017-07,78.91,WBA,B
+70.77,Walgreens Boots Alliance Inc.,2017-07-16,2017-07,78.90,WBA,B
+71.42,Walgreens Boots Alliance Inc.,2017-07-23,2017-07,79.62,WBA,B
+72.71,Walgreens Boots Alliance Inc.,2017-07-30,2017-07,81.06,WBA,B
 72.41,Walgreens Boots Alliance Inc.,2017-08-06,2017-08,80.72,WBA,BB
 71.79,Walgreens Boots Alliance Inc.,2017-08-13,2017-08,80.03,WBA,BB
 73.14,Walgreens Boots Alliance Inc.,2017-08-20,2017-08,81.13,WBA,BB
@@ -6523,18 +7454,94 @@ adj_stock,company,date,month_year,stock,symbol,rating
 39.00,Walgreens Boots Alliance Inc.,2020-11-23,2020-11,39.00,WBA,BBB
 42.82,Walgreens Boots Alliance Inc.,2020-11-30,2020-11,42.82,WBA,BBB
 42.82,Walgreens Boots Alliance Inc.,2020-12-03,2020-12,42.82,WBA,BBB
-,,,2016-08,,WBA,B
-72.62,Walmart Inc.,2017-05-21,2017-05,78.13,WMT,
-74.00,Walmart Inc.,2017-05-28,2017-05,79.62,WMT,
-73.82,Walmart Inc.,2017-06-04,2017-06,79.42,WMT,
-69.93,Walmart Inc.,2017-06-11,2017-06,75.24,WMT,
-69.56,Walmart Inc.,2017-06-18,2017-06,74.84,WMT,
-70.34,Walmart Inc.,2017-06-25,2017-06,75.68,WMT,
-70.02,Walmart Inc.,2017-07-02,2017-07,75.33,WMT,
-70.95,Walmart Inc.,2017-07-09,2017-07,76.34,WMT,
-70.78,Walmart Inc.,2017-07-16,2017-07,76.15,WMT,
-74.18,Walmart Inc.,2017-07-23,2017-07,79.81,WMT,
-74.80,Walmart Inc.,2017-07-30,2017-07,80.48,WMT,
+52.70,Walmart Inc.,2015-11-30,2015-11,59.66,WMT,
+52.87,Walmart Inc.,2015-12-07,2015-12,59.36,WMT,
+52.42,Walmart Inc.,2015-12-14,2015-12,58.85,WMT,
+54.18,Walmart Inc.,2015-12-21,2015-12,60.83,WMT,
+54.60,Walmart Inc.,2015-12-28,2015-12,61.30,WMT,
+56.59,Walmart Inc.,2016-01-04,2016-01,63.54,WMT,
+55.16,Walmart Inc.,2016-01-11,2016-01,61.93,WMT,
+55.84,Walmart Inc.,2016-01-18,2016-01,62.69,WMT,
+59.10,Walmart Inc.,2016-01-25,2016-01,66.36,WMT,
+59.67,Walmart Inc.,2016-02-01,2016-02,67.00,WMT,
+58.94,Walmart Inc.,2016-02-08,2016-02,66.18,WMT,
+57.59,Walmart Inc.,2016-02-15,2016-02,64.66,WMT,
+59.24,Walmart Inc.,2016-02-22,2016-02,66.51,WMT,
+59.48,Walmart Inc.,2016-02-29,2016-02,66.78,WMT,
+59.83,Walmart Inc.,2016-03-07,2016-03,67.17,WMT,
+60.07,Walmart Inc.,2016-03-13,2016-03,66.95,WMT,
+61.01,Walmart Inc.,2016-03-20,2016-03,68.00,WMT,
+61.96,Walmart Inc.,2016-03-27,2016-03,69.06,WMT,
+61.07,Walmart Inc.,2016-04-03,2016-04,68.06,WMT,
+61.96,Walmart Inc.,2016-04-10,2016-04,69.06,WMT,
+61.66,Walmart Inc.,2016-04-17,2016-04,68.72,WMT,
+60.00,Walmart Inc.,2016-04-24,2016-04,66.87,WMT,
+61.24,Walmart Inc.,2016-05-01,2016-05,68.25,WMT,
+58.27,Walmart Inc.,2016-05-08,2016-05,64.94,WMT,
+63.14,Walmart Inc.,2016-05-15,2016-05,69.86,WMT,
+63.95,Walmart Inc.,2016-05-22,2016-05,70.75,WMT,
+64.05,Walmart Inc.,2016-05-29,2016-05,70.87,WMT,
+64.30,Walmart Inc.,2016-06-05,2016-06,71.14,WMT,
+64.13,Walmart Inc.,2016-06-12,2016-06,70.95,WMT,
+65.04,Walmart Inc.,2016-06-19,2016-06,71.96,WMT,
+65.81,Walmart Inc.,2016-06-26,2016-06,72.81,WMT,
+66.74,Walmart Inc.,2016-07-03,2016-07,73.84,WMT,
+66.58,Walmart Inc.,2016-07-10,2016-07,73.67,WMT,
+66.48,Walmart Inc.,2016-07-17,2016-07,73.55,WMT,
+65.95,Walmart Inc.,2016-07-24,2016-07,72.97,WMT,
+66.67,Walmart Inc.,2016-07-31,2016-07,73.76,WMT,
+66.78,Walmart Inc.,2016-08-07,2016-08,73.89,WMT,
+66.26,Walmart Inc.,2016-08-14,2016-08,72.81,WMT,
+64.74,Walmart Inc.,2016-08-21,2016-08,71.14,WMT,
+65.98,Walmart Inc.,2016-08-28,2016-08,72.50,WMT,
+63.97,Walmart Inc.,2016-09-04,2016-09,70.30,WMT,BBB
+66.31,Walmart Inc.,2016-09-11,2016-09,72.87,WMT,BBB
+65.84,Walmart Inc.,2016-09-18,2016-09,72.35,WMT,BBB
+65.63,Walmart Inc.,2016-09-25,2016-09,72.12,WMT,BBB
+62.52,Walmart Inc.,2016-10-02,2016-10,68.70,WMT,BBB
+62.29,Walmart Inc.,2016-10-09,2016-10,68.45,WMT,BBB
+62.19,Walmart Inc.,2016-10-16,2016-10,68.34,WMT,BBB
+63.69,Walmart Inc.,2016-10-23,2016-10,69.99,WMT,BBB
+62.94,Walmart Inc.,2016-10-30,2016-10,69.16,WMT,BBB
+64.82,Walmart Inc.,2016-11-07,2016-11,71.23,WMT,BBB
+62.37,Walmart Inc.,2016-11-14,2016-11,68.54,WMT,BBB
+64.82,Walmart Inc.,2016-11-21,2016-11,71.23,WMT,BBB
+64.50,Walmart Inc.,2016-11-28,2016-11,70.88,WMT,BBB
+63.77,Walmart Inc.,2016-12-05,2016-12,70.08,WMT,BBB
+65.06,Walmart Inc.,2016-12-12,2016-12,70.98,WMT,BBB
+63.74,Walmart Inc.,2016-12-19,2016-12,69.54,WMT,BBB
+63.35,Walmart Inc.,2016-12-26,2016-12,69.12,WMT,BBB
+62.56,Walmart Inc.,2017-01-02,2017-01,68.26,WMT,BBB
+61.53,Walmart Inc.,2017-01-09,2017-01,67.13,WMT,BBB
+61.57,Walmart Inc.,2017-01-16,2017-01,67.18,WMT,BBB
+60.18,Walmart Inc.,2017-01-23,2017-01,65.66,WMT,BBB
+60.95,Walmart Inc.,2017-01-30,2017-01,66.50,WMT,BBB
+62.34,Walmart Inc.,2017-02-06,2017-02,68.02,WMT,BBB
+63.58,Walmart Inc.,2017-02-13,2017-02,69.37,WMT,BBB
+66.35,Walmart Inc.,2017-02-20,2017-02,72.39,WMT,BBB
+64.18,Walmart Inc.,2017-02-27,2017-02,70.03,WMT,BBB
+64.25,Walmart Inc.,2017-03-06,2017-03,70.10,WMT,BBB
+64.53,Walmart Inc.,2017-03-12,2017-03,69.89,WMT,BBB
+64.27,Walmart Inc.,2017-03-19,2017-03,69.61,WMT,BBB
+66.55,Walmart Inc.,2017-03-26,2017-03,72.08,WMT,BBB
+67.31,Walmart Inc.,2017-04-02,2017-04,72.90,WMT,BBB
+67.54,Walmart Inc.,2017-04-09,2017-04,73.15,WMT,BBB
+69.19,Walmart Inc.,2017-04-16,2017-04,74.94,WMT,BBB
+69.41,Walmart Inc.,2017-04-23,2017-04,75.18,WMT,BBB
+70.63,Walmart Inc.,2017-04-30,2017-04,76.50,WMT,BBB
+69.90,Walmart Inc.,2017-05-07,2017-05,75.71,WMT,BBB
+73.21,Walmart Inc.,2017-05-14,2017-05,78.77,WMT,BBB
+72.62,Walmart Inc.,2017-05-21,2017-05,78.13,WMT,BBB
+74.00,Walmart Inc.,2017-05-28,2017-05,79.62,WMT,BBB
+73.82,Walmart Inc.,2017-06-04,2017-06,79.42,WMT,BBB
+69.93,Walmart Inc.,2017-06-11,2017-06,75.24,WMT,BBB
+69.56,Walmart Inc.,2017-06-18,2017-06,74.84,WMT,BBB
+70.34,Walmart Inc.,2017-06-25,2017-06,75.68,WMT,BBB
+70.02,Walmart Inc.,2017-07-02,2017-07,75.33,WMT,BBB
+70.95,Walmart Inc.,2017-07-09,2017-07,76.34,WMT,BBB
+70.78,Walmart Inc.,2017-07-16,2017-07,76.15,WMT,BBB
+74.18,Walmart Inc.,2017-07-23,2017-07,79.81,WMT,BBB
+74.80,Walmart Inc.,2017-07-30,2017-07,80.48,WMT,BBB
 74.73,Walmart Inc.,2017-08-06,2017-08,80.40,WMT,BB
 74.18,Walmart Inc.,2017-08-13,2017-08,79.31,WMT,BB
 73.54,Walmart Inc.,2017-08-20,2017-08,78.63,WMT,BB
@@ -6710,4 +7717,3 @@ adj_stock,company,date,month_year,stock,symbol,rating
 151.60,Walmart Inc.,2020-11-23,2020-11,151.60,WMT,BBB
 149.30,Walmart Inc.,2020-11-30,2020-11,149.30,WMT,BBB
 149.30,Walmart Inc.,2020-12-03,2020-12,149.30,WMT,BBB
-,,,2016-09,,WMT,BBB

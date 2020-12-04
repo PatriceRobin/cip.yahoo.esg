@@ -20,7 +20,7 @@ headers = {
     'Cache-Control': 'max-age=0',
     'Pragma': 'no-cache',
     'Referrer': 'https://google.com',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240 Safari/537.36'
 }
 
 def get_soup(url):
@@ -52,10 +52,10 @@ def download_yahoo_stock_htmlfile(stock_index):
         driver.get(url)
         print("Crawling yahoo stock: " + symbol)
 
-        ScrollNumber = 5
+        ScrollNumber = 6
         for i in range(1,ScrollNumber):
             driver.execute_script("window.scrollTo(1,50000)")
-            time.sleep(1)
+            time.sleep(2)
 
         with open("./stock_html/" + symbol + ".html", "w") as full_html:
             full_html.write(driver.page_source)
@@ -86,14 +86,18 @@ def get_stock_data(stock_index):
             df_yahoo = df_yahoo.iloc[:-1, [0, 4, 5]] #remove the last row (description) and non-necessary columns
             df_yahoo.rename(columns={'Date':'date', 'Close*':'stock', 'Adj Close**':'adj_stock'}, inplace=True) #rename columns
             df_yahoo = df_yahoo[pd.to_numeric(df_yahoo['stock'], errors='coerce').notnull()] #remove non-numeric values (splits & dividends)
-            
-            #create a monthly
-            df_yahoo['month_year'] = pd.to_datetime(df_yahoo['date']).dt.to_period('M')
 
             #change date format
             df_yahoo['date'] = df_yahoo['date'].str.replace(",", "")
             df_yahoo['date'] =  pd.to_datetime(df_yahoo['date'], format='%b %d %Y')
+            
+            #create a monthly
+            df_yahoo['month_year'] = df_yahoo['date'].dt.strftime('%Y-%m')
+            #change the notion of date
             df_yahoo['date'] =  df_yahoo['date'].dt.strftime('%Y-%m-%d')
+
+
+
             
             #add company name and symbol
             df_yahoo['company'] = company
@@ -198,7 +202,8 @@ def get_esg_from_html(stock_index):
         df_esg = pd.DataFrame(all_ratings)
 
     #converte date (yyyy-mm)
-    df_esg['month_year'] = pd.to_datetime(df_esg['date'], format= "%b-%y").dt.to_period('M')
+    df_esg['date'] = pd.to_datetime(df_esg['date'], format= "%b-%y")#dt.to_period('M')
+    df_esg['month_year'] =  df_esg['date'].dt.strftime('%Y-%m')
 
     #return esg frame
     return df_esg
@@ -208,11 +213,14 @@ def join_dji_esg(df_dji, df_esg):
     #outer on symbol and date (outer join)
     df_dji_esg = pd.merge(df_dji, df_esg[['symbol','month_year','rating']], how='outer', on=['symbol', 'month_year'])
 
-    #sort values 
-    df_dji_esg= df_dji_esg.sort_values(by=['symbol','date'])
+    #sort values based on date/month_year ascending
+    df_dji_esg= df_dji_esg.sort_values(by=['symbol','month_year','date'],na_position='first')
 
-    #fill forward ratings 
+    #fill forward ratings
     df_dji_esg['rating'] = df_dji_esg.groupby(['symbol'], sort=False)['rating'].fillna(method='ffill')
+
+    #drop rating entries without stock data
+    df_dji_esg.dropna(subset=['stock'], inplace=True)
 
     #return joined frame
     return df_dji_esg
