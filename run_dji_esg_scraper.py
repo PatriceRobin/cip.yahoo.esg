@@ -1,7 +1,16 @@
-from function_dji_esg_scraper import get_stock_index, get_stock_data, write_to_csv, get_esg_from_html, join_dji_esg, download_msci_esg_ratings_htmlfile
+from function_dji_esg_scraper import(
+    get_stock_index,
+    download_yahoo_stock_htmlfile,
+    get_stock_data,
+    write_to_csv,
+    get_esg_from_html,
+    join_dji_esg,
+    download_msci_esg_ratings_htmlfile
+    )
 
 def scrap_stock():
     table = get_stock_index(url='https://finance.yahoo.com/quote/%5EDJI/components?p=%5EDJI')
+    download_yahoo_stock_htmlfile(stock_index=table)
     stock_data = get_stock_data(stock_index=table)
     download_msci_esg_ratings_htmlfile(stock_index=table)
     esg_data = get_esg_from_html(stock_index=table)
