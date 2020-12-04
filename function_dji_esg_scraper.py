@@ -48,14 +48,14 @@ def download_yahoo_stock_htmlfile(stock_index):
     # get the financial data from the previous 5 years / weekly
     for symbol in stock_index.symbol:
         # stock data
-        url = ('https://finance.yahoo.com/quote/AAPL/history?period1=1449187200&period2=1607040000&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'.format(symbol))
+        url = ('https://finance.yahoo.com/quote/{}/history?period1=1449187200&period2=1607040000&interval=1wk&filter=history&frequency=1wk&includeAdjustedClose=true'.format(symbol))
         driver.get(url)
         print("Crawling yahoo stock: " + symbol)
 
-        ScrollNumber = 4
+        ScrollNumber = 5
         for i in range(1,ScrollNumber):
             driver.execute_script("window.scrollTo(1,50000)")
-            time.sleep(0.2)
+            time.sleep(1)
 
         with open("./stock_html/" + symbol + ".html", "w") as full_html:
             full_html.write(driver.page_source)
@@ -82,7 +82,7 @@ def get_stock_data(stock_index):
             table = pd.read_html(str(tables))[0]
             df_yahoo = pd.DataFrame(table)
 
-        #clean up stock table
+            #clean up stock table
             df_yahoo = df_yahoo.iloc[:-1, [0, 4, 5]] #remove the last row (description) and non-necessary columns
             df_yahoo.rename(columns={'Date':'date', 'Close*':'stock', 'Adj Close**':'adj_stock'}, inplace=True) #rename columns
             df_yahoo = df_yahoo[pd.to_numeric(df_yahoo['stock'], errors='coerce').notnull()] #remove non-numeric values (splits & dividends)
@@ -99,23 +99,6 @@ def get_stock_data(stock_index):
             df_yahoo['company'] = company
             df_yahoo['symbol'] = symbol
 
-            #sustainability score
-            url_sub = ('https://finance.yahoo.com/quote/{}/sustainability?p={}'.format(symbol, symbol)) #access the sustainability page of every company in the dow jones industrial index
-            page_sub = requests.get(url_sub, headers).text
-            soup = bs(page_sub, "lxml")
-
-            #dow jones as an index has no ESG score
-            if(symbol) == 'DOW':
-                break
-            else:
-                #environment
-                df_yahoo['environment'] = soup.find('div', attrs={"data-reactid": "35"}).text
-                #social socre
-                df_yahoo['social'] = soup.find('div', attrs={"data-reactid": "43"}).text
-                #governance score
-                df_yahoo['governance'] = soup.find('div', attrs={"data-reactid": "50"}).text
-                #overall substainability score
-                df_yahoo['riskscore'] = soup.find('div', attrs={"class":"Fz(36px) Fw(600) D(ib) Mend(5px)"}).text
                 
             # concat to empty pandas df
             df_dji = pd.concat([df_dji, df_yahoo], ignore_index=True, sort=True)
@@ -222,7 +205,7 @@ def get_esg_from_html(stock_index):
 
 
 def join_dji_esg(df_dji, df_esg):
-    #outer on symbol and date (outer join and drop NA = 1408 rows; left join and drop NA = 1366 rows)
+    #outer on symbol and date (outer join)
     df_dji_esg = pd.merge(df_dji, df_esg[['symbol','month_year','rating']], how='outer', on=['symbol', 'month_year'])
 
     #sort values 
@@ -231,13 +214,10 @@ def join_dji_esg(df_dji, df_esg):
     #fill forward ratings 
     df_dji_esg['rating'] = df_dji_esg.groupby(['symbol'], sort=False)['rating'].fillna(method='ffill')
 
-    # drop all rows with NA
-    df_dji_esg_clean = df_dji_esg.dropna()
-    
     #return joined frame
-    return df_dji_esg_clean
+    return df_dji_esg
 
 
-def write_to_csv(df_dji_esg_clean):
-    df_dji_esg_clean.to_csv("df_dji_esg_clean.csv",
+def write_to_csv(df_dji_esg):
+    df_dji_esg.to_csv("df_dji_esg.csv",
                 encoding="utf-8", index=False)
