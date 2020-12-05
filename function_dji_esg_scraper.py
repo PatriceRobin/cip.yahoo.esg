@@ -37,6 +37,7 @@ def get_stock_index(url):
     frame.rename(columns={'Symbol': 'symbol',
                         'Company Name': 'company'}, inplace=True) #rename columns
     frame["company"] = frame["company"].str.replace(",", "") #replace commas with spaces for csv
+    frame.loc[len(frame.index)] = ['^DJI', 'Dow Jones Industrial']  
 
     return frame
 
