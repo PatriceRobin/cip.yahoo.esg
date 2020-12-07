@@ -2,7 +2,6 @@
 import pandas as pd
 from bs4 import BeautifulSoup as bs
 import requests
-import re
 
 #import packages for esg
 from selenium.webdriver.common.keys import Keys
@@ -45,6 +44,7 @@ def download_yahoo_stock_htmlfile(stock_index):
     #crate a new folder for html files
     os.makedirs("./stock_html", exist_ok=True)
 
+    chrome_options.add_argument("--headless")
     driver = webdriver.Chrome(ChromeDriverManager().install())
     # get the financial data from the previous 5 years / weekly
     for symbol in stock_index.symbol:
@@ -66,7 +66,7 @@ def download_yahoo_stock_htmlfile(stock_index):
 def get_stock_data(stock_index):
 
     # create an empty pd dataframe
-    df_dji = pd.DataFrame()
+    df_stock = pd.DataFrame()
 
     # get the financial data from the previous 5 years / monthly
     for symbol, company in zip(stock_index.symbol, stock_index.company):
@@ -106,9 +106,9 @@ def get_stock_data(stock_index):
 
                 
             # concat to empty pandas df
-            df_dji = pd.concat([df_dji, df_yahoo], ignore_index=True, sort=True)
+            df_stock = pd.concat([df_stock, df_yahoo], ignore_index=True, sort=True)
 
-    return df_dji
+    return df_stock
 
 
 def download_msci_esg_ratings_htmlfile(stock_index):
@@ -121,7 +121,7 @@ def download_msci_esg_ratings_htmlfile(stock_index):
     # initialize selenium webdriver
     chrome_options = Options()
     chrome_options.add_argument("--disable-extensions")
-    #chrome_options.add_argument("--headless")
+    chrome_options.add_argument("--headless")
     driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
 
     #scrape esg rating for all constituents
@@ -203,30 +203,30 @@ def get_esg_from_html(stock_index):
         df_esg = pd.DataFrame(all_ratings)
 
     #converte date (yyyy-mm)
-    df_esg['date'] = pd.to_datetime(df_esg['date'], format= "%b-%y")#dt.to_period('M')
+    df_esg['date'] = pd.to_datetime(df_esg['date'], format= "%b-%y")
     df_esg['month_year'] =  df_esg['date'].dt.strftime('%Y-%m')
 
     #return esg frame
     return df_esg
 
 
-def join_dji_esg(df_dji, df_esg):
+def join_stock_esg(df_stock, df_esg):
     #outer on symbol and date (outer join)
-    df_dji_esg = pd.merge(df_dji, df_esg[['symbol','month_year','rating']], how='outer', on=['symbol', 'month_year'])
+    df_stock_esg = pd.merge(df_stock, df_esg[['symbol','month_year','rating']], how='outer', on=['symbol', 'month_year'])
 
     #sort values based on date/month_year ascending
-    df_dji_esg= df_dji_esg.sort_values(by=['symbol','month_year','date'],na_position='first')
+    df_stock_esg= df_stock_esg.sort_values(by=['symbol','month_year','date'],na_position='first')
 
     #fill forward ratings
-    df_dji_esg['rating'] = df_dji_esg.groupby(['symbol'], sort=False)['rating'].fillna(method='ffill')
+    df_stock_esg['rating'] = df_stock_esg.groupby(['symbol'], sort=False)['rating'].fillna(method='ffill')
 
     #drop rating entries without stock data
-    df_dji_esg.dropna(subset=['stock'], inplace=True)
+    df_stock_esg.dropna(subset=['stock'], inplace=True)
 
     #return joined frame
-    return df_dji_esg
+    return df_stock_esg
 
 
-def write_to_csv(df_dji_esg):
-    df_dji_esg.to_csv("df_dji_esg.csv",
+def write_to_csv(df_stock_esg):
+    df_stock_esg.to_csv("df_stock_esg.csv",
                 encoding="utf-8", index=False)
