@@ -2,6 +2,7 @@
 import pandas as pd
 from bs4 import BeautifulSoup as bs
 import requests
+import numpy as np
 
 #import packages for esg
 from selenium.webdriver.common.keys import Keys
@@ -44,8 +45,11 @@ def download_yahoo_stock_htmlfile(stock_index):
     #crate a new folder for html files
     os.makedirs("./stock_html", exist_ok=True)
 
+    chrome_options = Options()
+    chrome_options.add_argument("--disable-extensions")
     chrome_options.add_argument("--headless")
-    driver = webdriver.Chrome(ChromeDriverManager().install())
+    driver = webdriver.Chrome(ChromeDriverManager().install(), options=chrome_options)
+
     # get the financial data from the previous 5 years / weekly
     for symbol in stock_index.symbol:
         # stock data
@@ -222,6 +226,12 @@ def join_stock_esg(df_stock, df_esg):
 
     #drop rating entries without stock data
     df_stock_esg.dropna(subset=['stock'], inplace=True)
+
+    df_stock_esg['adj_stock'] = df_stock_esg['adj_stock'].astype(float)
+
+    #calculate difference between weeks
+    df_stock_esg['log_perf_adj'] = df_stock_esg.groupby('symbol')['adj_stock'].shift()
+    df_stock_esg['log_perf_adj'] = np.log(df_stock_esg['adj_stock']) - np.log(df_stock_esg['log_perf_adj'])
 
     #return joined frame
     return df_stock_esg
